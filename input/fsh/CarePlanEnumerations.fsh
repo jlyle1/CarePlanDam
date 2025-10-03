@@ -25,6 +25,7 @@ Id: careplan-purpose-cs
 * #cardiac-rehabilitation "Cardiac care plan"        // e.g., specialized care for heart conditions
 * #diabetes-management "Diabetes management plan"    // e.g., care plans focused on diabetes
 * #aggregated-plan "Aggregated care plan"            // e.g., combined care plans from multiple sources
+* #query "Query-based care plan"                     // e.g., care plans generated from queries
 
 ValueSet: CarePlanPurposeVS
 Title: "Care Plan Purpose Value Set"
