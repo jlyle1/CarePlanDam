@@ -16,7 +16,7 @@ Description: "An example of a patient with a license to krill."
 Instance: CPDPractitionerRoleExample
 InstanceOf: PractitionerRole
 Description: "An example of a practitioner role for a care plan author."
-* practitioner 0..1 Reference (CPDPractitionerExample) 
+* practitioner = Reference(CPDPractitionerExample)
 
 Instance: CPDPractitionerExample
 InstanceOf: Practitioner
