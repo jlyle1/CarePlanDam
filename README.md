@@ -7,11 +7,11 @@ StructureDefinition is an information modeling tool. Dynamic UML views will not 
 If we find it necessary, we may look at using Task with GraphDefinition for this purpose.
 
 We adopt the following equivalences:
-UML Class -> StructureDefinition
-UML Attribute -> StructureDefinition Element
-UML Enumeration -> CodeSystem and ValueSet
-UML Association -> Reference
-UML Single Inheritance -> StructureDefinition.baseDefinition
-UML Multiple Inheritance / Interface -> ?
-    Extension?
-    Containment?
+* UML Class -> StructureDefinition
+* UML Attribute -> StructureDefinition Element
+* UML Enumeration -> CodeSystem and ValueSet
+* UML Association -> Reference
+* UML Single Inheritance -> StructureDefinition.baseDefinition
+* UML Multiple Inheritance / Interface -> ?
+**      Extension?
+**      Containment?
