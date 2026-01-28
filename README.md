@@ -12,5 +12,21 @@ We adopt the following equivalences:
 * UML Enumeration -> CodeSystem and ValueSet
 * UML Association -> Reference
 * UML Single Inheritance -> StructureDefinition.baseDefinition
-* UML Multiple Inheritance / Interface -> 
-*      Containment
+* UML Multiple Inheritance / Interface -> Containment
+
+## Mixin Usage
+
+The following table shows which classes use which mixins via containment:
+
+| Class | Acknowledgeable | Performable | Composable | Expressible | Prioritizable | Revisable | Review |
+|-------|:---------------:|:-----------:|:----------:|:-----------:|:-------------:|:---------:|:------:|
+| AcceptanceReview | | | | | | | ✓ |
+| ActivityExecution | | ✓ | | | | | |
+| ActivityOutcomeObservation | | ✓ | | | | | |
+| CarePlanManifestation | ✓ | ✓ | ✓ | | | ✓ | |
+| CareTeam | ✓ | | | | | | |
+| Concern | ✓ | | | ✓ | ✓ | ✓ | |
+| Goal | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | |
+| OutcomeReview | | | | | | | ✓ |
+| PlannedActivity | ✓ | | ✓ | | ✓ | ✓ | |
+| Preference | ✓ | | | ✓ | ✓ | | |
