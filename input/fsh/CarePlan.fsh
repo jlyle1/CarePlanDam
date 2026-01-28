@@ -17,7 +17,14 @@ Characteristics: #can-be-target
 * Name 0..1 string "Name of the plan"
 * PlanDescription 0..1 string "Description of the plan"
 * Subject 1..1 Reference (CPDPatient) "Who the care plan is for"
-
+* PartOf 0..* BackboneElement "Plan(s) of which this a part"
+  * order 0..1 integer "Order of the care plan if part of a set"
+  * constitutive 0..1 boolean "Whether this care plan is constitutive of the whole"
+  * parent 1..1 Reference (CarePlan) "Part of another care plan"
+* Performance 0..* BackboneElement "Evaluations of periods of performance"
+  * period 0..1 Period "Time period for performance"
+  * status 0..1 CodeableConcept "Status of the performance"
+  * performer 0..1 Reference (CPDCareTeamMember) "Who is/was performing"
 
 
 Instance: StaticPlanExample

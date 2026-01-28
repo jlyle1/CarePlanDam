@@ -1,10 +1,26 @@
-// This is a simple example of a FSH file.
-// This file can be renamed, and additional FSH files can be added.
-// SUSHI will look for definitions in any file using the .fsh ending.
-Profile: CPDPatient
-Parent: Patient
-Description: "An example profile of the Patient resource."
-* name 1..* MS
+
+
+Logical: Person
+Id: person-logical-model
+Title: "Person Logical Model"
+Description: "A generic person model to be extended by other models."
+Characteristics: #can-be-target
+* name 1..* HumanName "A name associated with the person"
+ 
+Logical: CPDPatient
+Id: cpdpatient-logical-model
+Title: "CPD Patient Logical Model"
+Parent: Person
+Characteristics: #can-be-target
+Description: "A person for whom care is being provided."
+
+Logical: CPDCareTeamMember
+Id: cpdcareteammember-logical-model
+Title: "CPD Care Team Member Logical Model"   
+Parent: Person
+Characteristics: #can-be-target
+Description: "A provider, patient, caregiver, or other participant in the care team."
+
 
 Instance: CPDPatientExample
 InstanceOf: CPDPatient
@@ -29,3 +45,4 @@ Instance: CPDOrganizationExample
 InstanceOf: Organization
 Description: "An example of an organization for a care plan author."
 * name = "The Very Big Corporation of America"
+

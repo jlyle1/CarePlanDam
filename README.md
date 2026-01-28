@@ -12,6 +12,5 @@ We adopt the following equivalences:
 * UML Enumeration -> CodeSystem and ValueSet
 * UML Association -> Reference
 * UML Single Inheritance -> StructureDefinition.baseDefinition
-* UML Multiple Inheritance / Interface -> ?
-**      Extension?
-**      Containment?
+* UML Multiple Inheritance / Interface -> 
+*      Containment
