@@ -1,0 +1,15 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"ActivityExecution","ActivityExecution","","","",0,*,"","","","null {[]} {[]}
+","Activity Execution","An execution of a planned activity","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ActivityExecution.refersTo","ActivityExecution.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"ActivityExecution.hasAuthor","ActivityExecution.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"ActivityExecution.contains","ActivityExecution.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"ActivityExecution.performable","ActivityExecution.performable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Performable {[]} {[]}
+","Performable pattern properties","Performable pattern properties","","","","","","","","","",,,,,"",,,,"ActivityExecution.performable",1,1,"",""
+"ActivityExecution.kind","ActivityExecution.kind","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Kind of activity execution","Kind of activity execution","","","","","","","","","",,,,,"",,,,"ActivityExecution.kind",1,1,"",""
+"ActivityExecution.instantiates","ActivityExecution.instantiates","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/PlannedActivity]]}
+","The planned activity being executed","The planned activity being executed","","","","","","","","","",,,,,"",,,,"ActivityExecution.instantiates",1,1,"",""

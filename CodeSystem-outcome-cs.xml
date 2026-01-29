@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="outcome-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem outcome-cs</b></p><a name="outcome-cs"> </a><a name="hcoutcome-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/outcome-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">resolved<a name="outcome-cs-resolved"> </a></td><td>Resolved</td><td>The condition or issue has been resolved</td></tr><tr><td style="white-space:nowrap">improved<a name="outcome-cs-improved"> </a></td><td>Improved</td><td>The condition or issue has improved</td></tr><tr><td style="white-space:nowrap">stabilized<a name="outcome-cs-stabilized"> </a></td><td>Stabilized</td><td>The condition or issue has stabilized</td></tr><tr><td style="white-space:nowrap">in-process<a name="outcome-cs-in-process"> </a></td><td>In Process</td><td>The intervention is still in process</td></tr><tr><td style="white-space:nowrap">maintained<a name="outcome-cs-maintained"> </a></td><td>Maintained</td><td>The current state has been maintained</td></tr><tr><td style="white-space:nowrap">deteriorated<a name="outcome-cs-deteriorated"> </a></td><td>Deteriorated</td><td>The condition or issue has deteriorated</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/outcome-cs"/>
+  <version value="0.1.0"/>
+  <name value="OutcomeCS"/>
+  <title value="Outcome Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for outcome assessment"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="resolved"/>
+    <display value="Resolved"/>
+    <definition value="The condition or issue has been resolved"/>
+  </concept>
+  <concept>
+    <code value="improved"/>
+    <display value="Improved"/>
+    <definition value="The condition or issue has improved"/>
+  </concept>
+  <concept>
+    <code value="stabilized"/>
+    <display value="Stabilized"/>
+    <definition value="The condition or issue has stabilized"/>
+  </concept>
+  <concept>
+    <code value="in-process"/>
+    <display value="In Process"/>
+    <definition value="The intervention is still in process"/>
+  </concept>
+  <concept>
+    <code value="maintained"/>
+    <display value="Maintained"/>
+    <definition value="The current state has been maintained"/>
+  </concept>
+  <concept>
+    <code value="deteriorated"/>
+    <display value="Deteriorated"/>
+    <definition value="The condition or issue has deteriorated"/>
+  </concept>
+</CodeSystem>

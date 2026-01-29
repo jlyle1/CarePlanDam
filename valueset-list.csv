@@ -1,0 +1,13 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://hl7.org/dam/ValueSet/acknowledgement-vs,0.1.0,active,,AcknowledgementVS,Acknowledgement Value Set,"Value set for acknowledgment decisions",,"Internal"
+http://hl7.org/dam/ValueSet/activity-completion-status-vs,0.1.0,active,,ActivityCompletionStatusVS,Activity Completion Status Value Set,"Value set for activity completion status",,"Internal"
+http://hl7.org/dam/ValueSet/activity-order-status-vs,0.1.0,active,,ActivityOrderStatusVS,Activity Order Status Value Set,"Value set for activity order status",,"Internal"
+http://hl7.org/dam/ValueSet/decision-mode-vs,0.1.0,active,,DecisionModeVS,Decision Mode Value Set,"Value set for decision modes",,"Internal"
+http://hl7.org/dam/ValueSet/modification-type-vs,0.1.0,active,,ModificationTypeVS,Modification Type Value Set,"Value set for modification types",,"Internal"
+http://hl7.org/dam/ValueSet/outcome-vs,0.1.0,active,,OutcomeVS,Outcome Value Set,"Value set for outcome assessment",,"Internal"
+http://hl7.org/dam/ValueSet/performance-status-vs,0.1.0,active,,PerformanceStatusVS,Performance Status Value Set,"Value set for performance status",,"Internal"
+http://hl7.org/dam/ValueSet/plan-definition-vs,0.1.0,active,,PlanDefinitionVS,Plan Definition Value Set,"Value set for plan definitions",,"Internal"
+http://hl7.org/dam/ValueSet/plan-purpose-vs,0.1.0,active,,PlanPurposeVS,Plan Purpose Value Set,"Value set for plan purposes",,"Internal"
+http://hl7.org/dam/ValueSet/preference-context-vs,0.1.0,active,,PreferenceContextVS,Preference Context Value Set,"Value set for preference contexts",,"Internal"
+http://hl7.org/dam/ValueSet/review-event-vs,0.1.0,active,,ReviewEventVS,Review Event Value Set,"Value set for review events",,"Internal"
+http://hl7.org/dam/ValueSet/specification-type-vs,0.1.0,active,,SpecificationTypeVS,Specification Type Value Set,"Value set for specification types",,"Internal"

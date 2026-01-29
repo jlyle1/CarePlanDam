@@ -1,0 +1,17 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"CareDeliveryResource","CareDeliveryResource","","","",0,*,"","","","null {[]} {[]}
+","Care Delivery Resource","A resource used in care delivery","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"CareDeliveryResource.refersTo","CareDeliveryResource.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"CareDeliveryResource.hasAuthor","CareDeliveryResource.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"CareDeliveryResource.contains","CareDeliveryResource.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"CareDeliveryResource.kind","CareDeliveryResource.kind","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Type of resource","Type of resource","","","","","","","","","",,,,,"",,,,"CareDeliveryResource.kind",1,1,"",""
+"CareDeliveryResource.identifier","CareDeliveryResource.identifier","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifier for the resource","Identifier for the resource","","","","","","","","","",,,,,"",,,,"CareDeliveryResource.identifier",1,1,"",""
+"CareDeliveryResource.meets","CareDeliveryResource.meets","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/ResourceRequirement]]}
+","Requirements this resource meets","Requirements this resource meets","","","","","","","","","",,,,,"",,,,"CareDeliveryResource.meets",0,*,"",""
+"CareDeliveryResource.supports","CareDeliveryResource.supports","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/ActivityExecution]]}
+","Activity executions this resource supports","Activity executions this resource supports","","","","","","","","","",,,,,"",,,,"CareDeliveryResource.supports",0,*,"",""

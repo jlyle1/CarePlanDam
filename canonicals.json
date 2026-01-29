@@ -1,0 +1,408 @@
+[
+  {
+    "id" : "acknowledgement-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs",
+    "version" : "0.1.0",
+    "name" : "AcknowledgementCS"
+  },
+  {
+    "id" : "activity-completion-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+    "version" : "0.1.0",
+    "name" : "ActivityCompletionStatusCS"
+  },
+  {
+    "id" : "activity-order-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/activity-order-status-cs",
+    "version" : "0.1.0",
+    "name" : "ActivityOrderStatusCS"
+  },
+  {
+    "id" : "decision-mode-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/decision-mode-cs",
+    "version" : "0.1.0",
+    "name" : "DecisionModeCS"
+  },
+  {
+    "id" : "modification-type-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/modification-type-cs",
+    "version" : "0.1.0",
+    "name" : "ModificationTypeCS"
+  },
+  {
+    "id" : "outcome-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+    "version" : "0.1.0",
+    "name" : "OutcomeCS"
+  },
+  {
+    "id" : "performance-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+    "version" : "0.1.0",
+    "name" : "PerformanceStatusCS"
+  },
+  {
+    "id" : "plan-definition-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
+    "version" : "0.1.0",
+    "name" : "PlanDefinitionCS"
+  },
+  {
+    "id" : "plan-purpose-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/plan-purpose-cs",
+    "version" : "0.1.0",
+    "name" : "PlanPurposeCS"
+  },
+  {
+    "id" : "preference-context-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+    "version" : "0.1.0",
+    "name" : "PreferenceContextCS"
+  },
+  {
+    "id" : "review-event-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/review-event-cs",
+    "version" : "0.1.0",
+    "name" : "ReviewEventCS"
+  },
+  {
+    "id" : "specification-type-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+    "version" : "0.1.0",
+    "name" : "SpecificationTypeCS"
+  },
+  {
+    "id" : "careplandam",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/dam/ImplementationGuide/careplandam",
+    "version" : "0.1.0",
+    "name" : "CarePlanDAM"
+  },
+  {
+    "id" : "AcceptanceReview",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/AcceptanceReview",
+    "version" : "0.1.0",
+    "name" : "AcceptanceReview"
+  },
+  {
+    "id" : "Acknowledgeable",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Acknowledgeable",
+    "version" : "0.1.0",
+    "name" : "Acknowledgeable"
+  },
+  {
+    "id" : "ActivityExecution",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/ActivityExecution",
+    "version" : "0.1.0",
+    "name" : "ActivityExecution"
+  },
+  {
+    "id" : "ActivityOutcomeObservation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/ActivityOutcomeObservation",
+    "version" : "0.1.0",
+    "name" : "ActivityOutcomeObservation"
+  },
+  {
+    "id" : "Barrier",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Barrier",
+    "version" : "0.1.0",
+    "name" : "Barrier"
+  },
+  {
+    "id" : "CareDeliveryResource",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/CareDeliveryResource",
+    "version" : "0.1.0",
+    "name" : "CareDeliveryResource"
+  },
+  {
+    "id" : "CarePlanManifestation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/CarePlanManifestation",
+    "version" : "0.1.0",
+    "name" : "CarePlanManifestation"
+  },
+  {
+    "id" : "CarePlanPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/CarePlanPatient",
+    "version" : "0.1.0",
+    "name" : "CarePlanPatient"
+  },
+  {
+    "id" : "CareTeam",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/CareTeam",
+    "version" : "0.1.0",
+    "name" : "CareTeam"
+  },
+  {
+    "id" : "CareTeamMember",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/CareTeamMember",
+    "version" : "0.1.0",
+    "name" : "CareTeamMember"
+  },
+  {
+    "id" : "Communication",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Communication",
+    "version" : "0.1.0",
+    "name" : "Communication"
+  },
+  {
+    "id" : "CommunicationThread",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/CommunicationThread",
+    "version" : "0.1.0",
+    "name" : "CommunicationThread"
+  },
+  {
+    "id" : "Composable",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Composable",
+    "version" : "0.1.0",
+    "name" : "Composable"
+  },
+  {
+    "id" : "Concern",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Concern",
+    "version" : "0.1.0",
+    "name" : "Concern"
+  },
+  {
+    "id" : "Expressible",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Expressible",
+    "version" : "0.1.0",
+    "name" : "Expressible"
+  },
+  {
+    "id" : "Goal",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Goal",
+    "version" : "0.1.0",
+    "name" : "Goal"
+  },
+  {
+    "id" : "Guideline",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Guideline",
+    "version" : "0.1.0",
+    "name" : "Guideline"
+  },
+  {
+    "id" : "HealthRisk",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/HealthRisk",
+    "version" : "0.1.0",
+    "name" : "HealthRisk"
+  },
+  {
+    "id" : "Modification",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Modification",
+    "version" : "0.1.0",
+    "name" : "Modification"
+  },
+  {
+    "id" : "Organization",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Organization",
+    "version" : "0.1.0",
+    "name" : "Organization"
+  },
+  {
+    "id" : "OutcomeReview",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/OutcomeReview",
+    "version" : "0.1.0",
+    "name" : "OutcomeReview"
+  },
+  {
+    "id" : "Performable",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Performable",
+    "version" : "0.1.0",
+    "name" : "Performable"
+  },
+  {
+    "id" : "PlanDefinition",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/PlanDefinition",
+    "version" : "0.1.0",
+    "name" : "PlanDefinition"
+  },
+  {
+    "id" : "PlanElement",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+    "version" : "0.1.0",
+    "name" : "PlanElement"
+  },
+  {
+    "id" : "PlannedActivity",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/PlannedActivity",
+    "version" : "0.1.0",
+    "name" : "PlannedActivity"
+  },
+  {
+    "id" : "Preference",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Preference",
+    "version" : "0.1.0",
+    "name" : "Preference"
+  },
+  {
+    "id" : "Prioritizable",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Prioritizable",
+    "version" : "0.1.0",
+    "name" : "Prioritizable"
+  },
+  {
+    "id" : "ProtectiveFactor",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/ProtectiveFactor",
+    "version" : "0.1.0",
+    "name" : "ProtectiveFactor"
+  },
+  {
+    "id" : "ReconciliationAct",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/ReconciliationAct",
+    "version" : "0.1.0",
+    "name" : "ReconciliationAct"
+  },
+  {
+    "id" : "ReconciliationLog",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/ReconciliationLog",
+    "version" : "0.1.0",
+    "name" : "ReconciliationLog"
+  },
+  {
+    "id" : "ResourceRequirement",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/ResourceRequirement",
+    "version" : "0.1.0",
+    "name" : "ResourceRequirement"
+  },
+  {
+    "id" : "Review",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Review",
+    "version" : "0.1.0",
+    "name" : "Review"
+  },
+  {
+    "id" : "Revisable",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/Revisable",
+    "version" : "0.1.0",
+    "name" : "Revisable"
+  },
+  {
+    "id" : "acknowledgement-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/acknowledgement-vs",
+    "version" : "0.1.0",
+    "name" : "AcknowledgementVS"
+  },
+  {
+    "id" : "activity-completion-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/activity-completion-status-vs",
+    "version" : "0.1.0",
+    "name" : "ActivityCompletionStatusVS"
+  },
+  {
+    "id" : "activity-order-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/activity-order-status-vs",
+    "version" : "0.1.0",
+    "name" : "ActivityOrderStatusVS"
+  },
+  {
+    "id" : "decision-mode-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/decision-mode-vs",
+    "version" : "0.1.0",
+    "name" : "DecisionModeVS"
+  },
+  {
+    "id" : "modification-type-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/modification-type-vs",
+    "version" : "0.1.0",
+    "name" : "ModificationTypeVS"
+  },
+  {
+    "id" : "outcome-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/outcome-vs",
+    "version" : "0.1.0",
+    "name" : "OutcomeVS"
+  },
+  {
+    "id" : "performance-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/performance-status-vs",
+    "version" : "0.1.0",
+    "name" : "PerformanceStatusVS"
+  },
+  {
+    "id" : "plan-definition-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/plan-definition-vs",
+    "version" : "0.1.0",
+    "name" : "PlanDefinitionVS"
+  },
+  {
+    "id" : "plan-purpose-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/plan-purpose-vs",
+    "version" : "0.1.0",
+    "name" : "PlanPurposeVS"
+  },
+  {
+    "id" : "preference-context-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/preference-context-vs",
+    "version" : "0.1.0",
+    "name" : "PreferenceContextVS"
+  },
+  {
+    "id" : "review-event-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/review-event-vs",
+    "version" : "0.1.0",
+    "name" : "ReviewEventVS"
+  },
+  {
+    "id" : "specification-type-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/specification-type-vs",
+    "version" : "0.1.0",
+    "name" : "SpecificationTypeVS"
+  }
+]

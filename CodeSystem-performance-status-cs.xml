@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="performance-status-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem performance-status-cs</b></p><a name="performance-status-cs"> </a><a name="hcperformance-status-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/performance-status-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">planned<a name="performance-status-cs-planned"> </a></td><td>Planned</td><td>Activity is planned but not started</td></tr><tr><td style="white-space:nowrap">in-process<a name="performance-status-cs-in-process"> </a></td><td>In Process</td><td>Activity is in process</td></tr><tr><td style="white-space:nowrap">cancelled<a name="performance-status-cs-cancelled"> </a></td><td>Cancelled</td><td>Activity was cancelled</td></tr><tr><td style="white-space:nowrap">aborted<a name="performance-status-cs-aborted"> </a></td><td>Aborted</td><td>Activity was aborted</td></tr><tr><td style="white-space:nowrap">completed<a name="performance-status-cs-completed"> </a></td><td>Completed</td><td>Activity was completed</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/performance-status-cs"/>
+  <version value="0.1.0"/>
+  <name value="PerformanceStatusCS"/>
+  <title value="Performance Status Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for performance status of activities"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="planned"/>
+    <display value="Planned"/>
+    <definition value="Activity is planned but not started"/>
+  </concept>
+  <concept>
+    <code value="in-process"/>
+    <display value="In Process"/>
+    <definition value="Activity is in process"/>
+  </concept>
+  <concept>
+    <code value="cancelled"/>
+    <display value="Cancelled"/>
+    <definition value="Activity was cancelled"/>
+  </concept>
+  <concept>
+    <code value="aborted"/>
+    <display value="Aborted"/>
+    <definition value="Activity was aborted"/>
+  </concept>
+  <concept>
+    <code value="completed"/>
+    <display value="Completed"/>
+    <definition value="Activity was completed"/>
+  </concept>
+</CodeSystem>

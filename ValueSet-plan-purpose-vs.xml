@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="plan-purpose-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet plan-purpose-vs</b></p><a name="plan-purpose-vs"> </a><a name="hcplan-purpose-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-plan-purpose-cs.html"><code>http://hl7.org/dam/CodeSystem/plan-purpose-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://hl7.org/dam/ValueSet/plan-purpose-vs"/>
+  <version value="0.1.0"/>
+  <name value="PlanPurposeVS"/>
+  <title value="Plan Purpose Value Set"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Value set for plan purposes"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/dam/CodeSystem/plan-purpose-cs"/>
+    </include>
+  </compose>
+</ValueSet>

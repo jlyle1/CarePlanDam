@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/ValueSet/performance-status-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "performance-status-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet performance-status-vs</b></p><a name=\"performance-status-vs\"> </a><a name=\"hcperformance-status-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-performance-status-cs.html\"><code>http://hl7.org/dam/CodeSystem/performance-status-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/dam/ValueSet/performance-status-vs"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/dam/ValueSet/performance-status-vs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "PerformanceStatusVS"] ; # 
+  fhir:title [ fhir:v "Performance Status Value Set"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-01-29T10:40:38-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Value set for performance status"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/dam/CodeSystem/performance-status-cs"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/dam/CodeSystem/performance-status-cs>
+       ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "decision-mode-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem decision-mode-cs</b></p><a name=\"decision-mode-cs\"> </a><a name=\"hcdecision-mode-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/decision-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">explicit<a name=\"decision-mode-cs-explicit\"> </a></td><td>Explicit</td><td>Decision was made explicitly</td></tr><tr><td style=\"white-space:nowrap\">inherited<a name=\"decision-mode-cs-inherited\"> </a></td><td>Inherited</td><td>Decision was inherited from another element</td></tr><tr><td style=\"white-space:nowrap\">contextual<a name=\"decision-mode-cs-contextual\"> </a></td><td>Contextual</td><td>Decision was derived from context</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/decision-mode-cs",
+  "version" : "0.1.0",
+  "name" : "DecisionModeCS",
+  "title" : "Decision Mode Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for how decisions are made",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "explicit",
+    "display" : "Explicit",
+    "definition" : "Decision was made explicitly"
+  },
+  {
+    "code" : "inherited",
+    "display" : "Inherited",
+    "definition" : "Decision was inherited from another element"
+  },
+  {
+    "code" : "contextual",
+    "display" : "Contextual",
+    "definition" : "Decision was derived from context"
+  }]
+}

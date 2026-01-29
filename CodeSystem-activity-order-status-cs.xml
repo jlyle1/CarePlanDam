@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="activity-order-status-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem activity-order-status-cs</b></p><a name="activity-order-status-cs"> </a><a name="hcactivity-order-status-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/activity-order-status-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">not-orderable<a name="activity-order-status-cs-not-orderable"> </a></td><td>Not Orderable</td><td>Activity cannot be ordered</td></tr><tr><td style="white-space:nowrap">not-ordered<a name="activity-order-status-cs-not-ordered"> </a></td><td>Not Ordered</td><td>Activity has not been ordered</td></tr><tr><td style="white-space:nowrap">ordered<a name="activity-order-status-cs-ordered"> </a></td><td>Ordered</td><td>Activity has been ordered</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/activity-order-status-cs"/>
+  <version value="0.1.0"/>
+  <name value="ActivityOrderStatusCS"/>
+  <title value="Activity Order Status Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for activity order status"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="not-orderable"/>
+    <display value="Not Orderable"/>
+    <definition value="Activity cannot be ordered"/>
+  </concept>
+  <concept>
+    <code value="not-ordered"/>
+    <display value="Not Ordered"/>
+    <definition value="Activity has not been ordered"/>
+  </concept>
+  <concept>
+    <code value="ordered"/>
+    <display value="Ordered"/>
+    <definition value="Activity has been ordered"/>
+  </concept>
+</CodeSystem>

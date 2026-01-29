@@ -1,0 +1,33 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"Preference","Preference","","","",0,*,"","","","null {[]} {[]}
+","Preference","A patient or care team preference that informs care planning","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Preference.refersTo","Preference.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"Preference.hasAuthor","Preference.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"Preference.contains","Preference.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"Preference.acknowledgeable","Preference.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
+","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"Preference.acknowledgeable",1,1,"",""
+"Preference.prioritizable","Preference.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
+","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"Preference.prioritizable",1,1,"",""
+"Preference.expressible","Preference.expressible","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Expressible {[]} {[]}
+","Expressible pattern properties","Expressible pattern properties","","","","","","","","","",,,,,"",,,,"Preference.expressible",1,1,"",""
+"Preference.context","Preference.context","","","",1,1,"","","","code {[]} {[]}
+","Context for the preference","Context for the preference","","","","","","","","","",,"required","","http://hl7.org/dam/ValueSet/preference-context-vs","",,,,"Preference.context",1,1,"",""
+"Preference.description","Preference.description","","","",1,1,"","","","string {[]} {[]}
+","Description of the preference","Description of the preference","","","","","","","","","",,,,,"",,,,"Preference.description",1,1,"",""
+"Preference.action","Preference.action","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Preferred action","Preferred action","","","","","","","","","",,,,,"",,,,"Preference.action",1,1,"",""
+"Preference.preferencePriority","Preference.preferencePriority","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Priority of this preference","Priority of this preference","","","","","","","","","",,,,,"",,,,"Preference.preferencePriority",1,1,"",""
+"Preference.reason","Preference.reason","","","",1,1,"","","","string {[]} {[]}
+","Reason for the preference","Reason for the preference","","","","","","","","","",,,,,"",,,,"Preference.reason",1,1,"",""
+"Preference.note","Preference.note","","","",1,1,"","","","string {[]} {[]}
+","Additional notes","Additional notes","","","","","","","","","",,,,,"",,,,"Preference.note",1,1,"",""
+"Preference.preferenceStatus","Preference.preferenceStatus","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Status of the preference","Status of the preference","","","","","","","","","",,,,,"",,,,"Preference.preferenceStatus",1,1,"",""
+"Preference.informsActivity","Preference.informsActivity","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/PlannedActivity]]}
+","Activities informed by this preference","Activities informed by this preference","","","","","","","","","",,,,,"",,,,"Preference.informsActivity",0,*,"",""
+"Preference.informsGoal","Preference.informsGoal","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Goal]]}
+","Goals informed by this preference","Goals informed by this preference","","","","","","","","","",,,,,"",,,,"Preference.informsGoal",0,*,"",""

@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "activity-completion-status-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet activity-completion-status-vs</b></p><a name=\"activity-completion-status-vs\"> </a><a name=\"hcactivity-completion-status-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-activity-completion-status-cs.html\"><code>http://hl7.org/dam/CodeSystem/activity-completion-status-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://hl7.org/dam/ValueSet/activity-completion-status-vs",
+  "version" : "0.1.0",
+  "name" : "ActivityCompletionStatusVS",
+  "title" : "Activity Completion Status Value Set",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Value set for activity completion status",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs"
+    }]
+  }
+}

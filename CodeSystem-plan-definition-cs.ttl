@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/CodeSystem/plan-definition-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "plan-definition-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem plan-definition-cs</b></p><a name=\"plan-definition-cs\"> </a><a name=\"hcplan-definition-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/plan-definition-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">c-cda-4-care-plan<a name=\"plan-definition-cs-c-cda-4-care-plan\"> </a></td><td>C-CDA 4.0 Care Plan</td><td>C-CDA 4.0 Care Plan specification</td></tr><tr><td style=\"white-space:nowrap\">pharmacist<a name=\"plan-definition-cs-pharmacist\"> </a></td><td>Pharmacist</td><td>Pharmacist care plan</td></tr><tr><td style=\"white-space:nowrap\">ada-diabetes-2025<a name=\"plan-definition-cs-ada-diabetes-2025\"> </a></td><td>ADA Diabetes Standard of Care 2025</td><td>ADA Diabetes Standard of Care 2025</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/dam/CodeSystem/plan-definition-cs"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/dam/CodeSystem/plan-definition-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "PlanDefinitionCS"] ; # 
+  fhir:title [ fhir:v "Plan Definition Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-01-29T10:40:38-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for types of plan definitions"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "c-cda-4-care-plan" ] ;
+     fhir:display [ fhir:v "C-CDA 4.0 Care Plan" ] ;
+     fhir:definition [ fhir:v "C-CDA 4.0 Care Plan specification" ]
+  ] [
+     fhir:code [ fhir:v "pharmacist" ] ;
+     fhir:display [ fhir:v "Pharmacist" ] ;
+     fhir:definition [ fhir:v "Pharmacist care plan" ]
+  ] [
+     fhir:code [ fhir:v "ada-diabetes-2025" ] ;
+     fhir:display [ fhir:v "ADA Diabetes Standard of Care 2025" ] ;
+     fhir:definition [ fhir:v "ADA Diabetes Standard of Care 2025" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

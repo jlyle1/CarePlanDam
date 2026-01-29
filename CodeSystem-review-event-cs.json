@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "review-event-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem review-event-cs</b></p><a name=\"review-event-cs\"> </a><a name=\"hcreview-event-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/review-event-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">creation<a name=\"review-event-cs-creation\"> </a></td><td>Creation</td><td>Review triggered by creation of an element</td></tr><tr><td style=\"white-space:nowrap\">periodic<a name=\"review-event-cs-periodic\"> </a></td><td>Periodic</td><td>Review triggered by periodic schedule</td></tr><tr><td style=\"white-space:nowrap\">caused<a name=\"review-event-cs-caused\"> </a></td><td>Caused</td><td>Review triggered by a specific cause or event</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/review-event-cs",
+  "version" : "0.1.0",
+  "name" : "ReviewEventCS",
+  "title" : "Review Event Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for events that trigger reviews",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "creation",
+    "display" : "Creation",
+    "definition" : "Review triggered by creation of an element"
+  },
+  {
+    "code" : "periodic",
+    "display" : "Periodic",
+    "definition" : "Review triggered by periodic schedule"
+  },
+  {
+    "code" : "caused",
+    "display" : "Caused",
+    "definition" : "Review triggered by a specific cause or event"
+  }]
+}

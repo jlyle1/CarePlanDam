@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/CodeSystem/acknowledgement-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "acknowledgement-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem acknowledgement-cs</b></p><a name=\"acknowledgement-cs\"> </a><a name=\"hcacknowledgement-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/acknowledgement-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">acknowledge<a name=\"acknowledgement-cs-acknowledge\"> </a></td><td>Acknowledge</td><td>Acknowledges the element without agreement or disagreement</td></tr><tr><td style=\"white-space:nowrap\">assert<a name=\"acknowledgement-cs-assert\"> </a></td><td>Assert</td><td>Asserts the element as true or valid</td></tr><tr><td style=\"white-space:nowrap\">agree<a name=\"acknowledgement-cs-agree\"> </a></td><td>Agree</td><td>Agrees with the element</td></tr><tr><td style=\"white-space:nowrap\">disagree<a name=\"acknowledgement-cs-disagree\"> </a></td><td>Disagree</td><td>Disagrees with the element</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/dam/CodeSystem/acknowledgement-cs"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/dam/CodeSystem/acknowledgement-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AcknowledgementCS"] ; # 
+  fhir:title [ fhir:v "Acknowledgement Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-01-29T10:40:38-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for acknowledgment decisions"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "acknowledge" ] ;
+     fhir:display [ fhir:v "Acknowledge" ] ;
+     fhir:definition [ fhir:v "Acknowledges the element without agreement or disagreement" ]
+  ] [
+     fhir:code [ fhir:v "assert" ] ;
+     fhir:display [ fhir:v "Assert" ] ;
+     fhir:definition [ fhir:v "Asserts the element as true or valid" ]
+  ] [
+     fhir:code [ fhir:v "agree" ] ;
+     fhir:display [ fhir:v "Agree" ] ;
+     fhir:definition [ fhir:v "Agrees with the element" ]
+  ] [
+     fhir:code [ fhir:v "disagree" ] ;
+     fhir:display [ fhir:v "Disagree" ] ;
+     fhir:definition [ fhir:v "Disagrees with the element" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

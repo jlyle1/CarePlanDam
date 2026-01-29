@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="preference-context-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem preference-context-cs</b></p><a name="preference-context-cs"> </a><a name="hcpreference-context-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/preference-context-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">visitation<a name="preference-context-cs-visitation"> </a></td><td>Visitation</td><td>Preferences about visitation</td></tr><tr><td style="white-space:nowrap">diet<a name="preference-context-cs-diet"> </a></td><td>Diet</td><td>Dietary preferences</td></tr><tr><td style="white-space:nowrap">medication<a name="preference-context-cs-medication"> </a></td><td>Medication</td><td>Medication preferences</td></tr><tr><td style="white-space:nowrap">treatment<a name="preference-context-cs-treatment"> </a></td><td>Treatment</td><td>Treatment preferences</td></tr><tr><td style="white-space:nowrap">discharge-planning<a name="preference-context-cs-discharge-planning"> </a></td><td>Discharge Planning</td><td>Discharge planning preferences</td></tr><tr><td style="white-space:nowrap">care<a name="preference-context-cs-care"> </a></td><td>Care</td><td>General care preferences</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/preference-context-cs"/>
+  <version value="0.1.0"/>
+  <name value="PreferenceContextCS"/>
+  <title value="Preference Context Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for preference contexts"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="visitation"/>
+    <display value="Visitation"/>
+    <definition value="Preferences about visitation"/>
+  </concept>
+  <concept>
+    <code value="diet"/>
+    <display value="Diet"/>
+    <definition value="Dietary preferences"/>
+  </concept>
+  <concept>
+    <code value="medication"/>
+    <display value="Medication"/>
+    <definition value="Medication preferences"/>
+  </concept>
+  <concept>
+    <code value="treatment"/>
+    <display value="Treatment"/>
+    <definition value="Treatment preferences"/>
+  </concept>
+  <concept>
+    <code value="discharge-planning"/>
+    <display value="Discharge Planning"/>
+    <definition value="Discharge planning preferences"/>
+  </concept>
+  <concept>
+    <code value="care"/>
+    <display value="Care"/>
+    <definition value="General care preferences"/>
+  </concept>
+</CodeSystem>

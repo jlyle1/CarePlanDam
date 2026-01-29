@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/CodeSystem/modification-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "modification-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem modification-type-cs</b></p><a name=\"modification-type-cs\"> </a><a name=\"hcmodification-type-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/modification-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">omit<a name=\"modification-type-cs-omit\"> </a></td><td>Omit</td><td>Element is omitted</td></tr><tr><td style=\"white-space:nowrap\">modify<a name=\"modification-type-cs-modify\"> </a></td><td>Modify</td><td>Element is modified</td></tr><tr><td style=\"white-space:nowrap\">add<a name=\"modification-type-cs-add\"> </a></td><td>Add</td><td>Element is added</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/dam/CodeSystem/modification-type-cs"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/dam/CodeSystem/modification-type-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ModificationTypeCS"] ; # 
+  fhir:title [ fhir:v "Modification Type Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-01-29T10:40:38-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for types of modifications"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "omit" ] ;
+     fhir:display [ fhir:v "Omit" ] ;
+     fhir:definition [ fhir:v "Element is omitted" ]
+  ] [
+     fhir:code [ fhir:v "modify" ] ;
+     fhir:display [ fhir:v "Modify" ] ;
+     fhir:definition [ fhir:v "Element is modified" ]
+  ] [
+     fhir:code [ fhir:v "add" ] ;
+     fhir:display [ fhir:v "Add" ] ;
+     fhir:definition [ fhir:v "Element is added" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "activity-order-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem activity-order-status-cs</b></p><a name=\"activity-order-status-cs\"> </a><a name=\"hcactivity-order-status-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/activity-order-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">not-orderable<a name=\"activity-order-status-cs-not-orderable\"> </a></td><td>Not Orderable</td><td>Activity cannot be ordered</td></tr><tr><td style=\"white-space:nowrap\">not-ordered<a name=\"activity-order-status-cs-not-ordered\"> </a></td><td>Not Ordered</td><td>Activity has not been ordered</td></tr><tr><td style=\"white-space:nowrap\">ordered<a name=\"activity-order-status-cs-ordered\"> </a></td><td>Ordered</td><td>Activity has been ordered</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/activity-order-status-cs",
+  "version" : "0.1.0",
+  "name" : "ActivityOrderStatusCS",
+  "title" : "Activity Order Status Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for activity order status",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "not-orderable",
+    "display" : "Not Orderable",
+    "definition" : "Activity cannot be ordered"
+  },
+  {
+    "code" : "not-ordered",
+    "display" : "Not Ordered",
+    "definition" : "Activity has not been ordered"
+  },
+  {
+    "code" : "ordered",
+    "display" : "Ordered",
+    "definition" : "Activity has been ordered"
+  }]
+}

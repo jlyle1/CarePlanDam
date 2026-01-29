@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "plan-definition-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem plan-definition-cs</b></p><a name=\"plan-definition-cs\"> </a><a name=\"hcplan-definition-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/plan-definition-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">c-cda-4-care-plan<a name=\"plan-definition-cs-c-cda-4-care-plan\"> </a></td><td>C-CDA 4.0 Care Plan</td><td>C-CDA 4.0 Care Plan specification</td></tr><tr><td style=\"white-space:nowrap\">pharmacist<a name=\"plan-definition-cs-pharmacist\"> </a></td><td>Pharmacist</td><td>Pharmacist care plan</td></tr><tr><td style=\"white-space:nowrap\">ada-diabetes-2025<a name=\"plan-definition-cs-ada-diabetes-2025\"> </a></td><td>ADA Diabetes Standard of Care 2025</td><td>ADA Diabetes Standard of Care 2025</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
+  "version" : "0.1.0",
+  "name" : "PlanDefinitionCS",
+  "title" : "Plan Definition Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for types of plan definitions",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "c-cda-4-care-plan",
+    "display" : "C-CDA 4.0 Care Plan",
+    "definition" : "C-CDA 4.0 Care Plan specification"
+  },
+  {
+    "code" : "pharmacist",
+    "display" : "Pharmacist",
+    "definition" : "Pharmacist care plan"
+  },
+  {
+    "code" : "ada-diabetes-2025",
+    "display" : "ADA Diabetes Standard of Care 2025",
+    "definition" : "ADA Diabetes Standard of Care 2025"
+  }]
+}

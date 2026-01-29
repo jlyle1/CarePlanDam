@@ -1,0 +1,15 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"HealthRisk","HealthRisk","","","",0,*,"","","","null {[]} {[]}
+","Health Risk","A health risk identified for the patient","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"HealthRisk.refersTo","HealthRisk.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"HealthRisk.hasAuthor","HealthRisk.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"HealthRisk.contains","HealthRisk.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"HealthRisk.risk","HealthRisk.risk","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","The type of risk","The type of risk","","","","","","","","","",,,,,"",,,,"HealthRisk.risk",1,1,"",""
+"HealthRisk.comment","HealthRisk.comment","","","",1,1,"","","","string {[]} {[]}
+","Additional comments about the risk","Additional comments about the risk","","","","","","","","","",,,,,"",,,,"HealthRisk.comment",1,1,"",""
+"HealthRisk.criticality","HealthRisk.criticality","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Criticality level of the risk","Criticality level of the risk","","","","","","","","","",,,,,"",,,,"HealthRisk.criticality",1,1,"",""

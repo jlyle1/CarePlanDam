@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="review-event-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem review-event-cs</b></p><a name="review-event-cs"> </a><a name="hcreview-event-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/review-event-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">creation<a name="review-event-cs-creation"> </a></td><td>Creation</td><td>Review triggered by creation of an element</td></tr><tr><td style="white-space:nowrap">periodic<a name="review-event-cs-periodic"> </a></td><td>Periodic</td><td>Review triggered by periodic schedule</td></tr><tr><td style="white-space:nowrap">caused<a name="review-event-cs-caused"> </a></td><td>Caused</td><td>Review triggered by a specific cause or event</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/review-event-cs"/>
+  <version value="0.1.0"/>
+  <name value="ReviewEventCS"/>
+  <title value="Review Event Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for events that trigger reviews"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="creation"/>
+    <display value="Creation"/>
+    <definition value="Review triggered by creation of an element"/>
+  </concept>
+  <concept>
+    <code value="periodic"/>
+    <display value="Periodic"/>
+    <definition value="Review triggered by periodic schedule"/>
+  </concept>
+  <concept>
+    <code value="caused"/>
+    <display value="Caused"/>
+    <definition value="Review triggered by a specific cause or event"/>
+  </concept>
+</CodeSystem>

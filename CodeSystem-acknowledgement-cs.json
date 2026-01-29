@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "acknowledgement-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem acknowledgement-cs</b></p><a name=\"acknowledgement-cs\"> </a><a name=\"hcacknowledgement-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/acknowledgement-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">acknowledge<a name=\"acknowledgement-cs-acknowledge\"> </a></td><td>Acknowledge</td><td>Acknowledges the element without agreement or disagreement</td></tr><tr><td style=\"white-space:nowrap\">assert<a name=\"acknowledgement-cs-assert\"> </a></td><td>Assert</td><td>Asserts the element as true or valid</td></tr><tr><td style=\"white-space:nowrap\">agree<a name=\"acknowledgement-cs-agree\"> </a></td><td>Agree</td><td>Agrees with the element</td></tr><tr><td style=\"white-space:nowrap\">disagree<a name=\"acknowledgement-cs-disagree\"> </a></td><td>Disagree</td><td>Disagrees with the element</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs",
+  "version" : "0.1.0",
+  "name" : "AcknowledgementCS",
+  "title" : "Acknowledgement Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for acknowledgment decisions",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "acknowledge",
+    "display" : "Acknowledge",
+    "definition" : "Acknowledges the element without agreement or disagreement"
+  },
+  {
+    "code" : "assert",
+    "display" : "Assert",
+    "definition" : "Asserts the element as true or valid"
+  },
+  {
+    "code" : "agree",
+    "display" : "Agree",
+    "definition" : "Agrees with the element"
+  },
+  {
+    "code" : "disagree",
+    "display" : "Disagree",
+    "definition" : "Disagrees with the element"
+  }]
+}

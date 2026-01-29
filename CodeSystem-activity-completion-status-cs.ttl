@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/CodeSystem/activity-completion-status-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "activity-completion-status-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem activity-completion-status-cs</b></p><a name=\"activity-completion-status-cs\"> </a><a name=\"hcactivity-completion-status-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/activity-completion-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">not-started<a name=\"activity-completion-status-cs-not-started\"> </a></td><td>Not Started</td><td>Activity has not started</td></tr><tr><td style=\"white-space:nowrap\">cancelled<a name=\"activity-completion-status-cs-cancelled\"> </a></td><td>Cancelled</td><td>Activity was cancelled</td></tr><tr><td style=\"white-space:nowrap\">in-process<a name=\"activity-completion-status-cs-in-process\"> </a></td><td>In Process</td><td>Activity is in process</td></tr><tr><td style=\"white-space:nowrap\">stopped<a name=\"activity-completion-status-cs-stopped\"> </a></td><td>Stopped</td><td>Activity was stopped before completion</td></tr><tr><td style=\"white-space:nowrap\">completed<a name=\"activity-completion-status-cs-completed\"> </a></td><td>Completed</td><td>Activity was completed</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/dam/CodeSystem/activity-completion-status-cs"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/dam/CodeSystem/activity-completion-status-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ActivityCompletionStatusCS"] ; # 
+  fhir:title [ fhir:v "Activity Completion Status Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-01-29T10:40:38-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for activity completion status"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "not-started" ] ;
+     fhir:display [ fhir:v "Not Started" ] ;
+     fhir:definition [ fhir:v "Activity has not started" ]
+  ] [
+     fhir:code [ fhir:v "cancelled" ] ;
+     fhir:display [ fhir:v "Cancelled" ] ;
+     fhir:definition [ fhir:v "Activity was cancelled" ]
+  ] [
+     fhir:code [ fhir:v "in-process" ] ;
+     fhir:display [ fhir:v "In Process" ] ;
+     fhir:definition [ fhir:v "Activity is in process" ]
+  ] [
+     fhir:code [ fhir:v "stopped" ] ;
+     fhir:display [ fhir:v "Stopped" ] ;
+     fhir:definition [ fhir:v "Activity was stopped before completion" ]
+  ] [
+     fhir:code [ fhir:v "completed" ] ;
+     fhir:display [ fhir:v "Completed" ] ;
+     fhir:definition [ fhir:v "Activity was completed" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

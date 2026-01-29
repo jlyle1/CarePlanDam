@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "plan-purpose-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem plan-purpose-cs</b></p><a name=\"plan-purpose-cs\"> </a><a name=\"hcplan-purpose-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/plan-purpose-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">diabetes-mellitus<a name=\"plan-purpose-cs-diabetes-mellitus\"> </a></td><td>Diabetes Mellitus</td><td>Care plan for diabetes mellitus management</td></tr><tr><td style=\"white-space:nowrap\">cardiac<a name=\"plan-purpose-cs-cardiac\"> </a></td><td>Cardiac</td><td>Care plan for cardiac conditions</td></tr><tr><td style=\"white-space:nowrap\">home-health-care<a name=\"plan-purpose-cs-home-health-care\"> </a></td><td>Home Health Care</td><td>Care plan for home health care</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/plan-purpose-cs",
+  "version" : "0.1.0",
+  "name" : "PlanPurposeCS",
+  "title" : "Plan Purpose Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for care plan purposes",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "diabetes-mellitus",
+    "display" : "Diabetes Mellitus",
+    "definition" : "Care plan for diabetes mellitus management"
+  },
+  {
+    "code" : "cardiac",
+    "display" : "Cardiac",
+    "definition" : "Care plan for cardiac conditions"
+  },
+  {
+    "code" : "home-health-care",
+    "display" : "Home Health Care",
+    "definition" : "Care plan for home health care"
+  }]
+}

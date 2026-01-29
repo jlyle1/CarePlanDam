@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "activity-completion-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem activity-completion-status-cs</b></p><a name=\"activity-completion-status-cs\"> </a><a name=\"hcactivity-completion-status-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/activity-completion-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">not-started<a name=\"activity-completion-status-cs-not-started\"> </a></td><td>Not Started</td><td>Activity has not started</td></tr><tr><td style=\"white-space:nowrap\">cancelled<a name=\"activity-completion-status-cs-cancelled\"> </a></td><td>Cancelled</td><td>Activity was cancelled</td></tr><tr><td style=\"white-space:nowrap\">in-process<a name=\"activity-completion-status-cs-in-process\"> </a></td><td>In Process</td><td>Activity is in process</td></tr><tr><td style=\"white-space:nowrap\">stopped<a name=\"activity-completion-status-cs-stopped\"> </a></td><td>Stopped</td><td>Activity was stopped before completion</td></tr><tr><td style=\"white-space:nowrap\">completed<a name=\"activity-completion-status-cs-completed\"> </a></td><td>Completed</td><td>Activity was completed</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+  "version" : "0.1.0",
+  "name" : "ActivityCompletionStatusCS",
+  "title" : "Activity Completion Status Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for activity completion status",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "not-started",
+    "display" : "Not Started",
+    "definition" : "Activity has not started"
+  },
+  {
+    "code" : "cancelled",
+    "display" : "Cancelled",
+    "definition" : "Activity was cancelled"
+  },
+  {
+    "code" : "in-process",
+    "display" : "In Process",
+    "definition" : "Activity is in process"
+  },
+  {
+    "code" : "stopped",
+    "display" : "Stopped",
+    "definition" : "Activity was stopped before completion"
+  },
+  {
+    "code" : "completed",
+    "display" : "Completed",
+    "definition" : "Activity was completed"
+  }]
+}

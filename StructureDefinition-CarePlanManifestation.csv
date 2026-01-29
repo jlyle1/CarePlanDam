@@ -1,0 +1,35 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"CarePlanManifestation","CarePlanManifestation","","","",0,*,"","","","null {[]} {[]}
+","Care Plan Manifestation","A manifestation of a care plan - a specific instance of a care plan at a point in time","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"CarePlanManifestation.refersTo","CarePlanManifestation.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"CarePlanManifestation.hasAuthor","CarePlanManifestation.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"CarePlanManifestation.contains","CarePlanManifestation.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"CarePlanManifestation.acknowledgeable","CarePlanManifestation.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
+","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.acknowledgeable",1,1,"",""
+"CarePlanManifestation.performable","CarePlanManifestation.performable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Performable {[]} {[]}
+","Performable pattern properties","Performable pattern properties","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.performable",1,1,"",""
+"CarePlanManifestation.revisable","CarePlanManifestation.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
+","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.revisable",1,1,"",""
+"CarePlanManifestation.composable","CarePlanManifestation.composable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Composable {[]} {[]}
+","Composable pattern properties","Composable pattern properties","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.composable",1,1,"",""
+"CarePlanManifestation.createDate","CarePlanManifestation.createDate","","","",1,1,"","","","dateTime {[]} {[]}
+","Date the manifestation was created","Date the manifestation was created","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.createDate",1,1,"",""
+"CarePlanManifestation.specificationType","CarePlanManifestation.specificationType","","","",1,1,"","","","code {[]} {[]}
+","Type of specification","Type of specification","","","","","","","","","",,"required","","http://hl7.org/dam/ValueSet/specification-type-vs","",,,,"CarePlanManifestation.specificationType",1,1,"",""
+"CarePlanManifestation.period","CarePlanManifestation.period","","","",1,1,"","","","Period {[]} {[]}
+","Effective period of this manifestation","Effective period of this manifestation","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.period",1,1,"",""
+"CarePlanManifestation.planPurpose","CarePlanManifestation.planPurpose","","","",1,1,"","","","code {[]} {[]}
+","Purpose of the plan","Purpose of the plan","","","","","","","","","",,"required","","http://hl7.org/dam/ValueSet/plan-purpose-vs","",,,,"CarePlanManifestation.planPurpose",1,1,"",""
+"CarePlanManifestation.status","CarePlanManifestation.status","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Status of the manifestation","Status of the manifestation","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.status",1,1,"",""
+"CarePlanManifestation.statusDate","CarePlanManifestation.statusDate","","","",1,1,"","","","dateTime {[]} {[]}
+","Date of the current status","Date of the current status","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.statusDate",1,1,"",""
+"CarePlanManifestation.displayName","CarePlanManifestation.displayName","","","",1,1,"","","","string {[]} {[]}
+","Display name for the plan","Display name for the plan","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.displayName",1,1,"",""
+"CarePlanManifestation.description","CarePlanManifestation.description","","","",1,1,"","","","string {[]} {[]}
+","Description of the plan","Description of the plan","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.description",1,1,"",""
+"CarePlanManifestation.uses","CarePlanManifestation.uses","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/PlanDefinition]]}
+","Plan definitions used","Plan definitions used","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.uses",0,*,"",""

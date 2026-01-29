@@ -1,0 +1,56 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "outcome-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem outcome-cs</b></p><a name=\"outcome-cs\"> </a><a name=\"hcoutcome-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/outcome-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">resolved<a name=\"outcome-cs-resolved\"> </a></td><td>Resolved</td><td>The condition or issue has been resolved</td></tr><tr><td style=\"white-space:nowrap\">improved<a name=\"outcome-cs-improved\"> </a></td><td>Improved</td><td>The condition or issue has improved</td></tr><tr><td style=\"white-space:nowrap\">stabilized<a name=\"outcome-cs-stabilized\"> </a></td><td>Stabilized</td><td>The condition or issue has stabilized</td></tr><tr><td style=\"white-space:nowrap\">in-process<a name=\"outcome-cs-in-process\"> </a></td><td>In Process</td><td>The intervention is still in process</td></tr><tr><td style=\"white-space:nowrap\">maintained<a name=\"outcome-cs-maintained\"> </a></td><td>Maintained</td><td>The current state has been maintained</td></tr><tr><td style=\"white-space:nowrap\">deteriorated<a name=\"outcome-cs-deteriorated\"> </a></td><td>Deteriorated</td><td>The condition or issue has deteriorated</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+  "version" : "0.1.0",
+  "name" : "OutcomeCS",
+  "title" : "Outcome Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for outcome assessment",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "resolved",
+    "display" : "Resolved",
+    "definition" : "The condition or issue has been resolved"
+  },
+  {
+    "code" : "improved",
+    "display" : "Improved",
+    "definition" : "The condition or issue has improved"
+  },
+  {
+    "code" : "stabilized",
+    "display" : "Stabilized",
+    "definition" : "The condition or issue has stabilized"
+  },
+  {
+    "code" : "in-process",
+    "display" : "In Process",
+    "definition" : "The intervention is still in process"
+  },
+  {
+    "code" : "maintained",
+    "display" : "Maintained",
+    "definition" : "The current state has been maintained"
+  },
+  {
+    "code" : "deteriorated",
+    "display" : "Deteriorated",
+    "definition" : "The condition or issue has deteriorated"
+  }]
+}

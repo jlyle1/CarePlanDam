@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"ProtectiveFactor","ProtectiveFactor","","","",0,*,"","","","null {[]} {[]}
+","Protective Factor","A factor that protects against health risks or barriers","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ProtectiveFactor.refersTo","ProtectiveFactor.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"ProtectiveFactor.hasAuthor","ProtectiveFactor.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"ProtectiveFactor.contains","ProtectiveFactor.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"ProtectiveFactor.factor","ProtectiveFactor.factor","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","The protective factor","The protective factor","","","","","","","","","",,,,,"",,,,"ProtectiveFactor.factor",1,1,"",""
+"ProtectiveFactor.comment","ProtectiveFactor.comment","","","",1,1,"","","","string {[]} {[]}
+","Additional comments","Additional comments","","","","","","","","","",,,,,"",,,,"ProtectiveFactor.comment",1,1,"",""
+"ProtectiveFactor.mitigatesRisk","ProtectiveFactor.mitigatesRisk","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/HealthRisk]]}
+","Health risks mitigated by this factor","Health risks mitigated by this factor","","","","","","","","","",,,,,"",,,,"ProtectiveFactor.mitigatesRisk",0,*,"",""
+"ProtectiveFactor.mitigatesBarrier","ProtectiveFactor.mitigatesBarrier","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Barrier]]}
+","Barriers mitigated by this factor","Barriers mitigated by this factor","","","","","","","","","",,,,,"",,,,"ProtectiveFactor.mitigatesBarrier",0,*,"",""
+"ProtectiveFactor.supportsActivity","ProtectiveFactor.supportsActivity","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/PlannedActivity]]}
+","Activities supported by this factor","Activities supported by this factor","","","","","","","","","",,,,,"",,,,"ProtectiveFactor.supportsActivity",0,*,"",""

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="acknowledgement-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem acknowledgement-cs</b></p><a name="acknowledgement-cs"> </a><a name="hcacknowledgement-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/acknowledgement-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">acknowledge<a name="acknowledgement-cs-acknowledge"> </a></td><td>Acknowledge</td><td>Acknowledges the element without agreement or disagreement</td></tr><tr><td style="white-space:nowrap">assert<a name="acknowledgement-cs-assert"> </a></td><td>Assert</td><td>Asserts the element as true or valid</td></tr><tr><td style="white-space:nowrap">agree<a name="acknowledgement-cs-agree"> </a></td><td>Agree</td><td>Agrees with the element</td></tr><tr><td style="white-space:nowrap">disagree<a name="acknowledgement-cs-disagree"> </a></td><td>Disagree</td><td>Disagrees with the element</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/acknowledgement-cs"/>
+  <version value="0.1.0"/>
+  <name value="AcknowledgementCS"/>
+  <title value="Acknowledgement Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for acknowledgment decisions"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="acknowledge"/>
+    <display value="Acknowledge"/>
+    <definition value="Acknowledges the element without agreement or disagreement"/>
+  </concept>
+  <concept>
+    <code value="assert"/>
+    <display value="Assert"/>
+    <definition value="Asserts the element as true or valid"/>
+  </concept>
+  <concept>
+    <code value="agree"/>
+    <display value="Agree"/>
+    <definition value="Agrees with the element"/>
+  </concept>
+  <concept>
+    <code value="disagree"/>
+    <display value="Disagree"/>
+    <definition value="Disagrees with the element"/>
+  </concept>
+</CodeSystem>
