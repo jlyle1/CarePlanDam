@@ -1,0 +1,45 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "careplan-specification-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem careplan-specification-type-cs</b></p><a name=\"careplan-specification-type-cs\"> </a><a name=\"hccareplan-specification-type-cs\"> </a><p>This  code system <code>http://hl7.org/dam/CodeSystem/careplan-specification-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">unstructured-document<a name=\"careplan-specification-type-cs-unstructured-document\"> </a></td><td>Unstructured document</td></tr><tr><td style=\"white-space:nowrap\">structured-document<a name=\"careplan-specification-type-cs-structured-document\"> </a></td><td>Structured document</td></tr><tr><td style=\"white-space:nowrap\">authored-plan<a name=\"careplan-specification-type-cs-authored-plan\"> </a></td><td>Authored plan</td></tr><tr><td style=\"white-space:nowrap\">rule-based-api-dataset<a name=\"careplan-specification-type-cs-rule-based-api-dataset\"> </a></td><td>Rule-based API Dataset</td></tr><tr><td style=\"white-space:nowrap\">system-defined-rules<a name=\"careplan-specification-type-cs-system-defined-rules\"> </a></td><td>System-defined rules</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/careplan-specification-type-cs",
+  "version" : "0.1.0",
+  "name" : "CarePlanSpecificationTypeCS",
+  "title" : "Care Plan Specification Type",
+  "status" : "draft",
+  "date" : "2025-10-03T17:37:02-04:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Types of specifications for care plans.",
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "unstructured-document",
+    "display" : "Unstructured document"
+  },
+  {
+    "code" : "structured-document",
+    "display" : "Structured document"
+  },
+  {
+    "code" : "authored-plan",
+    "display" : "Authored plan"
+  },
+  {
+    "code" : "rule-based-api-dataset",
+    "display" : "Rule-based API Dataset"
+  },
+  {
+    "code" : "system-defined-rules",
+    "display" : "System-defined rules"
+  }]
+}

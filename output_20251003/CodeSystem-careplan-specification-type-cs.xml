@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="careplan-specification-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem careplan-specification-type-cs</b></p><a name="careplan-specification-type-cs"> </a><a name="hccareplan-specification-type-cs"> </a><p>This  code system <code>http://hl7.org/dam/CodeSystem/careplan-specification-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">unstructured-document<a name="careplan-specification-type-cs-unstructured-document"> </a></td><td>Unstructured document</td></tr><tr><td style="white-space:nowrap">structured-document<a name="careplan-specification-type-cs-structured-document"> </a></td><td>Structured document</td></tr><tr><td style="white-space:nowrap">authored-plan<a name="careplan-specification-type-cs-authored-plan"> </a></td><td>Authored plan</td></tr><tr><td style="white-space:nowrap">rule-based-api-dataset<a name="careplan-specification-type-cs-rule-based-api-dataset"> </a></td><td>Rule-based API Dataset</td></tr><tr><td style="white-space:nowrap">system-defined-rules<a name="careplan-specification-type-cs-system-defined-rules"> </a></td><td>System-defined rules</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/careplan-specification-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="CarePlanSpecificationTypeCS"/>
+  <title value="Care Plan Specification Type"/>
+  <status value="draft"/>
+  <date value="2025-10-03T17:37:02-04:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Types of specifications for care plans."/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="unstructured-document"/>
+    <display value="Unstructured document"/>
+  </concept>
+  <concept>
+    <code value="structured-document"/>
+    <display value="Structured document"/>
+  </concept>
+  <concept>
+    <code value="authored-plan"/>
+    <display value="Authored plan"/>
+  </concept>
+  <concept>
+    <code value="rule-based-api-dataset"/>
+    <display value="Rule-based API Dataset"/>
+  </concept>
+  <concept>
+    <code value="system-defined-rules"/>
+    <display value="System-defined rules"/>
+  </concept>
+</CodeSystem>

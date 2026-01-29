@@ -1,0 +1,41 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"PlannedActivity","PlannedActivity","","","",0,*,"","","","null {[]} {[]}
+","Planned Activity","An activity planned as part of the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"PlannedActivity.refersTo","PlannedActivity.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"PlannedActivity.hasAuthor","PlannedActivity.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"PlannedActivity.contains","PlannedActivity.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"PlannedActivity.composable","PlannedActivity.composable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Composable {[]} {[]}
+","Composable pattern properties","Composable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.composable",1,1,"",""
+"PlannedActivity.acknowledgeable","PlannedActivity.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
+","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.acknowledgeable",1,1,"",""
+"PlannedActivity.prioritizable","PlannedActivity.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
+","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.prioritizable",1,1,"",""
+"PlannedActivity.revisable","PlannedActivity.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
+","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.revisable",1,1,"",""
+"PlannedActivity.targetPeriod","PlannedActivity.targetPeriod","","","",1,1,"","","","Period {[]} {[]}
+","Target time period for the activity","Target time period for the activity","","","","","","","","","",,,,,"",,,,"PlannedActivity.targetPeriod",1,1,"",""
+"PlannedActivity.activity","PlannedActivity.activity","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","The activity to be performed","The activity to be performed","","","","","","","","","",,,,,"",,,,"PlannedActivity.activity",1,1,"",""
+"PlannedActivity.classification","PlannedActivity.classification","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Classification of the activity","Classification of the activity","","","","","","","","","",,,,,"",,,,"PlannedActivity.classification",1,1,"",""
+"PlannedActivity.targetFrequency","PlannedActivity.targetFrequency","","","",1,1,"","","","Quantity {[]} {[]}
+","Target frequency of the activity","Target frequency of the activity","","","","","","","","","",,,,,"",,,,"PlannedActivity.targetFrequency",1,1,"",""
+"PlannedActivity.preCondition","PlannedActivity.preCondition","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Preconditions for the activity","Preconditions for the activity","","","","","","","","","",,,,,"",,,,"PlannedActivity.preCondition",1,1,"",""
+"PlannedActivity.postCondition","PlannedActivity.postCondition","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Expected postconditions","Expected postconditions","","","","","","","","","",,,,,"",,,,"PlannedActivity.postCondition",1,1,"",""
+"PlannedActivity.supportingContent","PlannedActivity.supportingContent","","","",1,1,"","","","string {[]} {[]}
+","Supporting content or instructions","Supporting content or instructions","","","","","","","","","",,,,,"",,,,"PlannedActivity.supportingContent",1,1,"",""
+"PlannedActivity.needs","PlannedActivity.needs","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/ResourceRequirement]]}
+","Resources needed","Resources needed","","","","","","","","","",,,,,"",,,,"PlannedActivity.needs",0,*,"",""
+"PlannedActivity.supports","PlannedActivity.supports","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Goal]]}
+","Goals this activity supports","Goals this activity supports","","","","","","","","","",,,,,"",,,,"PlannedActivity.supports",1,*,"",""
+"PlannedActivity.mitigatesRisk","PlannedActivity.mitigatesRisk","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/HealthRisk]]}
+","Health risks mitigated","Health risks mitigated","","","","","","","","","",,,,,"",,,,"PlannedActivity.mitigatesRisk",0,*,"",""
+"PlannedActivity.presentsRisk","PlannedActivity.presentsRisk","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/HealthRisk]]}
+","Health risks presented by this activity","Health risks presented by this activity","","","","","","","","","",,,,,"",,,,"PlannedActivity.presentsRisk",0,*,"",""
+"PlannedActivity.basedOnGuideline","PlannedActivity.basedOnGuideline","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Guideline]]}
+","Guidelines this activity is based on","Guidelines this activity is based on","","","","","","","","","",,,,,"",,,,"PlannedActivity.basedOnGuideline",0,*,"",""

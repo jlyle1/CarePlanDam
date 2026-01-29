@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="specification-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem specification-type-cs</b></p><a name="specification-type-cs"> </a><a name="hcspecification-type-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/specification-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">rule-based-structured-document<a name="specification-type-cs-rule-based-structured-document"> </a></td><td>Rule-based Structured Document</td><td>Care plan as a rule-based structured document</td></tr><tr><td style="white-space:nowrap">rule-based-ui-dataset<a name="specification-type-cs-rule-based-ui-dataset"> </a></td><td>Rule-based UI Dataset</td><td>Care plan as a rule-based UI dataset</td></tr><tr><td style="white-space:nowrap">authored-structured-plan<a name="specification-type-cs-authored-structured-plan"> </a></td><td>Authored Structured Plan</td><td>Care plan as an authored structured plan</td></tr><tr><td style="white-space:nowrap">rule-based-api-dataset<a name="specification-type-cs-rule-based-api-dataset"> </a></td><td>Rule-based API Dataset</td><td>Care plan as a rule-based API dataset</td></tr><tr><td style="white-space:nowrap">unstructured-note<a name="specification-type-cs-unstructured-note"> </a></td><td>Unstructured Note</td><td>Care plan as an unstructured note</td></tr><tr><td style="white-space:nowrap">aggregation<a name="specification-type-cs-aggregation"> </a></td><td>Aggregation</td><td>Care plan as an aggregation of other plans</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/specification-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="SpecificationTypeCS"/>
+  <title value="Specification Type Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for care plan specification types"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="rule-based-structured-document"/>
+    <display value="Rule-based Structured Document"/>
+    <definition value="Care plan as a rule-based structured document"/>
+  </concept>
+  <concept>
+    <code value="rule-based-ui-dataset"/>
+    <display value="Rule-based UI Dataset"/>
+    <definition value="Care plan as a rule-based UI dataset"/>
+  </concept>
+  <concept>
+    <code value="authored-structured-plan"/>
+    <display value="Authored Structured Plan"/>
+    <definition value="Care plan as an authored structured plan"/>
+  </concept>
+  <concept>
+    <code value="rule-based-api-dataset"/>
+    <display value="Rule-based API Dataset"/>
+    <definition value="Care plan as a rule-based API dataset"/>
+  </concept>
+  <concept>
+    <code value="unstructured-note"/>
+    <display value="Unstructured Note"/>
+    <definition value="Care plan as an unstructured note"/>
+  </concept>
+  <concept>
+    <code value="aggregation"/>
+    <display value="Aggregation"/>
+    <definition value="Care plan as an aggregation of other plans"/>
+  </concept>
+</CodeSystem>

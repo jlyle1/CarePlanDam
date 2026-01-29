@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="careplan-status-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet careplan-status-vs</b></p><a name="careplan-status-vs"> </a><a name="hccareplan-status-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-careplan-status-cs.html"><code>http://hl7.org/dam/CodeSystem/careplan-status-cs</code></a> version <span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://hl7.org/dam/ValueSet/careplan-status-vs"/>
+  <version value="0.1.0"/>
+  <name value="CarePlanStatusVS"/>
+  <title value="Care Plan Status Value Set"/>
+  <status value="draft"/>
+  <date value="2025-10-03T17:37:02-04:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="A value set for care plan statuses."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+    </include>
+  </compose>
+</ValueSet>

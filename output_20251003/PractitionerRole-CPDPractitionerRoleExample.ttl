@@ -1,0 +1,22 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/PractitionerRole/CPDPractitionerRoleExample> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CPDPractitionerRoleExample"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole CPDPractitionerRoleExample</b></p><a name=\"CPDPractitionerRoleExample\"> </a><a name=\"hcCPDPractitionerRoleExample\"> </a><p><b>practitioner</b>: <a href=\"Practitioner-CPDPractitionerExample.html\">Practitioner Mary Smith </a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:practitioner [
+     fhir:link <http://hl7.org/dam/Practitioner/CPDPractitionerExample> ;
+     fhir:reference [ fhir:v "Practitioner/CPDPractitionerExample" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/dam/ValueSet/careplan-purpose-vs,0.1.0,draft,,CarePlanPurposeVS,Care Plan Purpose Value Set,"A value set for care plan purposes",,"Internal"
+http://hl7.org/dam/ValueSet/careplan-specification-type-vs,0.1.0,draft,,CarePlanSpecificationTypeVS,Care Plan Specification Type Value Set,"A value set for care plan specification types.",,"Internal"
+http://hl7.org/dam/ValueSet/careplan-status-vs,0.1.0,draft,,CarePlanStatusVS,Care Plan Status Value Set,"A value set for care plan statuses.",,"Internal"

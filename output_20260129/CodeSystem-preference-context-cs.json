@@ -1,0 +1,56 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "preference-context-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem preference-context-cs</b></p><a name=\"preference-context-cs\"> </a><a name=\"hcpreference-context-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/preference-context-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">visitation<a name=\"preference-context-cs-visitation\"> </a></td><td>Visitation</td><td>Preferences about visitation</td></tr><tr><td style=\"white-space:nowrap\">diet<a name=\"preference-context-cs-diet\"> </a></td><td>Diet</td><td>Dietary preferences</td></tr><tr><td style=\"white-space:nowrap\">medication<a name=\"preference-context-cs-medication\"> </a></td><td>Medication</td><td>Medication preferences</td></tr><tr><td style=\"white-space:nowrap\">treatment<a name=\"preference-context-cs-treatment\"> </a></td><td>Treatment</td><td>Treatment preferences</td></tr><tr><td style=\"white-space:nowrap\">discharge-planning<a name=\"preference-context-cs-discharge-planning\"> </a></td><td>Discharge Planning</td><td>Discharge planning preferences</td></tr><tr><td style=\"white-space:nowrap\">care<a name=\"preference-context-cs-care\"> </a></td><td>Care</td><td>General care preferences</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+  "version" : "0.1.0",
+  "name" : "PreferenceContextCS",
+  "title" : "Preference Context Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for preference contexts",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "visitation",
+    "display" : "Visitation",
+    "definition" : "Preferences about visitation"
+  },
+  {
+    "code" : "diet",
+    "display" : "Diet",
+    "definition" : "Dietary preferences"
+  },
+  {
+    "code" : "medication",
+    "display" : "Medication",
+    "definition" : "Medication preferences"
+  },
+  {
+    "code" : "treatment",
+    "display" : "Treatment",
+    "definition" : "Treatment preferences"
+  },
+  {
+    "code" : "discharge-planning",
+    "display" : "Discharge Planning",
+    "definition" : "Discharge planning preferences"
+  },
+  {
+    "code" : "care",
+    "display" : "Care",
+    "definition" : "General care preferences"
+  }]
+}

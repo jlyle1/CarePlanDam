@@ -1,0 +1,17 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"Modification","Modification","","","",0,*,"","","","null {[]} {[]}
+","Modification","A modification made to a plan element","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Modification.refersTo","Modification.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"Modification.hasAuthor","Modification.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"Modification.contains","Modification.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"Modification.item","Modification.item","","","",1,1,"","","","string {[]} {[]}
+","Item being modified","Item being modified","","","","","","","","","",,,,,"",,,,"Modification.item",1,1,"",""
+"Modification.rationale","Modification.rationale","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Rationale for the modification","Rationale for the modification","","","","","","","","","",,,,,"",,,,"Modification.rationale",1,1,"",""
+"Modification.type","Modification.type","","","",1,1,"","","","code {[]} {[]}
+","Type of modification","Type of modification","","","","","","","","","",,"required","","http://hl7.org/dam/ValueSet/modification-type-vs","",,,,"Modification.type",1,1,"",""
+"Modification.modification","Modification.modification","","","",1,1,"","","","string {[]} {[]}
+","Description of the modification","Description of the modification","","","","","","","","","",,,,,"",,,,"Modification.modification",1,1,"",""

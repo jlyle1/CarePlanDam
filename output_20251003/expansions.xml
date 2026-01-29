@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="e8889adf-2af5-4000-a6af-ed5370bbaa03"/>
+  <meta>
+    <lastUpdated value="2025-10-03T17:37:42.548-04:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.org/dam/ValueSet/careplan-purpose-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-careplan-purpose-cs.html">codesystem Care Plan Purpose v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-purpose-cs-home-health"> </a>  
+                  <a href="CodeSystem-careplan-purpose-cs.html#careplan-purpose-cs-home-health">home-health</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-purpose-cs</td>
+                <td>Home health plan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-purpose-cs-trauma-rehabilitation"> </a>  
+                  <a href="CodeSystem-careplan-purpose-cs.html#careplan-purpose-cs-trauma-rehabilitation">trauma-rehabilitation</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-purpose-cs</td>
+                <td>Trauma rehabilitation plan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-purpose-cs-cardiac-rehabilitation"> </a>  
+                  <a href="CodeSystem-careplan-purpose-cs.html#careplan-purpose-cs-cardiac-rehabilitation">cardiac-rehabilitation</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-purpose-cs</td>
+                <td>Cardiac care plan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-purpose-cs-diabetes-management"> </a>  
+                  <a href="CodeSystem-careplan-purpose-cs.html#careplan-purpose-cs-diabetes-management">diabetes-management</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-purpose-cs</td>
+                <td>Diabetes management plan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-purpose-cs-aggregated-plan"> </a>  
+                  <a href="CodeSystem-careplan-purpose-cs.html#careplan-purpose-cs-aggregated-plan">aggregated-plan</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-purpose-cs</td>
+                <td>Aggregated care plan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-purpose-cs-query"> </a>  
+                  <a href="CodeSystem-careplan-purpose-cs.html#careplan-purpose-cs-query">query</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-purpose-cs</td>
+                <td>Query-based care plan</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/dam/ValueSet/careplan-purpose-vs"/>
+        <version value="0.1.0"/>
+        <name value="CarePlanPurposeVS"/>
+        <title value="Care Plan Purpose Value Set"/>
+        <status value="draft"/>
+        <date value="2025-10-03T17:37:02-04:00"/>
+        <expansion>
+          <identifier value="urn:uuid:61b1a7c8-37b9-41ca-bf76-82b4511627da"/>
+          <timestamp value="2025-10-03T17:37:56-04:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/dam/CodeSystem/careplan-purpose-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-purpose-cs"/>
+            <code value="home-health"/>
+            <display value="Home health plan"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-purpose-cs"/>
+            <code value="trauma-rehabilitation"/>
+            <display value="Trauma rehabilitation plan"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-purpose-cs"/>
+            <code value="cardiac-rehabilitation"/>
+            <display value="Cardiac care plan"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-purpose-cs"/>
+            <code value="diabetes-management"/>
+            <display value="Diabetes management plan"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-purpose-cs"/>
+            <code value="aggregated-plan"/>
+            <display value="Aggregated care plan"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-purpose-cs"/>
+            <code value="query"/>
+            <display value="Query-based care plan"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/dam/ValueSet/careplan-specification-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-careplan-specification-type-cs.html">codesystem Care Plan Specification Type v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-specification-type-cs-unstructured-document"> </a>  
+                  <a href="CodeSystem-careplan-specification-type-cs.html#careplan-specification-type-cs-unstructured-document">unstructured-document</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-specification-type-cs</td>
+                <td>Unstructured document</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-specification-type-cs-structured-document"> </a>  
+                  <a href="CodeSystem-careplan-specification-type-cs.html#careplan-specification-type-cs-structured-document">structured-document</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-specification-type-cs</td>
+                <td>Structured document</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-specification-type-cs-authored-plan"> </a>  
+                  <a href="CodeSystem-careplan-specification-type-cs.html#careplan-specification-type-cs-authored-plan">authored-plan</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-specification-type-cs</td>
+                <td>Authored plan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-specification-type-cs-rule-based-api-dataset"> </a>  
+                  <a href="CodeSystem-careplan-specification-type-cs.html#careplan-specification-type-cs-rule-based-api-dataset">rule-based-api-dataset</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-specification-type-cs</td>
+                <td>Rule-based API Dataset</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-specification-type-cs-system-defined-rules"> </a>  
+                  <a href="CodeSystem-careplan-specification-type-cs.html#careplan-specification-type-cs-system-defined-rules">system-defined-rules</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-specification-type-cs</td>
+                <td>System-defined rules</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/dam/ValueSet/careplan-specification-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="CarePlanSpecificationTypeVS"/>
+        <title value="Care Plan Specification Type Value Set"/>
+        <status value="draft"/>
+        <date value="2025-10-03T17:37:02-04:00"/>
+        <expansion>
+          <identifier value="urn:uuid:82cdd2a8-f7c8-4478-8e09-2a72b1ebf1ea"/>
+          <timestamp value="2025-10-03T17:37:56-04:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/dam/CodeSystem/careplan-specification-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-specification-type-cs"/>
+            <code value="unstructured-document"/>
+            <display value="Unstructured document"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-specification-type-cs"/>
+            <code value="structured-document"/>
+            <display value="Structured document"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-specification-type-cs"/>
+            <code value="authored-plan"/>
+            <display value="Authored plan"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-specification-type-cs"/>
+            <code value="rule-based-api-dataset"/>
+            <display value="Rule-based API Dataset"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-specification-type-cs"/>
+            <code value="system-defined-rules"/>
+            <display value="System-defined rules"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/dam/ValueSet/careplan-status-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-careplan-status-cs.html">codesystem Care Plan Status v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-status-cs-proposed"> </a>  
+                  <a href="CodeSystem-careplan-status-cs.html#careplan-status-cs-proposed">proposed</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-status-cs</td>
+                <td>Proposed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-status-cs-in-progress"> </a>  
+                  <a href="CodeSystem-careplan-status-cs.html#careplan-status-cs-in-progress">in-progress</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-status-cs</td>
+                <td>In Progress</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-status-cs-completed"> </a>  
+                  <a href="CodeSystem-careplan-status-cs.html#careplan-status-cs-completed">completed</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-status-cs</td>
+                <td>Completed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-status-cs-on-hold"> </a>  
+                  <a href="CodeSystem-careplan-status-cs.html#careplan-status-cs-on-hold">on-hold</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-status-cs</td>
+                <td>On Hold</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-status-cs-aborted"> </a>  
+                  <a href="CodeSystem-careplan-status-cs.html#careplan-status-cs-aborted">aborted</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-status-cs</td>
+                <td>Aborted</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-status-cs-cancelled"> </a>  
+                  <a href="CodeSystem-careplan-status-cs.html#careplan-status-cs-cancelled">cancelled</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-status-cs</td>
+                <td>Cancelled</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/dam/CodeSystem/careplan-status-cs-snapshot"> </a>  
+                  <a href="CodeSystem-careplan-status-cs.html#careplan-status-cs-snapshot">snapshot</a>
+                </td>
+                <td>http://hl7.org/dam/CodeSystem/careplan-status-cs</td>
+                <td>Snapshot</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/dam/ValueSet/careplan-status-vs"/>
+        <version value="0.1.0"/>
+        <name value="CarePlanStatusVS"/>
+        <title value="Care Plan Status Value Set"/>
+        <status value="draft"/>
+        <date value="2025-10-03T17:37:02-04:00"/>
+        <expansion>
+          <identifier value="urn:uuid:0cf91f1e-5b9b-490e-9303-dfe1515cd200"/>
+          <timestamp value="2025-10-03T17:37:57-04:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/dam/CodeSystem/careplan-status-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+            <code value="proposed"/>
+            <display value="Proposed"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+            <code value="in-progress"/>
+            <display value="In Progress"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+            <code value="completed"/>
+            <display value="Completed"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+            <code value="on-hold"/>
+            <display value="On Hold"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+            <code value="aborted"/>
+            <display value="Aborted"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+            <code value="cancelled"/>
+            <display value="Cancelled"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+            <code value="snapshot"/>
+            <display value="Snapshot"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

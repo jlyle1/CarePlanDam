@@ -1,0 +1,11 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"Review","Review","","","",0,*,"","","","null {[]} {[]}
+","Review","Abstract pattern for review activities","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Review.order","Review.order","","","",1,1,"","","","integer {[]} {[]}
+","Order within the parent composition","Order within the parent composition","","","","","","","","","",,,,,"",,,,"Composable.order",1,1,"",""
+"Review.constitutive","Review.constitutive","","","",1,1,"","","","code {[]} {[]}
+","Whether this element is constitutive of the parent","Whether this element is constitutive of the parent","","","","","","","","","",,,,,"",,,,"Composable.constitutive",1,1,"",""
+"Review.partOf","Review.partOf","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Composable]]}
+","Parent composable element","Parent composable element","","","","","","","","","",,,,,"",,,,"Composable.partOf",0,1,"",""
+"Review.note","Review.note","","","",1,1,"","","","string {[]} {[]}
+","Notes from the review","Notes from the review","","","","","","","","","",,,,,"",,,,"Review.note",1,1,"",""

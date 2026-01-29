@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="careplan-status-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem careplan-status-cs</b></p><a name="careplan-status-cs"> </a><a name="hccareplan-status-cs"> </a><p>This  code system <code>http://hl7.org/dam/CodeSystem/careplan-status-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">proposed<a name="careplan-status-cs-proposed"> </a></td><td>Proposed</td></tr><tr><td style="white-space:nowrap">in-progress<a name="careplan-status-cs-in-progress"> </a></td><td>In Progress</td></tr><tr><td style="white-space:nowrap">completed<a name="careplan-status-cs-completed"> </a></td><td>Completed</td></tr><tr><td style="white-space:nowrap">on-hold<a name="careplan-status-cs-on-hold"> </a></td><td>On Hold</td></tr><tr><td style="white-space:nowrap">aborted<a name="careplan-status-cs-aborted"> </a></td><td>Aborted</td></tr><tr><td style="white-space:nowrap">cancelled<a name="careplan-status-cs-cancelled"> </a></td><td>Cancelled</td></tr><tr><td style="white-space:nowrap">snapshot<a name="careplan-status-cs-snapshot"> </a></td><td>Snapshot</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/careplan-status-cs"/>
+  <version value="0.1.0"/>
+  <name value="CarePlanStatusCS"/>
+  <title value="Care Plan Status"/>
+  <status value="draft"/>
+  <date value="2025-10-03T17:37:02-04:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Statuses for care plans"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="proposed"/>
+    <display value="Proposed"/>
+  </concept>
+  <concept>
+    <code value="in-progress"/>
+    <display value="In Progress"/>
+  </concept>
+  <concept>
+    <code value="completed"/>
+    <display value="Completed"/>
+  </concept>
+  <concept>
+    <code value="on-hold"/>
+    <display value="On Hold"/>
+  </concept>
+  <concept>
+    <code value="aborted"/>
+    <display value="Aborted"/>
+  </concept>
+  <concept>
+    <code value="cancelled"/>
+    <display value="Cancelled"/>
+  </concept>
+  <concept>
+    <code value="snapshot"/>
+    <display value="Snapshot"/>
+  </concept>
+</CodeSystem>

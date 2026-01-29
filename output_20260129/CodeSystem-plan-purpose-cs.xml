@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="plan-purpose-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem plan-purpose-cs</b></p><a name="plan-purpose-cs"> </a><a name="hcplan-purpose-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/plan-purpose-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">diabetes-mellitus<a name="plan-purpose-cs-diabetes-mellitus"> </a></td><td>Diabetes Mellitus</td><td>Care plan for diabetes mellitus management</td></tr><tr><td style="white-space:nowrap">cardiac<a name="plan-purpose-cs-cardiac"> </a></td><td>Cardiac</td><td>Care plan for cardiac conditions</td></tr><tr><td style="white-space:nowrap">home-health-care<a name="plan-purpose-cs-home-health-care"> </a></td><td>Home Health Care</td><td>Care plan for home health care</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/plan-purpose-cs"/>
+  <version value="0.1.0"/>
+  <name value="PlanPurposeCS"/>
+  <title value="Plan Purpose Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for care plan purposes"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="diabetes-mellitus"/>
+    <display value="Diabetes Mellitus"/>
+    <definition value="Care plan for diabetes mellitus management"/>
+  </concept>
+  <concept>
+    <code value="cardiac"/>
+    <display value="Cardiac"/>
+    <definition value="Care plan for cardiac conditions"/>
+  </concept>
+  <concept>
+    <code value="home-health-care"/>
+    <display value="Home Health Care"/>
+    <definition value="Care plan for home health care"/>
+  </concept>
+</CodeSystem>

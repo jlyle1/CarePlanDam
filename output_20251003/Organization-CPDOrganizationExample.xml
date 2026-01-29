@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="CPDOrganizationExample"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Organization CPDOrganizationExample</b></p><a name="CPDOrganizationExample"> </a><a name="hcCPDOrganizationExample"> </a><p><b>name</b>: The Very Big Corporation of America</p></div>
+  </text>
+  <name value="The Very Big Corporation of America"/>
+</Organization>

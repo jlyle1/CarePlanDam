@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="CPDPractitionerExample"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner CPDPractitionerExample</b></p><a name="CPDPractitionerExample"> </a><a name="hcCPDPractitionerExample"> </a><p><b>name</b>: Mary Smith </p></div>
+  </text>
+  <name>
+    <family value="Smith"/>
+    <given value="Mary"/>
+  </name>
+</Practitioner>

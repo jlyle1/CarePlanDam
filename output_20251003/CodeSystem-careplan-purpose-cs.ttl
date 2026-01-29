@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/CodeSystem/careplan-purpose-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "careplan-purpose-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem careplan-purpose-cs</b></p><a name=\"careplan-purpose-cs\"> </a><a name=\"hccareplan-purpose-cs\"> </a><p>This  code system <code>http://hl7.org/dam/CodeSystem/careplan-purpose-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">home-health<a name=\"careplan-purpose-cs-home-health\"> </a></td><td>Home health plan</td></tr><tr><td style=\"white-space:nowrap\">trauma-rehabilitation<a name=\"careplan-purpose-cs-trauma-rehabilitation\"> </a></td><td>Trauma rehabilitation plan</td></tr><tr><td style=\"white-space:nowrap\">cardiac-rehabilitation<a name=\"careplan-purpose-cs-cardiac-rehabilitation\"> </a></td><td>Cardiac care plan</td></tr><tr><td style=\"white-space:nowrap\">diabetes-management<a name=\"careplan-purpose-cs-diabetes-management\"> </a></td><td>Diabetes management plan</td></tr><tr><td style=\"white-space:nowrap\">aggregated-plan<a name=\"careplan-purpose-cs-aggregated-plan\"> </a></td><td>Aggregated care plan</td></tr><tr><td style=\"white-space:nowrap\">query<a name=\"careplan-purpose-cs-query\"> </a></td><td>Query-based care plan</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.org/dam/CodeSystem/careplan-purpose-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CarePlanPurposeCS"] ; # 
+  fhir:title [ fhir:v "Care Plan Purpose"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-10-03T17:37:02-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Types of purposes for care plans"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "home-health" ] ;
+     fhir:display [ fhir:v "Home health plan" ]
+  ] [
+     fhir:code [ fhir:v "trauma-rehabilitation" ] ;
+     fhir:display [ fhir:v "Trauma rehabilitation plan" ]
+  ] [
+     fhir:code [ fhir:v "cardiac-rehabilitation" ] ;
+     fhir:display [ fhir:v "Cardiac care plan" ]
+  ] [
+     fhir:code [ fhir:v "diabetes-management" ] ;
+     fhir:display [ fhir:v "Diabetes management plan" ]
+  ] [
+     fhir:code [ fhir:v "aggregated-plan" ] ;
+     fhir:display [ fhir:v "Aggregated care plan" ]
+  ] [
+     fhir:code [ fhir:v "query" ] ;
+     fhir:display [ fhir:v "Query-based care plan" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

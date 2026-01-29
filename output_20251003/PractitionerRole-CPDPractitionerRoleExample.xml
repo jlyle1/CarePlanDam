@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="CPDPractitionerRoleExample"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PractitionerRole CPDPractitionerRoleExample</b></p><a name="CPDPractitionerRoleExample"> </a><a name="hcCPDPractitionerRoleExample"> </a><p><b>practitioner</b>: <a href="Practitioner-CPDPractitionerExample.html">Practitioner Mary Smith </a></p></div>
+  </text>
+  <practitioner>
+    <reference value="Practitioner/CPDPractitionerExample"/>
+  </practitioner>
+</PractitionerRole>

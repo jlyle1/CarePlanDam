@@ -1,0 +1,65 @@
+[
+  {
+    "id" : "careplan-purpose-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/careplan-purpose-cs",
+    "version" : "0.1.0",
+    "name" : "CarePlanPurposeCS"
+  },
+  {
+    "id" : "careplan-specification-type-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/careplan-specification-type-cs",
+    "version" : "0.1.0",
+    "name" : "CarePlanSpecificationTypeCS"
+  },
+  {
+    "id" : "careplan-status-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/dam/CodeSystem/careplan-status-cs",
+    "version" : "0.1.0",
+    "name" : "CarePlanStatusCS"
+  },
+  {
+    "id" : "careplandam",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/dam/ImplementationGuide/careplandam",
+    "version" : "0.1.0",
+    "name" : "CarePlanDAM"
+  },
+  {
+    "id" : "CPDPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/CPDPatient",
+    "version" : "0.1.0",
+    "name" : "CPDPatient"
+  },
+  {
+    "id" : "careplan-logical-model",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/careplan-logical-model",
+    "version" : "0.1.0",
+    "name" : "CarePlan"
+  },
+  {
+    "id" : "careplan-purpose-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/careplan-purpose-vs",
+    "version" : "0.1.0",
+    "name" : "CarePlanPurposeVS"
+  },
+  {
+    "id" : "careplan-specification-type-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/careplan-specification-type-vs",
+    "version" : "0.1.0",
+    "name" : "CarePlanSpecificationTypeVS"
+  },
+  {
+    "id" : "careplan-status-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/dam/ValueSet/careplan-status-vs",
+    "version" : "0.1.0",
+    "name" : "CarePlanStatusVS"
+  }
+]

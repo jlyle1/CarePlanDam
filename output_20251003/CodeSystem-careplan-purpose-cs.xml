@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="careplan-purpose-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem careplan-purpose-cs</b></p><a name="careplan-purpose-cs"> </a><a name="hccareplan-purpose-cs"> </a><p>This  code system <code>http://hl7.org/dam/CodeSystem/careplan-purpose-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">home-health<a name="careplan-purpose-cs-home-health"> </a></td><td>Home health plan</td></tr><tr><td style="white-space:nowrap">trauma-rehabilitation<a name="careplan-purpose-cs-trauma-rehabilitation"> </a></td><td>Trauma rehabilitation plan</td></tr><tr><td style="white-space:nowrap">cardiac-rehabilitation<a name="careplan-purpose-cs-cardiac-rehabilitation"> </a></td><td>Cardiac care plan</td></tr><tr><td style="white-space:nowrap">diabetes-management<a name="careplan-purpose-cs-diabetes-management"> </a></td><td>Diabetes management plan</td></tr><tr><td style="white-space:nowrap">aggregated-plan<a name="careplan-purpose-cs-aggregated-plan"> </a></td><td>Aggregated care plan</td></tr><tr><td style="white-space:nowrap">query<a name="careplan-purpose-cs-query"> </a></td><td>Query-based care plan</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/careplan-purpose-cs"/>
+  <version value="0.1.0"/>
+  <name value="CarePlanPurposeCS"/>
+  <title value="Care Plan Purpose"/>
+  <status value="draft"/>
+  <date value="2025-10-03T17:37:02-04:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Types of purposes for care plans"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="home-health"/>
+    <display value="Home health plan"/>
+  </concept>
+  <concept>
+    <code value="trauma-rehabilitation"/>
+    <display value="Trauma rehabilitation plan"/>
+  </concept>
+  <concept>
+    <code value="cardiac-rehabilitation"/>
+    <display value="Cardiac care plan"/>
+  </concept>
+  <concept>
+    <code value="diabetes-management"/>
+    <display value="Diabetes management plan"/>
+  </concept>
+  <concept>
+    <code value="aggregated-plan"/>
+    <display value="Aggregated care plan"/>
+  </concept>
+  <concept>
+    <code value="query"/>
+    <display value="Query-based care plan"/>
+  </concept>
+</CodeSystem>

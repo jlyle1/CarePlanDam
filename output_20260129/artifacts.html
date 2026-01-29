@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary -  v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">CarePlanDAM - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/dam/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Logical Models</a>
+      </li>
+      <li>
+         <a href="#2">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Code Systems</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Logical Models </h3>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-AcceptanceReview.html"
+                  title="StructureDefinition/AcceptanceReview">Acceptance Review</a>
+            </td>
+            <td>
+<p>A review where acknowledgment decisions are made about plan elements</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Acknowledgeable.html"
+                  title="StructureDefinition/Acknowledgeable">Acknowledgeable</a>
+            </td>
+            <td>
+<p>Abstract pattern for elements that can be acknowledged or agreed upon</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ActivityExecution.html"
+                  title="StructureDefinition/ActivityExecution">Activity Execution</a>
+            </td>
+            <td>
+<p>An execution of a planned activity</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ActivityOutcomeObservation.html"
+                  title="StructureDefinition/ActivityOutcomeObservation">Activity Outcome Observation</a>
+            </td>
+            <td>
+<p>An observation characterizing the outcome of an activity execution</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Barrier.html"
+                  title="StructureDefinition/Barrier">Barrier</a>
+            </td>
+            <td>
+<p>A barrier that impedes progress toward goals or planned activities</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-CareDeliveryResource.html"
+                  title="StructureDefinition/CareDeliveryResource">Care Delivery Resource</a>
+            </td>
+            <td>
+<p>A resource used in care delivery</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-CarePlanManifestation.html"
+                  title="StructureDefinition/CarePlanManifestation">Care Plan Manifestation</a>
+            </td>
+            <td>
+<p>A manifestation of a care plan - a specific instance of a care plan at a point in time</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-CarePlanPatient.html"
+                  title="StructureDefinition/CarePlanPatient">Care Plan Patient</a>
+            </td>
+            <td>
+<p>The patient who is the subject of the care plan</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-CareTeam.html"
+                  title="StructureDefinition/CareTeam">Care Team</a>
+            </td>
+            <td>
+<p>A team of individuals involved in the patient's care. For more details, consult the Care Team Domain Analysis Model.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-CareTeamMember.html"
+                  title="StructureDefinition/CareTeamMember">Care Team Member</a>
+            </td>
+            <td>
+<p>A member of the care team participating in the care plan</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Communication.html"
+                  title="StructureDefinition/Communication">Communication</a>
+            </td>
+            <td>
+<p>A communication event related to the care plan</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-CommunicationThread.html"
+                  title="StructureDefinition/CommunicationThread">Communication Thread</a>
+            </td>
+            <td>
+<p>A thread of related communications</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Composable.html"
+                  title="StructureDefinition/Composable">Composable</a>
+            </td>
+            <td>
+<p>Abstract pattern for elements that can be organized hierarchically</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Concern.html"
+                  title="StructureDefinition/Concern">Concern</a>
+            </td>
+            <td>
+<p>A health concern or condition addressed by the care plan</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Expressible.html"
+                  title="StructureDefinition/Expressible">Expressible</a>
+            </td>
+            <td>
+<p>Abstract pattern for elements that can be expressed by a care team member</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Goal.html" title="StructureDefinition/Goal">Goal</a>
+            </td>
+            <td>
+<p>A goal in the care plan. Possible relationship to concern, planned activity, performed activity, observation.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Guideline.html"
+                  title="StructureDefinition/Guideline">Guideline</a>
+            </td>
+            <td>
+<p>A clinical guideline that informs the care plan</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-HealthRisk.html"
+                  title="StructureDefinition/HealthRisk">Health Risk</a>
+            </td>
+            <td>
+<p>A health risk identified for the patient</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Modification.html"
+                  title="StructureDefinition/Modification">Modification</a>
+            </td>
+            <td>
+<p>A modification made to a plan element</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Organization.html"
+                  title="StructureDefinition/Organization">Organization</a>
+            </td>
+            <td>
+<p>An organization involved in care delivery</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-OutcomeReview.html"
+                  title="StructureDefinition/OutcomeReview">Outcome Review</a>
+            </td>
+            <td>
+<p>A review assessing outcomes of performable elements</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Performable.html"
+                  title="StructureDefinition/Performable">Performable</a>
+            </td>
+            <td>
+<p>Abstract pattern for elements that have a performance lifecycle</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-PlanDefinition.html"
+                  title="StructureDefinition/PlanDefinition">Plan Definition</a>
+            </td>
+            <td>
+<p>A definition or template for care plans</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-PlanElement.html"
+                  title="StructureDefinition/PlanElement">Plan Element</a>
+            </td>
+            <td>
+<p>Abstract base for all care plan content elements. All plan elements are specific to a Patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-PlannedActivity.html"
+                  title="StructureDefinition/PlannedActivity">Planned Activity</a>
+            </td>
+            <td>
+<p>An activity planned as part of the care plan</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Preference.html"
+                  title="StructureDefinition/Preference">Preference</a>
+            </td>
+            <td>
+<p>A patient or care team preference that informs care planning</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Prioritizable.html"
+                  title="StructureDefinition/Prioritizable">Prioritizable</a>
+            </td>
+            <td>
+<p>Abstract pattern for elements that can be prioritized</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ProtectiveFactor.html"
+                  title="StructureDefinition/ProtectiveFactor">Protective Factor</a>
+            </td>
+            <td>
+<p>A factor that protects against health risks or barriers</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ReconciliationAct.html"
+                  title="StructureDefinition/ReconciliationAct">Reconciliation Act</a>
+            </td>
+            <td>
+<p>An act of reconciling plan elements</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ReconciliationLog.html"
+                  title="StructureDefinition/ReconciliationLog">Reconciliation Log</a>
+            </td>
+            <td>
+<p>A log of reconciliation activities. Reconciliation merges versions of a plan maintained in different places or merges diverse specific plans into overarching plans.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ResourceRequirement.html"
+                  title="StructureDefinition/ResourceRequirement">Resource Requirement</a>
+            </td>
+            <td>
+<p>A requirement for resources to perform an activity</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Review.html"
+                  title="StructureDefinition/Review">Review</a>
+            </td>
+            <td>
+<p>Abstract pattern for review activities</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Revisable.html"
+                  title="StructureDefinition/Revisable">Revisable</a>
+            </td>
+            <td>
+<p>Abstract pattern for elements that can be revised over time</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-acknowledgement-vs.html"
+                  title="ValueSet/acknowledgement-vs">Acknowledgement Value Set</a>
+            </td>
+            <td>
+<p>Value set for acknowledgment decisions</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-activity-completion-status-vs.html"
+                  title="ValueSet/activity-completion-status-vs">Activity Completion Status Value Set</a>
+            </td>
+            <td>
+<p>Value set for activity completion status</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-activity-order-status-vs.html"
+                  title="ValueSet/activity-order-status-vs">Activity Order Status Value Set</a>
+            </td>
+            <td>
+<p>Value set for activity order status</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-decision-mode-vs.html" title="ValueSet/decision-mode-vs">Decision Mode Value Set</a>
+            </td>
+            <td>
+<p>Value set for decision modes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-modification-type-vs.html"
+                  title="ValueSet/modification-type-vs">Modification Type Value Set</a>
+            </td>
+            <td>
+<p>Value set for modification types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-outcome-vs.html" title="ValueSet/outcome-vs">Outcome Value Set</a>
+            </td>
+            <td>
+<p>Value set for outcome assessment</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-performance-status-vs.html"
+                  title="ValueSet/performance-status-vs">Performance Status Value Set</a>
+            </td>
+            <td>
+<p>Value set for performance status</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-plan-definition-vs.html"
+                  title="ValueSet/plan-definition-vs">Plan Definition Value Set</a>
+            </td>
+            <td>
+<p>Value set for plan definitions</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-plan-purpose-vs.html" title="ValueSet/plan-purpose-vs">Plan Purpose Value Set</a>
+            </td>
+            <td>
+<p>Value set for plan purposes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-preference-context-vs.html"
+                  title="ValueSet/preference-context-vs">Preference Context Value Set</a>
+            </td>
+            <td>
+<p>Value set for preference contexts</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-review-event-vs.html" title="ValueSet/review-event-vs">Review Event Value Set</a>
+            </td>
+            <td>
+<p>Value set for review events</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-specification-type-vs.html"
+                  title="ValueSet/specification-type-vs">Specification Type Value Set</a>
+            </td>
+            <td>
+<p>Value set for specification types</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-acknowledgement-cs.html"
+                  title="CodeSystem/acknowledgement-cs">Acknowledgement Code System</a>
+            </td>
+            <td>
+<p>Codes for acknowledgment decisions</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-activity-completion-status-cs.html"
+                  title="CodeSystem/activity-completion-status-cs">Activity Completion Status Code System</a>
+            </td>
+            <td>
+<p>Codes for activity completion status</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-activity-order-status-cs.html"
+                  title="CodeSystem/activity-order-status-cs">Activity Order Status Code System</a>
+            </td>
+            <td>
+<p>Codes for activity order status</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-decision-mode-cs.html"
+                  title="CodeSystem/decision-mode-cs">Decision Mode Code System</a>
+            </td>
+            <td>
+<p>Codes for how decisions are made</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-modification-type-cs.html"
+                  title="CodeSystem/modification-type-cs">Modification Type Code System</a>
+            </td>
+            <td>
+<p>Codes for types of modifications</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-outcome-cs.html" title="CodeSystem/outcome-cs">Outcome Code System</a>
+            </td>
+            <td>
+<p>Codes for outcome assessment</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-performance-status-cs.html"
+                  title="CodeSystem/performance-status-cs">Performance Status Code System</a>
+            </td>
+            <td>
+<p>Codes for performance status of activities</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-plan-definition-cs.html"
+                  title="CodeSystem/plan-definition-cs">Plan Definition Code System</a>
+            </td>
+            <td>
+<p>Codes for types of plan definitions</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-plan-purpose-cs.html"
+                  title="CodeSystem/plan-purpose-cs">Plan Purpose Code System</a>
+            </td>
+            <td>
+<p>Codes for care plan purposes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-preference-context-cs.html"
+                  title="CodeSystem/preference-context-cs">Preference Context Code System</a>
+            </td>
+            <td>
+<p>Codes for preference contexts</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-review-event-cs.html"
+                  title="CodeSystem/review-event-cs">Review Event Code System</a>
+            </td>
+            <td>
+<p>Codes for events that trigger reviews</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-specification-type-cs.html"
+                  title="CodeSystem/specification-type-cs">Specification Type Code System</a>
+            </td>
+            <td>
+<p>Codes for care plan specification types</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.org/Special/committees/patientcare">Patient Care WG</a>.  Package careplandam#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 29, 2026 10:40-0500">2026-01-29</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

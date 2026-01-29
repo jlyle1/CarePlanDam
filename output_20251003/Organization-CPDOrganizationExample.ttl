@@ -1,0 +1,19 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/Organization/CPDOrganizationExample> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CPDOrganizationExample"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization CPDOrganizationExample</b></p><a name=\"CPDOrganizationExample\"> </a><a name=\"hcCPDOrganizationExample\"> </a><p><b>name</b>: The Very Big Corporation of America</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:name [ fhir:v "The Very Big Corporation of America"] . # 
+
+# -------------------------------------------------------------------------------------
+

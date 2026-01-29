@@ -1,0 +1,35 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"Goal","Goal","","","",0,*,"","","","null {[]} {[]}
+","Goal","A goal in the care plan. Possible relationship to concern, planned activity, performed activity, observation.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Goal.refersTo","Goal.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+"Goal.hasAuthor","Goal.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+"Goal.contains","Goal.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"Goal.composable","Goal.composable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Composable {[]} {[]}
+","Composable pattern properties","Composable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.composable",1,1,"",""
+"Goal.expressible","Goal.expressible","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Expressible {[]} {[]}
+","Expressible pattern properties","Expressible pattern properties","","","","","","","","","",,,,,"",,,,"Goal.expressible",1,1,"",""
+"Goal.performable","Goal.performable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Performable {[]} {[]}
+","Performable pattern properties","Performable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.performable",1,1,"",""
+"Goal.acknowledgeable","Goal.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
+","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.acknowledgeable",1,1,"",""
+"Goal.prioritizable","Goal.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
+","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.prioritizable",1,1,"",""
+"Goal.revisable","Goal.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
+","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.revisable",1,1,"",""
+"Goal.desiredStateFinding","Goal.desiredStateFinding","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Finding representing the desired state","Finding representing the desired state","","","","","","","","","",,,,,"",,,,"Goal.desiredStateFinding",1,1,"",""
+"Goal.desiredStateMeasureDimension","Goal.desiredStateMeasureDimension","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Dimension for measuring desired state","Dimension for measuring desired state","","","","","","","","","",,,,,"",,,,"Goal.desiredStateMeasureDimension",1,1,"",""
+"Goal.desiredStateMeasureValue","Goal.desiredStateMeasureValue","","","",1,1,"","","","Quantity {[]} {[]}
+","Target value for the desired state","Target value for the desired state","","","","","","","","","",,,,,"",,,,"Goal.desiredStateMeasureValue",1,1,"",""
+"Goal.targetDateTime","Goal.targetDateTime","","","",1,1,"","","","dateTime {[]} {[]}
+","Target date for achieving the goal","Target date for achieving the goal","","","","","","","","","",,,,,"",,,,"Goal.targetDateTime",1,1,"",""
+"Goal.description","Goal.description","","","",1,1,"","","","string {[]} {[]}
+","Text description of the goal","Text description of the goal","","","","","","","","","",,,,,"",,,,"Goal.description",1,1,"",""
+"Goal.addresses","Goal.addresses","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Concern]]}
+","Concerns addressed by this goal","Concerns addressed by this goal","","","","","","","","","",,,,,"",,,,"Goal.addresses",1,*,"",""
+"Goal.basedOnGuideline","Goal.basedOnGuideline","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Guideline]]}
+","Guidelines this goal is based on","Guidelines this goal is based on","","","","","","","","","",,,,,"",,,,"Goal.basedOnGuideline",0,*,"",""

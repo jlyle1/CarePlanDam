@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/dam/CodeSystem/careplan-purpose-cs,0.1.0,draft,,CarePlanPurposeCS,Care Plan Purpose,"Types of purposes for care plans",
+http://hl7.org/dam/CodeSystem/careplan-specification-type-cs,0.1.0,draft,,CarePlanSpecificationTypeCS,Care Plan Specification Type,"Types of specifications for care plans.",
+http://hl7.org/dam/CodeSystem/careplan-status-cs,0.1.0,draft,,CarePlanStatusCS,Care Plan Status,"Statuses for care plans",

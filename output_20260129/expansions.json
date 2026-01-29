@@ -1,0 +1,762 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "cd22bce6-e0fa-4c21-95f5-c479d08d4076",
+  "meta" : {
+    "lastUpdated" : "2026-01-29T10:40:38.098-05:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.org/dam/ValueSet/acknowledgement-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-acknowledgement-cs.html\">codesystem Acknowledgement Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/acknowledgement-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/acknowledgement-cs-acknowledge\"> </a><code>http://hl7.org/dam/CodeSystem/acknowledgement-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-acknowledgement-cs.html#acknowledgement-cs-acknowledge\">acknowledge</a></td><td>Acknowledge</td><td>Acknowledges the element without agreement or disagreement</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/acknowledgement-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;acknowledge&quot;, &quot;display&quot;: &quot;Acknowledge&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/acknowledgement-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;acknowledge&quot;&gt;&lt;display value=&quot;Acknowledge&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/acknowledgement-cs-assert\"> </a><code>http://hl7.org/dam/CodeSystem/acknowledgement-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-acknowledgement-cs.html#acknowledgement-cs-assert\">assert</a></td><td>Assert</td><td>Asserts the element as true or valid</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/acknowledgement-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;assert&quot;, &quot;display&quot;: &quot;Assert&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/acknowledgement-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;assert&quot;&gt;&lt;display value=&quot;Assert&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/acknowledgement-cs-agree\"> </a><code>http://hl7.org/dam/CodeSystem/acknowledgement-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-acknowledgement-cs.html#acknowledgement-cs-agree\">agree</a></td><td>Agree</td><td>Agrees with the element</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/acknowledgement-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;agree&quot;, &quot;display&quot;: &quot;Agree&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/acknowledgement-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;agree&quot;&gt;&lt;display value=&quot;Agree&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/acknowledgement-cs-disagree\"> </a><code>http://hl7.org/dam/CodeSystem/acknowledgement-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-acknowledgement-cs.html#acknowledgement-cs-disagree\">disagree</a></td><td>Disagree</td><td>Disagrees with the element</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/acknowledgement-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disagree&quot;, &quot;display&quot;: &quot;Disagree&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/acknowledgement-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disagree&quot;&gt;&lt;display value=&quot;Disagree&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/acknowledgement-vs",
+      "version" : "0.1.0",
+      "name" : "AcknowledgementVS",
+      "title" : "Acknowledgement Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:fd229215-d2f5-4f68-a258-9f26585a937b",
+        "timestamp" : "2026-01-29T10:43:00-05:00",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs",
+          "code" : "acknowledge",
+          "display" : "Acknowledge"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs",
+          "code" : "assert",
+          "display" : "Assert"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs",
+          "code" : "agree",
+          "display" : "Agree"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs",
+          "code" : "disagree",
+          "display" : "Disagree"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/activity-completion-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-activity-completion-status-cs.html\">codesystem Activity Completion Status Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/activity-completion-status-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/activity-completion-status-cs-not-started\"> </a><code>http://hl7.org/dam/CodeSystem/activity-completion-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-activity-completion-status-cs.html#activity-completion-status-cs-not-started\">not-started</a></td><td>Not Started</td><td>Activity has not started</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;not-started&quot;, &quot;display&quot;: &quot;Not Started&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;not-started&quot;&gt;&lt;display value=&quot;Not Started&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/activity-completion-status-cs-cancelled\"> </a><code>http://hl7.org/dam/CodeSystem/activity-completion-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-activity-completion-status-cs.html#activity-completion-status-cs-cancelled\">cancelled</a></td><td>Cancelled</td><td>Activity was cancelled</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;cancelled&quot;, &quot;display&quot;: &quot;Cancelled&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;cancelled&quot;&gt;&lt;display value=&quot;Cancelled&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/activity-completion-status-cs-in-process\"> </a><code>http://hl7.org/dam/CodeSystem/activity-completion-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-activity-completion-status-cs.html#activity-completion-status-cs-in-process\">in-process</a></td><td>In Process</td><td>Activity is in process</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;in-process&quot;, &quot;display&quot;: &quot;In Process&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;in-process&quot;&gt;&lt;display value=&quot;In Process&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/activity-completion-status-cs-stopped\"> </a><code>http://hl7.org/dam/CodeSystem/activity-completion-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-activity-completion-status-cs.html#activity-completion-status-cs-stopped\">stopped</a></td><td>Stopped</td><td>Activity was stopped before completion</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;stopped&quot;, &quot;display&quot;: &quot;Stopped&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;stopped&quot;&gt;&lt;display value=&quot;Stopped&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/activity-completion-status-cs-completed\"> </a><code>http://hl7.org/dam/CodeSystem/activity-completion-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-activity-completion-status-cs.html#activity-completion-status-cs-completed\">completed</a></td><td>Completed</td><td>Activity was completed</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;completed&quot;, &quot;display&quot;: &quot;Completed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/activity-completion-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;completed&quot;&gt;&lt;display value=&quot;Completed&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/activity-completion-status-vs",
+      "version" : "0.1.0",
+      "name" : "ActivityCompletionStatusVS",
+      "title" : "Activity Completion Status Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:91af5385-d105-4dac-9db4-b4e901f06ccf",
+        "timestamp" : "2026-01-29T10:43:00-05:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+          "code" : "not-started",
+          "display" : "Not Started"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+          "code" : "cancelled",
+          "display" : "Cancelled"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+          "code" : "in-process",
+          "display" : "In Process"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+          "code" : "stopped",
+          "display" : "Stopped"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+          "code" : "completed",
+          "display" : "Completed"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/activity-order-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-activity-order-status-cs.html\">codesystem Activity Order Status Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/activity-order-status-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/activity-order-status-cs-not-orderable\"> </a><code>http://hl7.org/dam/CodeSystem/activity-order-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-activity-order-status-cs.html#activity-order-status-cs-not-orderable\">not-orderable</a></td><td>Not Orderable</td><td>Activity cannot be ordered</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/activity-order-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;not-orderable&quot;, &quot;display&quot;: &quot;Not Orderable&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/activity-order-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;not-orderable&quot;&gt;&lt;display value=&quot;Not Orderable&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/activity-order-status-cs-not-ordered\"> </a><code>http://hl7.org/dam/CodeSystem/activity-order-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-activity-order-status-cs.html#activity-order-status-cs-not-ordered\">not-ordered</a></td><td>Not Ordered</td><td>Activity has not been ordered</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/activity-order-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;not-ordered&quot;, &quot;display&quot;: &quot;Not Ordered&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/activity-order-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;not-ordered&quot;&gt;&lt;display value=&quot;Not Ordered&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/activity-order-status-cs-ordered\"> </a><code>http://hl7.org/dam/CodeSystem/activity-order-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-activity-order-status-cs.html#activity-order-status-cs-ordered\">ordered</a></td><td>Ordered</td><td>Activity has been ordered</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/activity-order-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ordered&quot;, &quot;display&quot;: &quot;Ordered&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/activity-order-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ordered&quot;&gt;&lt;display value=&quot;Ordered&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/activity-order-status-vs",
+      "version" : "0.1.0",
+      "name" : "ActivityOrderStatusVS",
+      "title" : "Activity Order Status Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:86987dad-1e85-490c-b788-b981affeca33",
+        "timestamp" : "2026-01-29T10:43:00-05:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/activity-order-status-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/activity-order-status-cs",
+          "code" : "not-orderable",
+          "display" : "Not Orderable"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/activity-order-status-cs",
+          "code" : "not-ordered",
+          "display" : "Not Ordered"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/activity-order-status-cs",
+          "code" : "ordered",
+          "display" : "Ordered"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/decision-mode-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-decision-mode-cs.html\">codesystem Decision Mode Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/decision-mode-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/decision-mode-cs-explicit\"> </a><code>http://hl7.org/dam/CodeSystem/decision-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-decision-mode-cs.html#decision-mode-cs-explicit\">explicit</a></td><td>Explicit</td><td>Decision was made explicitly</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/decision-mode-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;explicit&quot;, &quot;display&quot;: &quot;Explicit&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/decision-mode-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;explicit&quot;&gt;&lt;display value=&quot;Explicit&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/decision-mode-cs-inherited\"> </a><code>http://hl7.org/dam/CodeSystem/decision-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-decision-mode-cs.html#decision-mode-cs-inherited\">inherited</a></td><td>Inherited</td><td>Decision was inherited from another element</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/decision-mode-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;inherited&quot;, &quot;display&quot;: &quot;Inherited&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/decision-mode-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;inherited&quot;&gt;&lt;display value=&quot;Inherited&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/decision-mode-cs-contextual\"> </a><code>http://hl7.org/dam/CodeSystem/decision-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-decision-mode-cs.html#decision-mode-cs-contextual\">contextual</a></td><td>Contextual</td><td>Decision was derived from context</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/decision-mode-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;contextual&quot;, &quot;display&quot;: &quot;Contextual&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/decision-mode-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;contextual&quot;&gt;&lt;display value=&quot;Contextual&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/decision-mode-vs",
+      "version" : "0.1.0",
+      "name" : "DecisionModeVS",
+      "title" : "Decision Mode Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:3fe2bef1-4cc5-4b3a-9ecc-be211a4f8439",
+        "timestamp" : "2026-01-29T10:43:00-05:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/decision-mode-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/decision-mode-cs",
+          "code" : "explicit",
+          "display" : "Explicit"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/decision-mode-cs",
+          "code" : "inherited",
+          "display" : "Inherited"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/decision-mode-cs",
+          "code" : "contextual",
+          "display" : "Contextual"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/modification-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-modification-type-cs.html\">codesystem Modification Type Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/modification-type-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/modification-type-cs-omit\"> </a><code>http://hl7.org/dam/CodeSystem/modification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-modification-type-cs.html#modification-type-cs-omit\">omit</a></td><td>Omit</td><td>Element is omitted</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/modification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;omit&quot;, &quot;display&quot;: &quot;Omit&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/modification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;omit&quot;&gt;&lt;display value=&quot;Omit&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/modification-type-cs-modify\"> </a><code>http://hl7.org/dam/CodeSystem/modification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-modification-type-cs.html#modification-type-cs-modify\">modify</a></td><td>Modify</td><td>Element is modified</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/modification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;modify&quot;, &quot;display&quot;: &quot;Modify&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/modification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;modify&quot;&gt;&lt;display value=&quot;Modify&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/modification-type-cs-add\"> </a><code>http://hl7.org/dam/CodeSystem/modification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-modification-type-cs.html#modification-type-cs-add\">add</a></td><td>Add</td><td>Element is added</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/modification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;add&quot;, &quot;display&quot;: &quot;Add&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/modification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;add&quot;&gt;&lt;display value=&quot;Add&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/modification-type-vs",
+      "version" : "0.1.0",
+      "name" : "ModificationTypeVS",
+      "title" : "Modification Type Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:2351b4c8-ead1-48e2-8381-ee37b7fcae08",
+        "timestamp" : "2026-01-29T10:43:00-05:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/modification-type-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/modification-type-cs",
+          "code" : "omit",
+          "display" : "Omit"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/modification-type-cs",
+          "code" : "modify",
+          "display" : "Modify"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/modification-type-cs",
+          "code" : "add",
+          "display" : "Add"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/outcome-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-outcome-cs.html\">codesystem Outcome Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/outcome-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/outcome-cs-resolved\"> </a><code>http://hl7.org/dam/CodeSystem/outcome-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-outcome-cs.html#outcome-cs-resolved\">resolved</a></td><td>Resolved</td><td>The condition or issue has been resolved</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;resolved&quot;, &quot;display&quot;: &quot;Resolved&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;resolved&quot;&gt;&lt;display value=&quot;Resolved&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/outcome-cs-improved\"> </a><code>http://hl7.org/dam/CodeSystem/outcome-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-outcome-cs.html#outcome-cs-improved\">improved</a></td><td>Improved</td><td>The condition or issue has improved</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;improved&quot;, &quot;display&quot;: &quot;Improved&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;improved&quot;&gt;&lt;display value=&quot;Improved&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/outcome-cs-stabilized\"> </a><code>http://hl7.org/dam/CodeSystem/outcome-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-outcome-cs.html#outcome-cs-stabilized\">stabilized</a></td><td>Stabilized</td><td>The condition or issue has stabilized</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;stabilized&quot;, &quot;display&quot;: &quot;Stabilized&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;stabilized&quot;&gt;&lt;display value=&quot;Stabilized&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/outcome-cs-in-process\"> </a><code>http://hl7.org/dam/CodeSystem/outcome-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-outcome-cs.html#outcome-cs-in-process\">in-process</a></td><td>In Process</td><td>The intervention is still in process</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;in-process&quot;, &quot;display&quot;: &quot;In Process&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;in-process&quot;&gt;&lt;display value=&quot;In Process&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/outcome-cs-maintained\"> </a><code>http://hl7.org/dam/CodeSystem/outcome-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-outcome-cs.html#outcome-cs-maintained\">maintained</a></td><td>Maintained</td><td>The current state has been maintained</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;maintained&quot;, &quot;display&quot;: &quot;Maintained&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;maintained&quot;&gt;&lt;display value=&quot;Maintained&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/outcome-cs-deteriorated\"> </a><code>http://hl7.org/dam/CodeSystem/outcome-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-outcome-cs.html#outcome-cs-deteriorated\">deteriorated</a></td><td>Deteriorated</td><td>The condition or issue has deteriorated</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;deteriorated&quot;, &quot;display&quot;: &quot;Deteriorated&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/outcome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;deteriorated&quot;&gt;&lt;display value=&quot;Deteriorated&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/outcome-vs",
+      "version" : "0.1.0",
+      "name" : "OutcomeVS",
+      "title" : "Outcome Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:26045527-2477-4d4d-98f4-5417683dc7d2",
+        "timestamp" : "2026-01-29T10:43:01-05:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/outcome-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+          "code" : "resolved",
+          "display" : "Resolved"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+          "code" : "improved",
+          "display" : "Improved"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+          "code" : "stabilized",
+          "display" : "Stabilized"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+          "code" : "in-process",
+          "display" : "In Process"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+          "code" : "maintained",
+          "display" : "Maintained"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+          "code" : "deteriorated",
+          "display" : "Deteriorated"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/performance-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-performance-status-cs.html\">codesystem Performance Status Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/performance-status-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/performance-status-cs-planned\"> </a><code>http://hl7.org/dam/CodeSystem/performance-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-performance-status-cs.html#performance-status-cs-planned\">planned</a></td><td>Planned</td><td>Activity is planned but not started</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;planned&quot;, &quot;display&quot;: &quot;Planned&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;planned&quot;&gt;&lt;display value=&quot;Planned&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/performance-status-cs-in-process\"> </a><code>http://hl7.org/dam/CodeSystem/performance-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-performance-status-cs.html#performance-status-cs-in-process\">in-process</a></td><td>In Process</td><td>Activity is in process</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;in-process&quot;, &quot;display&quot;: &quot;In Process&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;in-process&quot;&gt;&lt;display value=&quot;In Process&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/performance-status-cs-cancelled\"> </a><code>http://hl7.org/dam/CodeSystem/performance-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-performance-status-cs.html#performance-status-cs-cancelled\">cancelled</a></td><td>Cancelled</td><td>Activity was cancelled</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;cancelled&quot;, &quot;display&quot;: &quot;Cancelled&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;cancelled&quot;&gt;&lt;display value=&quot;Cancelled&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/performance-status-cs-aborted\"> </a><code>http://hl7.org/dam/CodeSystem/performance-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-performance-status-cs.html#performance-status-cs-aborted\">aborted</a></td><td>Aborted</td><td>Activity was aborted</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;aborted&quot;, &quot;display&quot;: &quot;Aborted&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;aborted&quot;&gt;&lt;display value=&quot;Aborted&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/performance-status-cs-completed\"> </a><code>http://hl7.org/dam/CodeSystem/performance-status-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-performance-status-cs.html#performance-status-cs-completed\">completed</a></td><td>Completed</td><td>Activity was completed</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;completed&quot;, &quot;display&quot;: &quot;Completed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/performance-status-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;completed&quot;&gt;&lt;display value=&quot;Completed&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/performance-status-vs",
+      "version" : "0.1.0",
+      "name" : "PerformanceStatusVS",
+      "title" : "Performance Status Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:2fdd7788-3a9e-4e3d-b72a-cf6e3a26e5a0",
+        "timestamp" : "2026-01-29T10:43:01-05:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/performance-status-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+          "code" : "planned",
+          "display" : "Planned"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+          "code" : "in-process",
+          "display" : "In Process"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+          "code" : "cancelled",
+          "display" : "Cancelled"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+          "code" : "aborted",
+          "display" : "Aborted"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+          "code" : "completed",
+          "display" : "Completed"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/plan-definition-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-plan-definition-cs.html\">codesystem Plan Definition Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/plan-definition-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/plan-definition-cs-c-cda-4-care-plan\"> </a><code>http://hl7.org/dam/CodeSystem/plan-definition-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-plan-definition-cs.html#plan-definition-cs-c-cda-4-care-plan\">c-cda-4-care-plan</a></td><td>C-CDA 4.0 Care Plan</td><td>C-CDA 4.0 Care Plan specification</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/plan-definition-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;c-cda-4-care-plan&quot;, &quot;display&quot;: &quot;C-CDA 4.0 Care Plan&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/plan-definition-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;c-cda-4-care-plan&quot;&gt;&lt;display value=&quot;C-CDA 4.0 Care Plan&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/plan-definition-cs-pharmacist\"> </a><code>http://hl7.org/dam/CodeSystem/plan-definition-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-plan-definition-cs.html#plan-definition-cs-pharmacist\">pharmacist</a></td><td>Pharmacist</td><td>Pharmacist care plan</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/plan-definition-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;pharmacist&quot;, &quot;display&quot;: &quot;Pharmacist&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/plan-definition-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;pharmacist&quot;&gt;&lt;display value=&quot;Pharmacist&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/plan-definition-cs-ada-diabetes-2025\"> </a><code>http://hl7.org/dam/CodeSystem/plan-definition-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-plan-definition-cs.html#plan-definition-cs-ada-diabetes-2025\">ada-diabetes-2025</a></td><td>ADA Diabetes Standard of Care 2025</td><td>ADA Diabetes Standard of Care 2025</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/plan-definition-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ada-diabetes-2025&quot;, &quot;display&quot;: &quot;ADA Diabetes Standard of Care 2025&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/plan-definition-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ada-diabetes-2025&quot;&gt;&lt;display value=&quot;ADA Diabetes Standard of Care 2025&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/plan-definition-vs",
+      "version" : "0.1.0",
+      "name" : "PlanDefinitionVS",
+      "title" : "Plan Definition Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:6afdc4cb-f923-4ce4-810b-b8ff043b938c",
+        "timestamp" : "2026-01-29T10:43:01-05:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/plan-definition-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
+          "code" : "c-cda-4-care-plan",
+          "display" : "C-CDA 4.0 Care Plan"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
+          "code" : "pharmacist",
+          "display" : "Pharmacist"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
+          "code" : "ada-diabetes-2025",
+          "display" : "ADA Diabetes Standard of Care 2025"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/plan-purpose-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-plan-purpose-cs.html\">codesystem Plan Purpose Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/plan-purpose-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/plan-purpose-cs-diabetes-mellitus\"> </a><code>http://hl7.org/dam/CodeSystem/plan-purpose-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-plan-purpose-cs.html#plan-purpose-cs-diabetes-mellitus\">diabetes-mellitus</a></td><td>Diabetes Mellitus</td><td>Care plan for diabetes mellitus management</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/plan-purpose-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;diabetes-mellitus&quot;, &quot;display&quot;: &quot;Diabetes Mellitus&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/plan-purpose-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;diabetes-mellitus&quot;&gt;&lt;display value=&quot;Diabetes Mellitus&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/plan-purpose-cs-cardiac\"> </a><code>http://hl7.org/dam/CodeSystem/plan-purpose-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-plan-purpose-cs.html#plan-purpose-cs-cardiac\">cardiac</a></td><td>Cardiac</td><td>Care plan for cardiac conditions</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/plan-purpose-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;cardiac&quot;, &quot;display&quot;: &quot;Cardiac&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/plan-purpose-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;cardiac&quot;&gt;&lt;display value=&quot;Cardiac&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/plan-purpose-cs-home-health-care\"> </a><code>http://hl7.org/dam/CodeSystem/plan-purpose-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-plan-purpose-cs.html#plan-purpose-cs-home-health-care\">home-health-care</a></td><td>Home Health Care</td><td>Care plan for home health care</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/plan-purpose-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;home-health-care&quot;, &quot;display&quot;: &quot;Home Health Care&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/plan-purpose-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;home-health-care&quot;&gt;&lt;display value=&quot;Home Health Care&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/plan-purpose-vs",
+      "version" : "0.1.0",
+      "name" : "PlanPurposeVS",
+      "title" : "Plan Purpose Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:24d4e4d1-a422-4126-b834-574b6c8ca7e2",
+        "timestamp" : "2026-01-29T10:43:01-05:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/plan-purpose-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/plan-purpose-cs",
+          "code" : "diabetes-mellitus",
+          "display" : "Diabetes Mellitus"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/plan-purpose-cs",
+          "code" : "cardiac",
+          "display" : "Cardiac"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/plan-purpose-cs",
+          "code" : "home-health-care",
+          "display" : "Home Health Care"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/preference-context-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-preference-context-cs.html\">codesystem Preference Context Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/preference-context-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/preference-context-cs-visitation\"> </a><code>http://hl7.org/dam/CodeSystem/preference-context-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-preference-context-cs.html#preference-context-cs-visitation\">visitation</a></td><td>Visitation</td><td>Preferences about visitation</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;visitation&quot;, &quot;display&quot;: &quot;Visitation&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;visitation&quot;&gt;&lt;display value=&quot;Visitation&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/preference-context-cs-diet\"> </a><code>http://hl7.org/dam/CodeSystem/preference-context-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-preference-context-cs.html#preference-context-cs-diet\">diet</a></td><td>Diet</td><td>Dietary preferences</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;diet&quot;, &quot;display&quot;: &quot;Diet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;diet&quot;&gt;&lt;display value=&quot;Diet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/preference-context-cs-medication\"> </a><code>http://hl7.org/dam/CodeSystem/preference-context-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-preference-context-cs.html#preference-context-cs-medication\">medication</a></td><td>Medication</td><td>Medication preferences</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;medication&quot;, &quot;display&quot;: &quot;Medication&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;medication&quot;&gt;&lt;display value=&quot;Medication&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/preference-context-cs-treatment\"> </a><code>http://hl7.org/dam/CodeSystem/preference-context-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-preference-context-cs.html#preference-context-cs-treatment\">treatment</a></td><td>Treatment</td><td>Treatment preferences</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;treatment&quot;, &quot;display&quot;: &quot;Treatment&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;treatment&quot;&gt;&lt;display value=&quot;Treatment&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/preference-context-cs-discharge-planning\"> </a><code>http://hl7.org/dam/CodeSystem/preference-context-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-preference-context-cs.html#preference-context-cs-discharge-planning\">discharge-planning</a></td><td>Discharge Planning</td><td>Discharge planning preferences</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;discharge-planning&quot;, &quot;display&quot;: &quot;Discharge Planning&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;discharge-planning&quot;&gt;&lt;display value=&quot;Discharge Planning&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/preference-context-cs-care\"> </a><code>http://hl7.org/dam/CodeSystem/preference-context-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-preference-context-cs.html#preference-context-cs-care\">care</a></td><td>Care</td><td>General care preferences</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;care&quot;, &quot;display&quot;: &quot;Care&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/preference-context-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;care&quot;&gt;&lt;display value=&quot;Care&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/preference-context-vs",
+      "version" : "0.1.0",
+      "name" : "PreferenceContextVS",
+      "title" : "Preference Context Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:26d00c93-6cce-4503-9434-5f5c5a207174",
+        "timestamp" : "2026-01-29T10:43:02-05:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/preference-context-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+          "code" : "visitation",
+          "display" : "Visitation"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+          "code" : "diet",
+          "display" : "Diet"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+          "code" : "medication",
+          "display" : "Medication"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+          "code" : "treatment",
+          "display" : "Treatment"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+          "code" : "discharge-planning",
+          "display" : "Discharge Planning"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+          "code" : "care",
+          "display" : "Care"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/review-event-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-review-event-cs.html\">codesystem Review Event Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/review-event-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/review-event-cs-creation\"> </a><code>http://hl7.org/dam/CodeSystem/review-event-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-review-event-cs.html#review-event-cs-creation\">creation</a></td><td>Creation</td><td>Review triggered by creation of an element</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/review-event-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;creation&quot;, &quot;display&quot;: &quot;Creation&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/review-event-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;creation&quot;&gt;&lt;display value=&quot;Creation&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/review-event-cs-periodic\"> </a><code>http://hl7.org/dam/CodeSystem/review-event-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-review-event-cs.html#review-event-cs-periodic\">periodic</a></td><td>Periodic</td><td>Review triggered by periodic schedule</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/review-event-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;periodic&quot;, &quot;display&quot;: &quot;Periodic&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/review-event-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;periodic&quot;&gt;&lt;display value=&quot;Periodic&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/review-event-cs-caused\"> </a><code>http://hl7.org/dam/CodeSystem/review-event-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-review-event-cs.html#review-event-cs-caused\">caused</a></td><td>Caused</td><td>Review triggered by a specific cause or event</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/review-event-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;caused&quot;, &quot;display&quot;: &quot;Caused&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/review-event-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;caused&quot;&gt;&lt;display value=&quot;Caused&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/review-event-vs",
+      "version" : "0.1.0",
+      "name" : "ReviewEventVS",
+      "title" : "Review Event Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:3eb61e70-534f-44f5-8075-5d43c00fc6f5",
+        "timestamp" : "2026-01-29T10:43:02-05:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/review-event-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/review-event-cs",
+          "code" : "creation",
+          "display" : "Creation"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/review-event-cs",
+          "code" : "periodic",
+          "display" : "Periodic"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/review-event-cs",
+          "code" : "caused",
+          "display" : "Caused"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/dam/ValueSet/specification-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-specification-type-cs.html\">codesystem Specification Type Code System v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/dam/CodeSystem/specification-type-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/specification-type-cs-rule-based-structured-document\"> </a><code>http://hl7.org/dam/CodeSystem/specification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-specification-type-cs.html#specification-type-cs-rule-based-structured-document\">rule-based-structured-document</a></td><td>Rule-based Structured Document</td><td>Care plan as a rule-based structured document</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;rule-based-structured-document&quot;, &quot;display&quot;: &quot;Rule-based Structured Document&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;rule-based-structured-document&quot;&gt;&lt;display value=&quot;Rule-based Structured Document&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/specification-type-cs-rule-based-ui-dataset\"> </a><code>http://hl7.org/dam/CodeSystem/specification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-specification-type-cs.html#specification-type-cs-rule-based-ui-dataset\">rule-based-ui-dataset</a></td><td>Rule-based UI Dataset</td><td>Care plan as a rule-based UI dataset</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;rule-based-ui-dataset&quot;, &quot;display&quot;: &quot;Rule-based UI Dataset&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;rule-based-ui-dataset&quot;&gt;&lt;display value=&quot;Rule-based UI Dataset&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/specification-type-cs-authored-structured-plan\"> </a><code>http://hl7.org/dam/CodeSystem/specification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-specification-type-cs.html#specification-type-cs-authored-structured-plan\">authored-structured-plan</a></td><td>Authored Structured Plan</td><td>Care plan as an authored structured plan</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;authored-structured-plan&quot;, &quot;display&quot;: &quot;Authored Structured Plan&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;authored-structured-plan&quot;&gt;&lt;display value=&quot;Authored Structured Plan&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/specification-type-cs-rule-based-api-dataset\"> </a><code>http://hl7.org/dam/CodeSystem/specification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-specification-type-cs.html#specification-type-cs-rule-based-api-dataset\">rule-based-api-dataset</a></td><td>Rule-based API Dataset</td><td>Care plan as a rule-based API dataset</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;rule-based-api-dataset&quot;, &quot;display&quot;: &quot;Rule-based API Dataset&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;rule-based-api-dataset&quot;&gt;&lt;display value=&quot;Rule-based API Dataset&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/specification-type-cs-unstructured-note\"> </a><code>http://hl7.org/dam/CodeSystem/specification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-specification-type-cs.html#specification-type-cs-unstructured-note\">unstructured-note</a></td><td>Unstructured Note</td><td>Care plan as an unstructured note</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;unstructured-note&quot;, &quot;display&quot;: &quot;Unstructured Note&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;unstructured-note&quot;&gt;&lt;display value=&quot;Unstructured Note&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/dam/CodeSystem/specification-type-cs-aggregation\"> </a><code>http://hl7.org/dam/CodeSystem/specification-type-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-specification-type-cs.html#specification-type-cs-aggregation\">aggregation</a></td><td>Aggregation</td><td>Care plan as an aggregation of other plans</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;aggregation&quot;, &quot;display&quot;: &quot;Aggregation&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/dam/CodeSystem/specification-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;aggregation&quot;&gt;&lt;display value=&quot;Aggregation&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/dam/ValueSet/specification-type-vs",
+      "version" : "0.1.0",
+      "name" : "SpecificationTypeVS",
+      "title" : "Specification Type Value Set",
+      "status" : "active",
+      "date" : "2026-01-29T10:40:38-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:306e19e8-7c60-4f78-af92-4ef56f6ca4bc",
+        "timestamp" : "2026-01-29T10:43:02-05:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/dam/CodeSystem/specification-type-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+          "code" : "rule-based-structured-document",
+          "display" : "Rule-based Structured Document"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+          "code" : "rule-based-ui-dataset",
+          "display" : "Rule-based UI Dataset"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+          "code" : "authored-structured-plan",
+          "display" : "Authored Structured Plan"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+          "code" : "rule-based-api-dataset",
+          "display" : "Rule-based API Dataset"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+          "code" : "unstructured-note",
+          "display" : "Unstructured Note"
+        },
+        {
+          "system" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+          "code" : "aggregation",
+          "display" : "Aggregation"
+        }]
+      }
+    }
+  }]
+}

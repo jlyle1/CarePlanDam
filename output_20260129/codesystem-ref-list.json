@@ -1,0 +1,136 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "AcknowledgementCS",
+      "title" : "Acknowledgement Code System",
+      "description" : "Codes for acknowledgment decisions",
+      "uses" : {
+      },
+      "ValueSet-acknowledgement-vs.html" : "Acknowledgement Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ActivityCompletionStatusCS",
+      "title" : "Activity Completion Status Code System",
+      "description" : "Codes for activity completion status",
+      "uses" : {
+      },
+      "ValueSet-activity-completion-status-vs.html" : "Activity Completion Status Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/activity-order-status-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ActivityOrderStatusCS",
+      "title" : "Activity Order Status Code System",
+      "description" : "Codes for activity order status",
+      "uses" : {
+      },
+      "ValueSet-activity-order-status-vs.html" : "Activity Order Status Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/decision-mode-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DecisionModeCS",
+      "title" : "Decision Mode Code System",
+      "description" : "Codes for how decisions are made",
+      "uses" : {
+      },
+      "ValueSet-decision-mode-vs.html" : "Decision Mode Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/modification-type-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ModificationTypeCS",
+      "title" : "Modification Type Code System",
+      "description" : "Codes for types of modifications",
+      "uses" : {
+      },
+      "ValueSet-modification-type-vs.html" : "Modification Type Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "OutcomeCS",
+      "title" : "Outcome Code System",
+      "description" : "Codes for outcome assessment",
+      "uses" : {
+      },
+      "ValueSet-outcome-vs.html" : "Outcome Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PerformanceStatusCS",
+      "title" : "Performance Status Code System",
+      "description" : "Codes for performance status of activities",
+      "uses" : {
+      },
+      "ValueSet-performance-status-vs.html" : "Performance Status Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PlanDefinitionCS",
+      "title" : "Plan Definition Code System",
+      "description" : "Codes for types of plan definitions",
+      "uses" : {
+      },
+      "ValueSet-plan-definition-vs.html" : "Plan Definition Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/plan-purpose-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PlanPurposeCS",
+      "title" : "Plan Purpose Code System",
+      "description" : "Codes for care plan purposes",
+      "uses" : {
+      },
+      "ValueSet-plan-purpose-vs.html" : "Plan Purpose Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PreferenceContextCS",
+      "title" : "Preference Context Code System",
+      "description" : "Codes for preference contexts",
+      "uses" : {
+      },
+      "ValueSet-preference-context-vs.html" : "Preference Context Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/review-event-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ReviewEventCS",
+      "title" : "Review Event Code System",
+      "description" : "Codes for events that trigger reviews",
+      "uses" : {
+      },
+      "ValueSet-review-event-vs.html" : "Review Event Value Set"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SpecificationTypeCS",
+      "title" : "Specification Type Code System",
+      "description" : "Codes for care plan specification types",
+      "uses" : {
+      },
+      "ValueSet-specification-type-vs.html" : "Specification Type Value Set"
+    }
+  ]
+}

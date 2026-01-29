@@ -1,0 +1,144 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/dam/ValueSet/acknowledgement-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "AcknowledgementVS",
+      "title" : "Acknowledgement Value Set",
+      "description" : "Value set for acknowledgment decisions",
+      "systems" : ["http://hl7.org/dam/CodeSystem/acknowledgement-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-AcceptanceReview.html" : "Acceptance Review"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/activity-completion-status-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ActivityCompletionStatusVS",
+      "title" : "Activity Completion Status Value Set",
+      "description" : "Value set for activity completion status",
+      "systems" : [
+        "http://hl7.org/dam/CodeSystem/activity-completion-status-cs"
+      ]
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/activity-order-status-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ActivityOrderStatusVS",
+      "title" : "Activity Order Status Value Set",
+      "description" : "Value set for activity order status",
+      "systems" : ["http://hl7.org/dam/CodeSystem/activity-order-status-cs"]
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/decision-mode-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DecisionModeVS",
+      "title" : "Decision Mode Value Set",
+      "description" : "Value set for decision modes",
+      "systems" : ["http://hl7.org/dam/CodeSystem/decision-mode-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-AcceptanceReview.html" : "Acceptance Review"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/modification-type-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ModificationTypeVS",
+      "title" : "Modification Type Value Set",
+      "description" : "Value set for modification types",
+      "systems" : ["http://hl7.org/dam/CodeSystem/modification-type-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-Modification.html" : "Modification"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/outcome-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "OutcomeVS",
+      "title" : "Outcome Value Set",
+      "description" : "Value set for outcome assessment",
+      "systems" : ["http://hl7.org/dam/CodeSystem/outcome-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-OutcomeReview.html" : "Outcome Review"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/performance-status-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PerformanceStatusVS",
+      "title" : "Performance Status Value Set",
+      "description" : "Value set for performance status",
+      "systems" : ["http://hl7.org/dam/CodeSystem/performance-status-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-Performable.html" : "Performable"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/plan-definition-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PlanDefinitionVS",
+      "title" : "Plan Definition Value Set",
+      "description" : "Value set for plan definitions",
+      "systems" : ["http://hl7.org/dam/CodeSystem/plan-definition-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-PlanDefinition.html" : "Plan Definition"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/plan-purpose-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PlanPurposeVS",
+      "title" : "Plan Purpose Value Set",
+      "description" : "Value set for plan purposes",
+      "systems" : ["http://hl7.org/dam/CodeSystem/plan-purpose-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-CarePlanManifestation.html" : "Care Plan Manifestation"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/preference-context-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PreferenceContextVS",
+      "title" : "Preference Context Value Set",
+      "description" : "Value set for preference contexts",
+      "systems" : ["http://hl7.org/dam/CodeSystem/preference-context-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-Preference.html" : "Preference"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/review-event-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ReviewEventVS",
+      "title" : "Review Event Value Set",
+      "description" : "Value set for review events",
+      "systems" : ["http://hl7.org/dam/CodeSystem/review-event-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-AcceptanceReview.html" : "Acceptance Review"
+    },
+    {
+      "url" : "http://hl7.org/dam/ValueSet/specification-type-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SpecificationTypeVS",
+      "title" : "Specification Type Value Set",
+      "description" : "Value set for specification types",
+      "systems" : ["http://hl7.org/dam/CodeSystem/specification-type-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-CarePlanManifestation.html" : "Care Plan Manifestation"
+    }
+  ]
+}

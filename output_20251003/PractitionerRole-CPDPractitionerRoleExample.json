@@ -1,0 +1,11 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "CPDPractitionerRoleExample",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole CPDPractitionerRoleExample</b></p><a name=\"CPDPractitionerRoleExample\"> </a><a name=\"hcCPDPractitionerRoleExample\"> </a><p><b>practitioner</b>: <a href=\"Practitioner-CPDPractitionerExample.html\">Practitioner Mary Smith </a></p></div>"
+  },
+  "practitioner" : {
+    "reference" : "Practitioner/CPDPractitionerExample"
+  }
+}

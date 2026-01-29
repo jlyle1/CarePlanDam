@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/CodeSystem/specification-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "specification-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem specification-type-cs</b></p><a name=\"specification-type-cs\"> </a><a name=\"hcspecification-type-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/specification-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">rule-based-structured-document<a name=\"specification-type-cs-rule-based-structured-document\"> </a></td><td>Rule-based Structured Document</td><td>Care plan as a rule-based structured document</td></tr><tr><td style=\"white-space:nowrap\">rule-based-ui-dataset<a name=\"specification-type-cs-rule-based-ui-dataset\"> </a></td><td>Rule-based UI Dataset</td><td>Care plan as a rule-based UI dataset</td></tr><tr><td style=\"white-space:nowrap\">authored-structured-plan<a name=\"specification-type-cs-authored-structured-plan\"> </a></td><td>Authored Structured Plan</td><td>Care plan as an authored structured plan</td></tr><tr><td style=\"white-space:nowrap\">rule-based-api-dataset<a name=\"specification-type-cs-rule-based-api-dataset\"> </a></td><td>Rule-based API Dataset</td><td>Care plan as a rule-based API dataset</td></tr><tr><td style=\"white-space:nowrap\">unstructured-note<a name=\"specification-type-cs-unstructured-note\"> </a></td><td>Unstructured Note</td><td>Care plan as an unstructured note</td></tr><tr><td style=\"white-space:nowrap\">aggregation<a name=\"specification-type-cs-aggregation\"> </a></td><td>Aggregation</td><td>Care plan as an aggregation of other plans</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/dam/CodeSystem/specification-type-cs"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/dam/CodeSystem/specification-type-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SpecificationTypeCS"] ; # 
+  fhir:title [ fhir:v "Specification Type Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-01-29T10:40:38-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for care plan specification types"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "rule-based-structured-document" ] ;
+     fhir:display [ fhir:v "Rule-based Structured Document" ] ;
+     fhir:definition [ fhir:v "Care plan as a rule-based structured document" ]
+  ] [
+     fhir:code [ fhir:v "rule-based-ui-dataset" ] ;
+     fhir:display [ fhir:v "Rule-based UI Dataset" ] ;
+     fhir:definition [ fhir:v "Care plan as a rule-based UI dataset" ]
+  ] [
+     fhir:code [ fhir:v "authored-structured-plan" ] ;
+     fhir:display [ fhir:v "Authored Structured Plan" ] ;
+     fhir:definition [ fhir:v "Care plan as an authored structured plan" ]
+  ] [
+     fhir:code [ fhir:v "rule-based-api-dataset" ] ;
+     fhir:display [ fhir:v "Rule-based API Dataset" ] ;
+     fhir:definition [ fhir:v "Care plan as a rule-based API dataset" ]
+  ] [
+     fhir:code [ fhir:v "unstructured-note" ] ;
+     fhir:display [ fhir:v "Unstructured Note" ] ;
+     fhir:definition [ fhir:v "Care plan as an unstructured note" ]
+  ] [
+     fhir:code [ fhir:v "aggregation" ] ;
+     fhir:display [ fhir:v "Aggregation" ] ;
+     fhir:definition [ fhir:v "Care plan as an aggregation of other plans" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

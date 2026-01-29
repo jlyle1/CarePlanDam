@@ -1,0 +1,100 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/acknowledgement-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "AcknowledgementCS",
+      "title" : "Acknowledgement Code System",
+      "description" : "Codes for acknowledgment decisions"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/activity-completion-status-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ActivityCompletionStatusCS",
+      "title" : "Activity Completion Status Code System",
+      "description" : "Codes for activity completion status"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/activity-order-status-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ActivityOrderStatusCS",
+      "title" : "Activity Order Status Code System",
+      "description" : "Codes for activity order status"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/decision-mode-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DecisionModeCS",
+      "title" : "Decision Mode Code System",
+      "description" : "Codes for how decisions are made"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/modification-type-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ModificationTypeCS",
+      "title" : "Modification Type Code System",
+      "description" : "Codes for types of modifications"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/outcome-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "OutcomeCS",
+      "title" : "Outcome Code System",
+      "description" : "Codes for outcome assessment"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PerformanceStatusCS",
+      "title" : "Performance Status Code System",
+      "description" : "Codes for performance status of activities"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PlanDefinitionCS",
+      "title" : "Plan Definition Code System",
+      "description" : "Codes for types of plan definitions"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/plan-purpose-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PlanPurposeCS",
+      "title" : "Plan Purpose Code System",
+      "description" : "Codes for care plan purposes"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/preference-context-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PreferenceContextCS",
+      "title" : "Preference Context Code System",
+      "description" : "Codes for preference contexts"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/review-event-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ReviewEventCS",
+      "title" : "Review Event Code System",
+      "description" : "Codes for events that trigger reviews"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/specification-type-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SpecificationTypeCS",
+      "title" : "Specification Type Code System",
+      "description" : "Codes for care plan specification types"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="decision-mode-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem decision-mode-cs</b></p><a name="decision-mode-cs"> </a><a name="hcdecision-mode-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/decision-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">explicit<a name="decision-mode-cs-explicit"> </a></td><td>Explicit</td><td>Decision was made explicitly</td></tr><tr><td style="white-space:nowrap">inherited<a name="decision-mode-cs-inherited"> </a></td><td>Inherited</td><td>Decision was inherited from another element</td></tr><tr><td style="white-space:nowrap">contextual<a name="decision-mode-cs-contextual"> </a></td><td>Contextual</td><td>Decision was derived from context</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/decision-mode-cs"/>
+  <version value="0.1.0"/>
+  <name value="DecisionModeCS"/>
+  <title value="Decision Mode Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for how decisions are made"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="explicit"/>
+    <display value="Explicit"/>
+    <definition value="Decision was made explicitly"/>
+  </concept>
+  <concept>
+    <code value="inherited"/>
+    <display value="Inherited"/>
+    <definition value="Decision was inherited from another element"/>
+  </concept>
+  <concept>
+    <code value="contextual"/>
+    <display value="Contextual"/>
+    <definition value="Decision was derived from context"/>
+  </concept>
+</CodeSystem>

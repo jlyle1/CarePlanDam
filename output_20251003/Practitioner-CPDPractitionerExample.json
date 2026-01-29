@@ -1,0 +1,12 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "CPDPractitionerExample",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner CPDPractitionerExample</b></p><a name=\"CPDPractitionerExample\"> </a><a name=\"hcCPDPractitionerExample\"> </a><p><b>name</b>: Mary Smith </p></div>"
+  },
+  "name" : [{
+    "family" : "Smith",
+    "given" : ["Mary"]
+  }]
+}

@@ -1,0 +1,25 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"careplan-logical-model","careplan-logical-model","","","",0,*,"","","","null {[]} {[]}
+","CarePlan Logical Model","CarePlan Logical Model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"careplan-logical-model.planSpecificationType","careplan-logical-model.planSpecificationType","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Kind of plan specification","Kind of plan specification","","","","","","","","","",,"extensible","","http://hl7.org/dam/ValueSet/careplan-specification-type-vs","",,,,"careplan-logical-model.planSpecificationType",0,1,"",""
+"careplan-logical-model.PlanSpecification","careplan-logical-model.PlanSpecification","","","",0,*,"","","","uri {[]} {[]}
+","URI of plan definition","URI of plan definition","","","","","","","","","",,,,,"",,,,"careplan-logical-model.PlanSpecification",0,*,"",""
+"careplan-logical-model.PlanPurpose","careplan-logical-model.PlanPurpose","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Purpose of the plan","Purpose of the plan","","","","","","","","","",,"extensible","","http://hl7.org/dam/ValueSet/careplan-purpose-vs","",,,,"careplan-logical-model.PlanPurpose",0,1,"",""
+"careplan-logical-model.Author","careplan-logical-model.Author","","","",0,1,"","","","Reference {[]} {[]}
+","Author of the plan","Author of the plan","","","","","","","","","",,,,,"",,,,"careplan-logical-model.Author",0,1,"",""
+"careplan-logical-model.CreateDate","careplan-logical-model.CreateDate","","","",0,1,"","","","dateTime {[]} {[]}
+","Creation date of the plan","Creation date of the plan","","","","","","","","","",,,,,"",,,,"careplan-logical-model.CreateDate",0,1,"",""
+"careplan-logical-model.LastUpdated","careplan-logical-model.LastUpdated","","","",0,1,"","","","dateTime {[]} {[]}
+","Last updated date of the plan","Last updated date of the plan","","","","","","","","","",,,,,"",,,,"careplan-logical-model.LastUpdated",0,1,"",""
+"careplan-logical-model.Status","careplan-logical-model.Status","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Status of the plan","Status of the plan","","","","","","","","","",,"extensible","","http://hl7.org/dam/ValueSet/careplan-status-vs","",,,,"careplan-logical-model.Status",0,1,"",""
+"careplan-logical-model.StatusDate","careplan-logical-model.StatusDate","","","",0,1,"","","","dateTime {[]} {[]}
+","Status date of the plan","Status date of the plan","","","","","","","","","",,,,,"",,,,"careplan-logical-model.StatusDate",0,1,"",""
+"careplan-logical-model.Name","careplan-logical-model.Name","","","",0,1,"","","","string {[]} {[]}
+","Name of the plan","Name of the plan","","","","","","","","","",,,,,"",,,,"careplan-logical-model.Name",0,1,"",""
+"careplan-logical-model.PlanDescription","careplan-logical-model.PlanDescription","","","",0,1,"","","","string {[]} {[]}
+","Description of the plan","Description of the plan","","","","","","","","","",,,,,"",,,,"careplan-logical-model.PlanDescription",0,1,"",""
+"careplan-logical-model.Subject","careplan-logical-model.Subject","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CPDPatient]]}
+","Who the care plan is for","Who the care plan is for","","","","","","","","","",,,,,"",,,,"careplan-logical-model.Subject",1,1,"",""

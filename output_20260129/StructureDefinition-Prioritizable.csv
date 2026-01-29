@@ -1,0 +1,9 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"Prioritizable","Prioritizable","","","",0,*,"","","","null {[]} {[]}
+","Prioritizable","Abstract pattern for elements that can be prioritized","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Prioritizable.priority","Prioritizable.priority","","","",1,1,"","","","integer {[]} {[]}
+","Priority ranking","Priority ranking","","","","","","","","","",,,,,"",,,,"Prioritizable.priority",1,1,"",""
+"Prioritizable.dateAssigned","Prioritizable.dateAssigned","","","",1,1,"","","","dateTime {[]} {[]}
+","Date the priority was assigned","Date the priority was assigned","","","","","","","","","",,,,,"",,,,"Prioritizable.dateAssigned",1,1,"",""
+"Prioritizable.withRespectTo","Prioritizable.withRespectTo","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Prioritizable]]}
+","Context for relative priority","Context for relative priority","","","","","","","","","",,,,,"",,,,"Prioritizable.withRespectTo",0,1,"",""

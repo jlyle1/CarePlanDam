@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="plan-definition-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem plan-definition-cs</b></p><a name="plan-definition-cs"> </a><a name="hcplan-definition-cs"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/plan-definition-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">c-cda-4-care-plan<a name="plan-definition-cs-c-cda-4-care-plan"> </a></td><td>C-CDA 4.0 Care Plan</td><td>C-CDA 4.0 Care Plan specification</td></tr><tr><td style="white-space:nowrap">pharmacist<a name="plan-definition-cs-pharmacist"> </a></td><td>Pharmacist</td><td>Pharmacist care plan</td></tr><tr><td style="white-space:nowrap">ada-diabetes-2025<a name="plan-definition-cs-ada-diabetes-2025"> </a></td><td>ADA Diabetes Standard of Care 2025</td><td>ADA Diabetes Standard of Care 2025</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/dam/CodeSystem/plan-definition-cs"/>
+  <version value="0.1.0"/>
+  <name value="PlanDefinitionCS"/>
+  <title value="Plan Definition Code System"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for types of plan definitions"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="c-cda-4-care-plan"/>
+    <display value="C-CDA 4.0 Care Plan"/>
+    <definition value="C-CDA 4.0 Care Plan specification"/>
+  </concept>
+  <concept>
+    <code value="pharmacist"/>
+    <display value="Pharmacist"/>
+    <definition value="Pharmacist care plan"/>
+  </concept>
+  <concept>
+    <code value="ada-diabetes-2025"/>
+    <display value="ADA Diabetes Standard of Care 2025"/>
+    <definition value="ADA Diabetes Standard of Care 2025"/>
+  </concept>
+</CodeSystem>

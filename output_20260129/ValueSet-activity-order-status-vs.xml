@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="activity-order-status-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet activity-order-status-vs</b></p><a name="activity-order-status-vs"> </a><a name="hcactivity-order-status-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-activity-order-status-cs.html"><code>http://hl7.org/dam/CodeSystem/activity-order-status-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://hl7.org/dam/ValueSet/activity-order-status-vs"/>
+  <version value="0.1.0"/>
+  <name value="ActivityOrderStatusVS"/>
+  <title value="Activity Order Status Value Set"/>
+  <status value="active"/>
+  <date value="2026-01-29T10:40:38-05:00"/>
+  <publisher value="Patient Care WG"/>
+  <contact>
+    <name value="Patient Care WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Value set for activity order status"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/dam/CodeSystem/activity-order-status-cs"/>
+    </include>
+  </compose>
+</ValueSet>

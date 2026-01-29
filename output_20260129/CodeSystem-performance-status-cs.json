@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "performance-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem performance-status-cs</b></p><a name=\"performance-status-cs\"> </a><a name=\"hcperformance-status-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/performance-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">planned<a name=\"performance-status-cs-planned\"> </a></td><td>Planned</td><td>Activity is planned but not started</td></tr><tr><td style=\"white-space:nowrap\">in-process<a name=\"performance-status-cs-in-process\"> </a></td><td>In Process</td><td>Activity is in process</td></tr><tr><td style=\"white-space:nowrap\">cancelled<a name=\"performance-status-cs-cancelled\"> </a></td><td>Cancelled</td><td>Activity was cancelled</td></tr><tr><td style=\"white-space:nowrap\">aborted<a name=\"performance-status-cs-aborted\"> </a></td><td>Aborted</td><td>Activity was aborted</td></tr><tr><td style=\"white-space:nowrap\">completed<a name=\"performance-status-cs-completed\"> </a></td><td>Completed</td><td>Activity was completed</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/performance-status-cs",
+  "version" : "0.1.0",
+  "name" : "PerformanceStatusCS",
+  "title" : "Performance Status Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for performance status of activities",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "planned",
+    "display" : "Planned",
+    "definition" : "Activity is planned but not started"
+  },
+  {
+    "code" : "in-process",
+    "display" : "In Process",
+    "definition" : "Activity is in process"
+  },
+  {
+    "code" : "cancelled",
+    "display" : "Cancelled",
+    "definition" : "Activity was cancelled"
+  },
+  {
+    "code" : "aborted",
+    "display" : "Aborted",
+    "definition" : "Activity was aborted"
+  },
+  {
+    "code" : "completed",
+    "display" : "Completed",
+    "definition" : "Activity was completed"
+  }]
+}

@@ -1,0 +1,16 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-careplandam.json	5163	-	0	0	0	0	0	0	12	327	0	0	2	0	0	0	0	2	0	0	117	88	0	0	0	3	0	1
+fsh-generated/resources/CodeSystem-careplan-purpose-cs.json	846	17	0	0	0	0	0	0	1	14	0	0	0	0	0	0	0	0	0	0	39	723	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-careplan-specification-type-cs.json	818	12	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	39	92	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-careplan-status-cs.json	785	13	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	36	95	0	0	0	1	0	0
+fsh-generated/resources/Organization-CPDOrganizationExample.json	120	17	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	25	35	0	0	1	0	0	0
+fsh-generated/resources/Patient-CPDPatientExample.json	253	11	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	27	55	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-CPDPractitionerExample.json	165	16	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	31	38	0	0	0	0	0	0
+fsh-generated/resources/PractitionerRole-CPDPractitionerRoleExample.json	159	17	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	27	32	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-CPDPatient.json	600	15	0	108	0	0	0	1	2	76	0	0	1	0	0	0	0	1	0	0	536	1835	0	0	0	8	0	0
+fsh-generated/resources/StructureDefinition-careplan-logical-model.json	5116	12	0	25	0	0	0	0	0	25	0	0	0	0	0	0	0	0	0	0	280	414	0	0	0	3	0	0
+fsh-generated/resources/ValueSet-careplan-purpose-vs.json	402	9	0	0	0	0	0	0	0	48	0	0	0	0	0	0	0	0	0	0	38	235	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-careplan-specification-type-vs.json	468	7	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	38	167	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-careplan-status-vs.json	398	6	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	33	179	0	0	0	0	0	0
+\fsh-generated\resources\binary-CuratedPlanExample.json	847	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	51	22	0	0	0	0	0	0
+\fsh-generated\resources\binary-StaticPlanExample.json	749	-	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	42	21	0	0	0	0	0	0

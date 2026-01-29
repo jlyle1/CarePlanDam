@@ -1,0 +1,28 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/careplan-purpose-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CarePlanPurposeCS",
+      "title" : "Care Plan Purpose",
+      "description" : "Types of purposes for care plans"
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/careplan-specification-type-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CarePlanSpecificationTypeCS",
+      "title" : "Care Plan Specification Type",
+      "description" : "Types of specifications for care plans."
+    },
+    {
+      "url" : "http://hl7.org/dam/CodeSystem/careplan-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CarePlanStatusCS",
+      "title" : "Care Plan Status",
+      "description" : "Statuses for care plans"
+    }
+  ]
+}

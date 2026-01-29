@@ -1,0 +1,601 @@
+{
+  "date" : "Fri, 03 Oct, 2025 17:37:42 -0400",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "\\fsh-generated\\resources\\ImplementationGuide-careplandam.json",
+      "size" : 5163,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 224
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 37,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 327
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 3903
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 117
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 88
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 90,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-careplan-purpose-cs.json",
+      "size" : 846,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 17
+        },
+        {
+          "activity" : "load",
+          "start" : 36,
+          "length" : 30
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 89
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 39
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 723
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-careplan-specification-type-cs.json",
+      "size" : 818,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 36,
+          "length" : 28
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 39
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 92
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-careplan-status-cs.json",
+      "size" : 785,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 36,
+          "length" : 20
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 95
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-CPDOrganizationExample.json",
+      "size" : 120,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 17
+        },
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 35
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 83,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-CPDPatientExample.json",
+      "size" : 253,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 55
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-CPDPractitionerExample.json",
+      "size" : 165,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 16
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 38
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-CPDPractitionerRoleExample.json",
+      "size" : 159,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 16
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 32
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-CPDPatient.json",
+      "size" : 600,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 19
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 37,
+          "length" : 108
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 76
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 1207
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 536
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 1835
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 1578
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-careplan-logical-model.json",
+      "size" : 5116,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 18
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 37,
+          "length" : 25
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 64
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 280
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 414
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 111
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-careplan-purpose-vs.json",
+      "size" : 402,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 36,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 48
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 28
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 38
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 235
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-careplan-specification-type-vs.json",
+      "size" : 468,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 36,
+          "length" : 22
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 38
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 167
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-careplan-status-vs.json",
+      "size" : 398,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 36,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 179
+        }
+      ]
+    },
+    {
+      "name" : "\\fsh-generated\\resources\\binary-CuratedPlanExample.json",
+      "size" : 847,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 19
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 51
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 22
+        }
+      ]
+    },
+    {
+      "name" : "\\fsh-generated\\resources\\binary-StaticPlanExample.json",
+      "size" : 749,
+      "processes" : [
+        {
+          "activity" : "checkR4R4B",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 42
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 21
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 83,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

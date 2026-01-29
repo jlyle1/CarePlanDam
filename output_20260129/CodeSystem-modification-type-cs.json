@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "modification-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem modification-type-cs</b></p><a name=\"modification-type-cs\"> </a><a name=\"hcmodification-type-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/modification-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">omit<a name=\"modification-type-cs-omit\"> </a></td><td>Omit</td><td>Element is omitted</td></tr><tr><td style=\"white-space:nowrap\">modify<a name=\"modification-type-cs-modify\"> </a></td><td>Modify</td><td>Element is modified</td></tr><tr><td style=\"white-space:nowrap\">add<a name=\"modification-type-cs-add\"> </a></td><td>Add</td><td>Element is added</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/dam/CodeSystem/modification-type-cs",
+  "version" : "0.1.0",
+  "name" : "ModificationTypeCS",
+  "title" : "Modification Type Code System",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Codes for types of modifications",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "omit",
+    "display" : "Omit",
+    "definition" : "Element is omitted"
+  },
+  {
+    "code" : "modify",
+    "display" : "Modify",
+    "definition" : "Element is modified"
+  },
+  {
+    "code" : "add",
+    "display" : "Add",
+    "definition" : "Element is added"
+  }]
+}

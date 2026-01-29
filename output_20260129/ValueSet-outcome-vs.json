@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "outcome-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet outcome-vs</b></p><a name=\"outcome-vs\"> </a><a name=\"hcoutcome-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-outcome-cs.html\"><code>http://hl7.org/dam/CodeSystem/outcome-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://hl7.org/dam/ValueSet/outcome-vs",
+  "version" : "0.1.0",
+  "name" : "OutcomeVS",
+  "title" : "Outcome Value Set",
+  "status" : "active",
+  "date" : "2026-01-29T10:40:38-05:00",
+  "publisher" : "Patient Care WG",
+  "contact" : [{
+    "name" : "Patient Care WG",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.org/Special/committees/patientcare"
+    }]
+  }],
+  "description" : "Value set for outcome assessment",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/dam/CodeSystem/outcome-cs"
+    }]
+  }
+}

@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/dam/CodeSystem/decision-mode-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "decision-mode-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem decision-mode-cs</b></p><a name=\"decision-mode-cs\"> </a><a name=\"hcdecision-mode-cs\"> </a><p>This case-sensitive code system <code>http://hl7.org/dam/CodeSystem/decision-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">explicit<a name=\"decision-mode-cs-explicit\"> </a></td><td>Explicit</td><td>Decision was made explicitly</td></tr><tr><td style=\"white-space:nowrap\">inherited<a name=\"decision-mode-cs-inherited\"> </a></td><td>Inherited</td><td>Decision was inherited from another element</td></tr><tr><td style=\"white-space:nowrap\">contextual<a name=\"decision-mode-cs-contextual\"> </a></td><td>Contextual</td><td>Decision was derived from context</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/dam/CodeSystem/decision-mode-cs"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/dam/CodeSystem/decision-mode-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DecisionModeCS"] ; # 
+  fhir:title [ fhir:v "Decision Mode Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-01-29T10:40:38-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes for how decisions are made"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "explicit" ] ;
+     fhir:display [ fhir:v "Explicit" ] ;
+     fhir:definition [ fhir:v "Decision was made explicitly" ]
+  ] [
+     fhir:code [ fhir:v "inherited" ] ;
+     fhir:display [ fhir:v "Inherited" ] ;
+     fhir:definition [ fhir:v "Decision was inherited from another element" ]
+  ] [
+     fhir:code [ fhir:v "contextual" ] ;
+     fhir:display [ fhir:v "Contextual" ] ;
+     fhir:definition [ fhir:v "Decision was derived from context" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
