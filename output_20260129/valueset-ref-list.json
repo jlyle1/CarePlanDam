@@ -84,13 +84,13 @@
       "url" : "http://hl7.org/dam/ValueSet/plan-definition-vs",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "PlanDefinitionVS",
+      "name" : "CarePlanDefinitionVS",
       "title" : "Plan Definition Value Set",
       "description" : "Value set for plan definitions",
       "systems" : ["http://hl7.org/dam/CodeSystem/plan-definition-cs"],
       "uses" : {
       },
-      "StructureDefinition-PlanDefinition.html" : "Plan Definition"
+      "StructureDefinition-CarePlanDefinition.html" : "Plan Definition"
     },
     {
       "url" : "http://hl7.org/dam/ValueSet/plan-purpose-vs",

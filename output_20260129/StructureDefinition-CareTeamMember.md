@@ -16,7 +16,7 @@ A member of the care team participating in the care plan
 
 **Usages:**
 
-* Refer to this Logical Model: [Communication](StructureDefinition-Communication.md), [Organization](StructureDefinition-Organization.md) and [Plan Element](StructureDefinition-PlanElement.md)
+* Refer to this Logical Model: [Communication](StructureDefinition-Communication.md), [Organization](StructureDefinition-Organization.md) and [Plan Element](StructureDefinition-CarePlanElement.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/careplandam|current/StructureDefinition/CareTeamMember)
 
@@ -59,7 +59,7 @@ Other representations of profile: [CSV](StructureDefinition-CareTeamMember.csv),
   "kind" : "logical",
   "abstract" : false,
   "type" : "http://hl7.org/dam/StructureDefinition/CareTeamMember",
-  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
   "derivation" : "specialization",
   "differential" : {
     "element" : [
@@ -175,7 +175,7 @@ Other representations of profile: [CSV](StructureDefinition-CareTeamMember.csv),
         "type" : [
           {
             "code" : "Reference",
-            "targetProfile" : ["http://hl7.org/dam/StructureDefinition/Prioritizable"]
+            "targetProfile" : ["http://hl7.org/dam/StructureDefinition/Priority"]
           }
         ]
       }

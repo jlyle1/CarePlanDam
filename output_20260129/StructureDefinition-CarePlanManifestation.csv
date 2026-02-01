@@ -2,11 +2,11 @@
 "CarePlanManifestation","CarePlanManifestation","","","",0,*,"","","","null {[]} {[]}
 ","Care Plan Manifestation","A manifestation of a care plan - a specific instance of a care plan at a point in time","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CarePlanManifestation.refersTo","CarePlanManifestation.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CarePlanManifestation.hasAuthor","CarePlanManifestation.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CarePlanManifestation.contains","CarePlanManifestation.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CarePlanManifestation.acknowledgeable","CarePlanManifestation.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.acknowledgeable",1,1,"",""
 "CarePlanManifestation.performable","CarePlanManifestation.performable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Performable {[]} {[]}
@@ -31,5 +31,5 @@
 ","Display name for the plan","Display name for the plan","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.displayName",1,1,"",""
 "CarePlanManifestation.description","CarePlanManifestation.description","","","",1,1,"","","","string {[]} {[]}
 ","Description of the plan","Description of the plan","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.description",1,1,"",""
-"CarePlanManifestation.uses","CarePlanManifestation.uses","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/PlanDefinition]]}
+"CarePlanManifestation.uses","CarePlanManifestation.uses","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanDefinition]]}
 ","Plan definitions used","Plan definitions used","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.uses",0,*,"",""

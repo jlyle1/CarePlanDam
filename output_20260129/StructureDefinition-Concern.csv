@@ -2,17 +2,17 @@
 "Concern","Concern","","","",0,*,"","","","null {[]} {[]}
 ","Concern","A health concern or condition addressed by the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Concern.refersTo","Concern.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Concern.hasAuthor","Concern.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Concern.contains","Concern.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Concern.expressible","Concern.expressible","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Expressible {[]} {[]}
 ","Expressible pattern properties","Expressible pattern properties","","","","","","","","","",,,,,"",,,,"Concern.expressible",1,1,"",""
 "Concern.revisable","Concern.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
 ","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"Concern.revisable",1,1,"",""
-"Concern.prioritizable","Concern.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
-","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"Concern.prioritizable",1,1,"",""
+"Concern.Priority","Concern.Priority","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Priority {[]} {[]}
+","Priority pattern properties","Priority pattern properties","","","","","","","","","",,,,,"",,,,"Concern.Priority",1,1,"",""
 "Concern.acknowledgeable","Concern.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"Concern.acknowledgeable",1,1,"",""
 "Concern.concern","Concern.concern","","","",1,1,"","","","CodeableConcept {[]} {[]}

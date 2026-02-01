@@ -2,10 +2,10 @@
 "CommunicationThread","CommunicationThread","","","",0,*,"","","","null {[]} {[]}
 ","Communication Thread","A thread of related communications","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CommunicationThread.refersTo","CommunicationThread.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CommunicationThread.hasAuthor","CommunicationThread.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CommunicationThread.contains","CommunicationThread.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CommunicationThread.topic","CommunicationThread.topic","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Topic of the thread","Topic of the thread","","","","","","","","","",,,,,"",,,,"CommunicationThread.topic",1,1,"",""

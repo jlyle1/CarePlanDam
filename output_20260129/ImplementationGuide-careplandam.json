@@ -1034,7 +1034,7 @@
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/PlanDefinition"
+        "reference" : "StructureDefinition/CarePlanDefinition"
       },
       "name" : "Plan Definition",
       "description" : "A definition or template for care plans",
@@ -1070,7 +1070,7 @@
         "valueString" : "StructureDefinition:logical:abstract"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/PlanElement"
+        "reference" : "StructureDefinition/CarePlanElement"
       },
       "name" : "Plan Element",
       "description" : "Abstract base for all care plan content elements. All plan elements are specific to a Patient.",
@@ -1154,9 +1154,9 @@
         "valueString" : "StructureDefinition:logical:abstract"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/Prioritizable"
+        "reference" : "StructureDefinition/Priority"
       },
-      "name" : "Prioritizable",
+      "name" : "Priority",
       "description" : "Abstract pattern for elements that can be prioritized",
       "exampleBoolean" : false
     },

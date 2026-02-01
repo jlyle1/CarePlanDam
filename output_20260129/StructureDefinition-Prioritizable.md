@@ -1,15 +1,15 @@
-# Prioritizable - v0.1.0
+# Priority - v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Prioritizable**
+* **Priority**
 
-## Logical Model: Prioritizable ( Abstract ) 
+## Logical Model: Priority ( Abstract ) 
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/dam/StructureDefinition/Prioritizable | *Version*:0.1.0 |
-| Active as of 2026-01-29 | *Computable Name*:Prioritizable |
+| *Official URL*:http://hl7.org/dam/StructureDefinition/Priority | *Version*:0.1.0 |
+| Active as of 2026-01-29 | *Computable Name*:Priority |
 
  
 Abstract pattern for elements that can be prioritized 
@@ -17,9 +17,9 @@ Abstract pattern for elements that can be prioritized
 **Usages:**
 
 * Use this Logical Model: [Concern](StructureDefinition-Concern.md), [Goal](StructureDefinition-Goal.md), [Planned Activity](StructureDefinition-PlannedActivity.md) and [Preference](StructureDefinition-Preference.md)
-* Refer to this Logical Model: [Care Team Member](StructureDefinition-CareTeamMember.md) and [Prioritizable](StructureDefinition-Prioritizable.md)
+* Refer to this Logical Model: [Care Team Member](StructureDefinition-CareTeamMember.md) and [Priority](StructureDefinition-Priority.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/careplandam|current/StructureDefinition/Prioritizable)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/careplandam|current/StructureDefinition/Priority)
 
 ### Formal Views of Profile Content
 
@@ -27,7 +27,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
  
 
-Other representations of profile: [CSV](StructureDefinition-Prioritizable.csv), [Excel](StructureDefinition-Prioritizable.xlsx) 
+Other representations of profile: [CSV](StructureDefinition-Priority.csv), [Excel](StructureDefinition-Priority.xlsx) 
 
 
 
@@ -36,11 +36,11 @@ Other representations of profile: [CSV](StructureDefinition-Prioritizable.csv), 
 ```json
 {
   "resourceType" : "StructureDefinition",
-  "id" : "Prioritizable",
-  "url" : "http://hl7.org/dam/StructureDefinition/Prioritizable",
+  "id" : "Priority",
+  "url" : "http://hl7.org/dam/StructureDefinition/Priority",
   "version" : "0.1.0",
-  "name" : "Prioritizable",
-  "title" : "Prioritizable",
+  "name" : "Priority",
+  "title" : "Priority",
   "status" : "active",
   "date" : "2026-01-29T10:40:38-05:00",
   "publisher" : "Patient Care WG",
@@ -59,20 +59,20 @@ Other representations of profile: [CSV](StructureDefinition-Prioritizable.csv), 
   "fhirVersion" : "4.0.1",
   "kind" : "logical",
   "abstract" : true,
-  "type" : "http://hl7.org/dam/StructureDefinition/Prioritizable",
+  "type" : "http://hl7.org/dam/StructureDefinition/Priority",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation" : "specialization",
   "differential" : {
     "element" : [
       {
-        "id" : "Prioritizable",
-        "path" : "Prioritizable",
-        "short" : "Prioritizable",
+        "id" : "Priority",
+        "path" : "Priority",
+        "short" : "Priority",
         "definition" : "Abstract pattern for elements that can be prioritized"
       },
       {
-        "id" : "Prioritizable.priority",
-        "path" : "Prioritizable.priority",
+        "id" : "Priority.priority",
+        "path" : "Priority.priority",
         "short" : "Priority ranking",
         "definition" : "Priority ranking",
         "min" : 1,
@@ -84,8 +84,8 @@ Other representations of profile: [CSV](StructureDefinition-Prioritizable.csv), 
         ]
       },
       {
-        "id" : "Prioritizable.dateAssigned",
-        "path" : "Prioritizable.dateAssigned",
+        "id" : "Priority.dateAssigned",
+        "path" : "Priority.dateAssigned",
         "short" : "Date the priority was assigned",
         "definition" : "Date the priority was assigned",
         "min" : 1,
@@ -97,8 +97,8 @@ Other representations of profile: [CSV](StructureDefinition-Prioritizable.csv), 
         ]
       },
       {
-        "id" : "Prioritizable.withRespectTo",
-        "path" : "Prioritizable.withRespectTo",
+        "id" : "Priority.withRespectTo",
+        "path" : "Priority.withRespectTo",
         "short" : "Context for relative priority",
         "definition" : "Context for relative priority",
         "min" : 0,
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-Prioritizable.csv), 
         "type" : [
           {
             "code" : "Reference",
-            "targetProfile" : ["http://hl7.org/dam/StructureDefinition/Prioritizable"]
+            "targetProfile" : ["http://hl7.org/dam/StructureDefinition/Priority"]
           }
         ]
       }

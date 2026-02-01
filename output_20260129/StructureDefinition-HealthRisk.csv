@@ -2,11 +2,11 @@
 "HealthRisk","HealthRisk","","","",0,*,"","","","null {[]} {[]}
 ","Health Risk","A health risk identified for the patient","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "HealthRisk.refersTo","HealthRisk.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "HealthRisk.hasAuthor","HealthRisk.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "HealthRisk.contains","HealthRisk.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "HealthRisk.risk","HealthRisk.risk","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","The type of risk","The type of risk","","","","","","","","","",,,,,"",,,,"HealthRisk.risk",1,1,"",""
 "HealthRisk.comment","HealthRisk.comment","","","",1,1,"","","","string {[]} {[]}

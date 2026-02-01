@@ -127,22 +127,22 @@ Description: "Value set for performance status"
 * ^status = #active
 * include codes from system PerformanceStatusCS
 
-CodeSystem: PlanDefinitionCS
-Id: plan-definition-cs
-Title: "Plan Definition Code System"
-Description: "Codes for types of plan definitions"
+CodeSystem: CarePlanDefinitionCS
+Id: care-plan-definition-cs
+Title: "Care Plan Definition Code System"
+Description: "Codes for types of care plan definitions"
 * ^status = #active
 * ^caseSensitive = true
 * #c-cda-4-care-plan "C-CDA 4.0 Care Plan" "C-CDA 4.0 Care Plan specification"
 * #pharmacist "Pharmacist" "Pharmacist care plan"
 * #ada-diabetes-2025 "ADA Diabetes Standard of Care 2025" "ADA Diabetes Standard of Care 2025"
 
-ValueSet: PlanDefinitionVS
-Id: plan-definition-vs
-Title: "Plan Definition Value Set"
-Description: "Value set for plan definitions"
+ValueSet: CarePlanDefinitionVS
+Id: care-plan-definition-vs
+Title: "Care Plan Definition Value Set"
+Description: "Value set for care plan definitions"
 * ^status = #active
-* include codes from system PlanDefinitionCS
+* include codes from system CarePlanDefinitionCS
 
 CodeSystem: PlanPurposeCS
 Id: plan-purpose-cs

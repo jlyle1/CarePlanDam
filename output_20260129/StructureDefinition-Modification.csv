@@ -2,11 +2,11 @@
 "Modification","Modification","","","",0,*,"","","","null {[]} {[]}
 ","Modification","A modification made to a plan element","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Modification.refersTo","Modification.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Modification.hasAuthor","Modification.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Modification.contains","Modification.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Modification.item","Modification.item","","","",1,1,"","","","string {[]} {[]}
 ","Item being modified","Item being modified","","","","","","","","","",,,,,"",,,,"Modification.item",1,1,"",""
 "Modification.rationale","Modification.rationale","","","",1,1,"","","","CodeableConcept {[]} {[]}

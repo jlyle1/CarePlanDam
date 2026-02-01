@@ -59,7 +59,7 @@ Other representations of profile: [CSV](StructureDefinition-Modification.csv), [
   "kind" : "logical",
   "abstract" : false,
   "type" : "http://hl7.org/dam/StructureDefinition/Modification",
-  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
   "derivation" : "specialization",
   "differential" : {
     "element" : [

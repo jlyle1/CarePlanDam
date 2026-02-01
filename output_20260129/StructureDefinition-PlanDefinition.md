@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/dam/StructureDefinition/PlanDefinition | *Version*:0.1.0 |
-| Active as of 2026-01-29 | *Computable Name*:PlanDefinition |
+| *Official URL*:http://hl7.org/dam/StructureDefinition/CarePlanDefinition | *Version*:0.1.0 |
+| Active as of 2026-01-29 | *Computable Name*:CarePlanDefinition |
 
  
 A definition or template for care plans 
@@ -18,7 +18,7 @@ A definition or template for care plans
 
 * Refer to this Logical Model: [Care Plan Manifestation](StructureDefinition-CarePlanManifestation.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/careplandam|current/StructureDefinition/PlanDefinition)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/careplandam|current/StructureDefinition/CarePlanDefinition)
 
 ### Formal Views of Profile Content
 
@@ -26,7 +26,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
  
 
-Other representations of profile: [CSV](StructureDefinition-PlanDefinition.csv), [Excel](StructureDefinition-PlanDefinition.xlsx) 
+Other representations of profile: [CSV](StructureDefinition-CarePlanDefinition.csv), [Excel](StructureDefinition-CarePlanDefinition.xlsx) 
 
 
 
@@ -35,10 +35,10 @@ Other representations of profile: [CSV](StructureDefinition-PlanDefinition.csv),
 ```json
 {
   "resourceType" : "StructureDefinition",
-  "id" : "PlanDefinition",
-  "url" : "http://hl7.org/dam/StructureDefinition/PlanDefinition",
+  "id" : "CarePlanDefinition",
+  "url" : "http://hl7.org/dam/StructureDefinition/CarePlanDefinition",
   "version" : "0.1.0",
-  "name" : "PlanDefinition",
+  "name" : "CarePlanDefinition",
   "title" : "Plan Definition",
   "status" : "active",
   "date" : "2026-01-29T10:40:38-05:00",
@@ -58,20 +58,20 @@ Other representations of profile: [CSV](StructureDefinition-PlanDefinition.csv),
   "fhirVersion" : "4.0.1",
   "kind" : "logical",
   "abstract" : false,
-  "type" : "http://hl7.org/dam/StructureDefinition/PlanDefinition",
+  "type" : "http://hl7.org/dam/StructureDefinition/CarePlanDefinition",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation" : "specialization",
   "differential" : {
     "element" : [
       {
-        "id" : "PlanDefinition",
-        "path" : "PlanDefinition",
+        "id" : "CarePlanDefinition",
+        "path" : "CarePlanDefinition",
         "short" : "Plan Definition",
         "definition" : "A definition or template for care plans"
       },
       {
-        "id" : "PlanDefinition.name",
-        "path" : "PlanDefinition.name",
+        "id" : "CarePlanDefinition.name",
+        "path" : "CarePlanDefinition.name",
         "short" : "Name of the plan definition",
         "definition" : "Name of the plan definition",
         "min" : 1,
@@ -87,8 +87,8 @@ Other representations of profile: [CSV](StructureDefinition-PlanDefinition.csv),
         }
       },
       {
-        "id" : "PlanDefinition.version",
-        "path" : "PlanDefinition.version",
+        "id" : "CarePlanDefinition.version",
+        "path" : "CarePlanDefinition.version",
         "short" : "Version of the definition",
         "definition" : "Version of the definition",
         "min" : 1,
@@ -100,8 +100,8 @@ Other representations of profile: [CSV](StructureDefinition-PlanDefinition.csv),
         ]
       },
       {
-        "id" : "PlanDefinition.url",
-        "path" : "PlanDefinition.url",
+        "id" : "CarePlanDefinition.url",
+        "path" : "CarePlanDefinition.url",
         "short" : "URL for the definition",
         "definition" : "URL for the definition",
         "min" : 1,

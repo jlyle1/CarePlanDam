@@ -1868,7 +1868,7 @@
       ]
     },
     {
-      "name" : "fsh-generated/resources/StructureDefinition-PlanDefinition.json",
+      "name" : "fsh-generated/resources/StructureDefinition-CarePlanDefinition.json",
       "size" : 1804,
       "processes" : [
         {
@@ -1929,7 +1929,7 @@
       ]
     },
     {
-      "name" : "fsh-generated/resources/StructureDefinition-PlanElement.json",
+      "name" : "fsh-generated/resources/StructureDefinition-CarePlanElement.json",
       "size" : 2215,
       "processes" : [
         {
@@ -2082,7 +2082,7 @@
       ]
     },
     {
-      "name" : "fsh-generated/resources/StructureDefinition-Prioritizable.json",
+      "name" : "fsh-generated/resources/StructureDefinition-Priority.json",
       "size" : 1844,
       "processes" : [
         {

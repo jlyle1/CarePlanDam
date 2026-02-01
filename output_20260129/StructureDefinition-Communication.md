@@ -59,7 +59,7 @@ Other representations of profile: [CSV](StructureDefinition-Communication.csv), 
   "kind" : "logical",
   "abstract" : false,
   "type" : "http://hl7.org/dam/StructureDefinition/Communication",
-  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
   "derivation" : "specialization",
   "differential" : {
     "element" : [
@@ -118,7 +118,7 @@ Other representations of profile: [CSV](StructureDefinition-Communication.csv), 
         "type" : [
           {
             "code" : "Reference",
-            "targetProfile" : ["http://hl7.org/dam/StructureDefinition/PlanElement"]
+            "targetProfile" : ["http://hl7.org/dam/StructureDefinition/CarePlanElement"]
           }
         ]
       },

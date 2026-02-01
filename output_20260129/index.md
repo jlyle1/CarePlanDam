@@ -1238,7 +1238,7 @@ Feel free to modify this index page with your own awesome content!
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/PlanDefinition"
+          "reference" : "StructureDefinition/CarePlanDefinition"
         },
         "name" : "Plan Definition",
         "description" : "A definition or template for care plans",
@@ -1280,7 +1280,7 @@ Feel free to modify this index page with your own awesome content!
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/PlanElement"
+          "reference" : "StructureDefinition/CarePlanElement"
         },
         "name" : "Plan Element",
         "description" : "Abstract base for all care plan content elements. All plan elements are specific to a Patient.",
@@ -1378,9 +1378,9 @@ Feel free to modify this index page with your own awesome content!
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/Prioritizable"
+          "reference" : "StructureDefinition/Priority"
         },
-        "name" : "Prioritizable",
+        "name" : "Priority",
         "description" : "Abstract pattern for elements that can be prioritized",
         "exampleBoolean" : false
       },

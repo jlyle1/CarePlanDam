@@ -59,7 +59,7 @@ Other representations of profile: [CSV](StructureDefinition-CareDeliveryResource
   "kind" : "logical",
   "abstract" : false,
   "type" : "http://hl7.org/dam/StructureDefinition/CareDeliveryResource",
-  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
   "derivation" : "specialization",
   "differential" : {
     "element" : [

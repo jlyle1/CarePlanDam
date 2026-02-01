@@ -16,7 +16,7 @@ A manifestation of a care plan - a specific instance of a care plan at a point i
 
 **Usages:**
 
-* Refer to this Logical Model: [Organization](StructureDefinition-Organization.md), [Plan Element](StructureDefinition-PlanElement.md) and [Reconciliation Log](StructureDefinition-ReconciliationLog.md)
+* Refer to this Logical Model: [Organization](StructureDefinition-Organization.md), [Plan Element](StructureDefinition-CarePlanElement.md) and [Reconciliation Log](StructureDefinition-ReconciliationLog.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/careplandam|current/StructureDefinition/CarePlanManifestation)
 
@@ -59,7 +59,7 @@ Other representations of profile: [CSV](StructureDefinition-CarePlanManifestatio
   "kind" : "logical",
   "abstract" : false,
   "type" : "http://hl7.org/dam/StructureDefinition/CarePlanManifestation",
-  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
   "derivation" : "specialization",
   "differential" : {
     "element" : [
@@ -243,7 +243,7 @@ Other representations of profile: [CSV](StructureDefinition-CarePlanManifestatio
         "type" : [
           {
             "code" : "Reference",
-            "targetProfile" : ["http://hl7.org/dam/StructureDefinition/PlanDefinition"]
+            "targetProfile" : ["http://hl7.org/dam/StructureDefinition/CarePlanDefinition"]
           }
         ]
       }

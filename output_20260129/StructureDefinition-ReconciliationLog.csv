@@ -2,11 +2,11 @@
 "ReconciliationLog","ReconciliationLog","","","",0,*,"","","","null {[]} {[]}
 ","Reconciliation Log","A log of reconciliation activities. Reconciliation merges versions of a plan maintained in different places or merges diverse specific plans into overarching plans.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ReconciliationLog.refersTo","ReconciliationLog.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ReconciliationLog.hasAuthor","ReconciliationLog.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ReconciliationLog.contains","ReconciliationLog.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ReconciliationLog.date","ReconciliationLog.date","","","",1,1,"","","","dateTime {[]} {[]}
 ","Date of the reconciliation","Date of the reconciliation","","","","","","","","","",,,,,"",,,,"ReconciliationLog.date",1,1,"",""
 "ReconciliationLog.notes","ReconciliationLog.notes","","","",1,1,"","","","string {[]} {[]}

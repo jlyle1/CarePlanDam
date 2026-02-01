@@ -81,7 +81,7 @@
       "url" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
       "version" : "0.1.0",
       "status" : "active",
-      "name" : "PlanDefinitionCS",
+      "name" : "CarePlanDefinitionCS",
       "title" : "Plan Definition Code System",
       "description" : "Codes for types of plan definitions",
       "uses" : {

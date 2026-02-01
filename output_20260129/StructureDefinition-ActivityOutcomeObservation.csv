@@ -2,11 +2,11 @@
 "ActivityOutcomeObservation","ActivityOutcomeObservation","","","",0,*,"","","","null {[]} {[]}
 ","Activity Outcome Observation","An observation characterizing the outcome of an activity execution","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ActivityOutcomeObservation.refersTo","ActivityOutcomeObservation.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ActivityOutcomeObservation.hasAuthor","ActivityOutcomeObservation.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ActivityOutcomeObservation.contains","ActivityOutcomeObservation.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ActivityOutcomeObservation.performable","ActivityOutcomeObservation.performable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Performable {[]} {[]}
 ","Performable pattern properties","Performable pattern properties","","","","","","","","","",,,,,"",,,,"ActivityOutcomeObservation.performable",1,1,"",""
 "ActivityOutcomeObservation.propertyAssessed","ActivityOutcomeObservation.propertyAssessed","","","",1,1,"","","","CodeableConcept {[]} {[]}

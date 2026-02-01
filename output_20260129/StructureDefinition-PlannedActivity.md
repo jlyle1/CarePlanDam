@@ -59,7 +59,7 @@ Other representations of profile: [CSV](StructureDefinition-PlannedActivity.csv)
   "kind" : "logical",
   "abstract" : false,
   "type" : "http://hl7.org/dam/StructureDefinition/PlannedActivity",
-  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
   "derivation" : "specialization",
   "differential" : {
     "element" : [
@@ -96,15 +96,15 @@ Other representations of profile: [CSV](StructureDefinition-PlannedActivity.csv)
         ]
       },
       {
-        "id" : "PlannedActivity.prioritizable",
-        "path" : "PlannedActivity.prioritizable",
-        "short" : "Prioritizable pattern properties",
-        "definition" : "Prioritizable pattern properties",
+        "id" : "PlannedActivity.Priority",
+        "path" : "PlannedActivity.Priority",
+        "short" : "Priority pattern properties",
+        "definition" : "Priority pattern properties",
         "min" : 1,
         "max" : "1",
         "type" : [
           {
-            "code" : "http://hl7.org/dam/StructureDefinition/Prioritizable"
+            "code" : "http://hl7.org/dam/StructureDefinition/Priority"
           }
         ]
       },

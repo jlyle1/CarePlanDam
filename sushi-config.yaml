@@ -75,8 +75,91 @@ publisher:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
+  IG Home: index.html
+  Introduction: introduction.html
+    Background: background.html
+    Modeling Conventions: conventions.html
+  Use Cases:
+    Planning: planning.html
+    Creation: creation.html
+    Exchange: exchange.html
+    Reconciliation: reconciliation.html
+  Examples: examples.html
   Artifacts: artifacts.html
+
+groups:
+  CarePlanning:
+    name: Care Planning
+    description: Identifying a concern, creating goals, identifying interventions, etc. (no "Plan" artifact necessary)
+    resources:
+      - StructureDefinition/CarePlanPatient
+      - StructureDefinition/Concern
+      - StructureDefinition/Goal
+      - StructureDefinition/Priority
+      - StructureDefinition/Preference
+      - StructureDefinition/Barrier
+      - StructureDefinition/HealthRisk
+      - StructureDefinition/ProtectiveFactor
+      - StructureDefinition/PlannedActivity
+      - StructureDefinition/ResourceRequirement
+      - StructureDefinition/CareDeliveryResource
+      - StructureDefinition/CareTeam
+      - StructureDefinition/CareTeamMember
+      - StructureDefinition/PartOf
+  PlanGeneration:
+    name: Plan Generation
+    description: The process of instantiating a plan, whether by capturing elements in an explicitly authored plan, with or without automated support, or as an externally defined query, as in a C-CDA document 
+    resources:
+      - StructureDefinition/CarePlanManifestation
+      - StructureDefinition/CarePlanDefinition
+      - StructureDefinition/CarePlanElement
+      - StructureDefinition/Guideline
+  PlanReconciliation:
+    name: Plan Reconciliation
+    description: Turning two plans into one plan, with attendant questions about provenance, authority, and audience roles
+    resources:
+      - StructureDefinition/ReconciliationAct
+      - StructureDefinition/ReconciliationLog
+      - StructureDefinition/Organization
+  PlanReview:
+    name: Plan Review
+    description: Assessing the appropriateness of proposed items and the effectiveness of executed items 
+    resources:
+      - StructureDefinition/AcceptanceReview
+      - StructureDefinition/Modification
+      - StructureDefinition/OutcomeReview
+      - StructureDefinition/Revision
+      - StructureDefinition/ActivityExecution
+      - StructureDefinition/ActivityOutcomeObservation
+      - StructureDefinition/Communication
+      - StructureDefinition/CommunicationThread
+  Examples:
+    name: NICU Care Plan Example
+    description: Example instances illustrating a NICU discharge care plan
+    resources:
+      - Patient/PatientBabySmith
+      - Practitioner/PractitionerNurse
+      - Practitioner/PractitionerPhysician
+      - Binary/CareTeamMemberNurse
+      - Binary/CareTeamMemberPhysician
+      - Binary/ConcernPrematurity
+      - Binary/GoalDischargeFromNICU
+      - Binary/GoalWeightGain
+      - Binary/GoalOnRoomAir
+      - Binary/GoalOnOralNutrition
+      - Binary/GoalCaregiverEducation
+      - Binary/PlannedActivityWeighInfant
+      - Binary/PlannedActivityRespiratoryAssessment
+      - Binary/PlannedActivityFeeding
+      - Binary/ActivityExecutionWeighing
+      - Binary/ActivityExecutionRespiratoryAssessment
+      - Binary/ActivityExecutionFeeding
+      - Binary/ObservationBodyWeight
+      - Binary/ObservationRespiratoryStatus
+      - Binary/ObservationInfantFormulaIntake
+      - Binary/OutcomeReviewWeightStabilized
+      - Binary/OutcomeReviewRespiratoryResolved
+      - Binary/OutcomeReviewNutritionImproved
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

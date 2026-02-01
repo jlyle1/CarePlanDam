@@ -59,7 +59,7 @@ Other representations of profile: [CSV](StructureDefinition-Goal.csv), [Excel](S
   "kind" : "logical",
   "abstract" : false,
   "type" : "http://hl7.org/dam/StructureDefinition/Goal",
-  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+  "baseDefinition" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
   "derivation" : "specialization",
   "differential" : {
     "element" : [
@@ -122,15 +122,15 @@ Other representations of profile: [CSV](StructureDefinition-Goal.csv), [Excel](S
         ]
       },
       {
-        "id" : "Goal.prioritizable",
-        "path" : "Goal.prioritizable",
-        "short" : "Prioritizable pattern properties",
-        "definition" : "Prioritizable pattern properties",
+        "id" : "Goal.Priority",
+        "path" : "Goal.Priority",
+        "short" : "Priority pattern properties",
+        "definition" : "Priority pattern properties",
         "min" : 1,
         "max" : "1",
         "type" : [
           {
-            "code" : "http://hl7.org/dam/StructureDefinition/Prioritizable"
+            "code" : "http://hl7.org/dam/StructureDefinition/Priority"
           }
         ]
       },

@@ -2,11 +2,11 @@
 "CareTeamMember","CareTeamMember","","","",0,*,"","","","null {[]} {[]}
 ","Care Team Member","A member of the care team participating in the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CareTeamMember.refersTo","CareTeamMember.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CareTeamMember.hasAuthor","CareTeamMember.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CareTeamMember.contains","CareTeamMember.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CareTeamMember.name","CareTeamMember.name","","","",1,1,"","","","string {[]} {[]}
 ","Name of the care team member","Name of the care team member","","","","","","","","","",,,,,"",,,,"CareTeamMember.name",1,1,"",""
 "CareTeamMember.role","CareTeamMember.role","","","",1,1,"","","","CodeableConcept {[]} {[]}
@@ -21,5 +21,5 @@
 ","Reviews performed by this member","Reviews performed by this member","","","","","","","","","",,,,,"",,,,"CareTeamMember.performsReview",0,*,"",""
 "CareTeamMember.performsReconciliation","CareTeamMember.performsReconciliation","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/ReconciliationAct]]}
 ","Reconciliation acts performed","Reconciliation acts performed","","","","","","","","","",,,,,"",,,,"CareTeamMember.performsReconciliation",0,*,"",""
-"CareTeamMember.assigns","CareTeamMember.assigns","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Prioritizable]]}
+"CareTeamMember.assigns","CareTeamMember.assigns","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Priority]]}
 ","Priority assignments made by this member","Priority assignments made by this member","","","","","","","","","",,,,,"",,,,"CareTeamMember.assigns",0,*,"",""

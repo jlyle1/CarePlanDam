@@ -2048,8 +2048,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.org/dam/StructureDefinition/PlanDefinition> ;
-         fhir:reference [ fhir:v "StructureDefinition/PlanDefinition" ]
+         fhir:l <http://hl7.org/dam/StructureDefinition/CarePlanDefinition> ;
+         fhir:reference [ fhir:v "StructureDefinition/CarePlanDefinition" ]
        ] ;
        fhir:name [ fhir:v "Plan Definition" ] ;
        fhir:description [ fhir:v "A definition or template for care plans" ] ;
@@ -2111,8 +2111,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.org/dam/StructureDefinition/PlanElement> ;
-         fhir:reference [ fhir:v "StructureDefinition/PlanElement" ]
+         fhir:l <http://hl7.org/dam/StructureDefinition/CarePlanElement> ;
+         fhir:reference [ fhir:v "StructureDefinition/CarePlanElement" ]
        ] ;
        fhir:name [ fhir:v "Plan Element" ] ;
        fhir:description [ fhir:v "Abstract base for all care plan content elements. All plan elements are specific to a Patient." ] ;
@@ -2258,10 +2258,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.org/dam/StructureDefinition/Prioritizable> ;
-         fhir:reference [ fhir:v "StructureDefinition/Prioritizable" ]
+         fhir:l <http://hl7.org/dam/StructureDefinition/Priority> ;
+         fhir:reference [ fhir:v "StructureDefinition/Priority" ]
        ] ;
-       fhir:name [ fhir:v "Prioritizable" ] ;
+       fhir:name [ fhir:v "Priority" ] ;
        fhir:description [ fhir:v "Abstract pattern for elements that can be prioritized" ] ;
        fhir:example [
          a fhir:Boolean ;

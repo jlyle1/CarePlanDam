@@ -53,7 +53,7 @@
     "type" : "CodeSystem",
     "url" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
     "version" : "0.1.0",
-    "name" : "PlanDefinitionCS"
+    "name" : "CarePlanDefinitionCS"
   },
   {
     "id" : "plan-purpose-cs",
@@ -245,18 +245,18 @@
     "name" : "Performable"
   },
   {
-    "id" : "PlanDefinition",
+    "id" : "CarePlanDefinition",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/dam/StructureDefinition/PlanDefinition",
+    "url" : "http://hl7.org/dam/StructureDefinition/CarePlanDefinition",
     "version" : "0.1.0",
-    "name" : "PlanDefinition"
+    "name" : "CarePlanDefinition"
   },
   {
-    "id" : "PlanElement",
+    "id" : "CarePlanElement",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/dam/StructureDefinition/PlanElement",
+    "url" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
     "version" : "0.1.0",
-    "name" : "PlanElement"
+    "name" : "CarePlanElement"
   },
   {
     "id" : "PlannedActivity",
@@ -273,11 +273,11 @@
     "name" : "Preference"
   },
   {
-    "id" : "Prioritizable",
+    "id" : "Priority",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/dam/StructureDefinition/Prioritizable",
+    "url" : "http://hl7.org/dam/StructureDefinition/Priority",
     "version" : "0.1.0",
-    "name" : "Prioritizable"
+    "name" : "Priority"
   },
   {
     "id" : "ProtectiveFactor",
@@ -375,7 +375,7 @@
     "type" : "ValueSet",
     "url" : "http://hl7.org/dam/ValueSet/plan-definition-vs",
     "version" : "0.1.0",
-    "name" : "PlanDefinitionVS"
+    "name" : "CarePlanDefinitionVS"
   },
   {
     "id" : "plan-purpose-vs",

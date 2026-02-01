@@ -34,11 +34,11 @@ fsh-generated/resources/StructureDefinition-Modification.json	2119	5	0	15	0	0	0	
 fsh-generated/resources/StructureDefinition-Organization.json	2357	12	0	10	1	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0	379	996	0	0	0	2	0	0
 fsh-generated/resources/StructureDefinition-OutcomeReview.json	3690	9	0	19	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	480	867	0	1	0	4	0	0
 fsh-generated/resources/StructureDefinition-Performable.json	1588	10	0	10	0	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	286	536	0	0	0	3	0	1
-fsh-generated/resources/StructureDefinition-PlanDefinition.json	1804	7	0	9	1	0	0	0	0	12	0	0	0	0	0	0	0	1	0	0	318	5305	0	0	0	3	0	0
-fsh-generated/resources/StructureDefinition-PlanElement.json	2215	8	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	428	508	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-CarePlanDefinition.json	1804	7	0	9	1	0	0	0	0	12	0	0	0	0	0	0	0	1	0	0	318	5305	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-CarePlanElement.json	2215	8	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	428	508	0	0	0	3	0	0
 fsh-generated/resources/StructureDefinition-PlannedActivity.json	6945	6	0	45	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	616	663	0	0	0	5	0	0
 fsh-generated/resources/StructureDefinition-Preference.json	5131	8	0	16	1	0	0	0	0	25	0	0	0	0	0	0	0	0	0	0	535	524	0	0	0	4	0	0
-fsh-generated/resources/StructureDefinition-Prioritizable.json	1844	7	0	8	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	234	691	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-Priority.json	1844	7	0	8	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	234	691	0	0	0	3	0	0
 fsh-generated/resources/StructureDefinition-ProtectiveFactor.json	2834	6	0	13	0	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	293	447	0	0	0	2	0	0
 fsh-generated/resources/StructureDefinition-ReconciliationAct.json	1415	7	0	9	1	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	220	427	0	0	0	3	0	1
 fsh-generated/resources/StructureDefinition-ReconciliationLog.json	3052	7	0	13	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	307	515	0	0	0	2	0	0

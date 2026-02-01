@@ -2,11 +2,11 @@
 "ReconciliationAct","ReconciliationAct","","","",0,*,"","","","null {[]} {[]}
 ","Reconciliation Act","An act of reconciling plan elements","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ReconciliationAct.refersTo","ReconciliationAct.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ReconciliationAct.hasAuthor","ReconciliationAct.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ReconciliationAct.contains","ReconciliationAct.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ReconciliationAct.role","ReconciliationAct.role","","","",1,1,"","","","string {[]} {[]}
 ","Role in the reconciliation","Role in the reconciliation","","","","","","","","","",,,,,"",,,,"ReconciliationAct.role",1,1,"",""
 "ReconciliationAct.note","ReconciliationAct.note","","","",1,1,"","","","string {[]} {[]}

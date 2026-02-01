@@ -18,15 +18,12 @@ We adopt the following equivalences:
 
 The following table shows which classes use which mixins via containment:
 
-| Class | Acknowledgeable | Performable | Composable | Expressible | Prioritizable | Revisable | Review |
-|-------|:---------------:|:-----------:|:----------:|:-----------:|:-------------:|:---------:|:------:|
-| AcceptanceReview | | | | | | | ✓ |
-| ActivityExecution | | ✓ | | | | | |
-| ActivityOutcomeObservation | | ✓ | | | | | |
-| CarePlanManifestation | ✓ | ✓ | ✓ | | | ✓ | |
-| CareTeam | ✓ | | | | | | |
-| Concern | ✓ | | | ✓ | ✓ | ✓ | |
-| Goal | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | |
-| OutcomeReview | | | | | | | ✓ |
-| PlannedActivity | ✓ | | ✓ | | ✓ | ✓ | |
-| Preference | ✓ | | | ✓ | ✓ | | |
+| Class | PartOf | Priority | Revision |
+|-------|:------:|:--------:|:--------:|
+| AcceptanceReview | ✓ | | |
+| CarePlanManifestation | ✓ | | ✓ |
+| Concern | | ✓ | ✓ |
+| Goal | ✓ | ✓ | ✓ |
+| OutcomeReview | ✓ | | |
+| PlannedActivity | ✓ | ✓ | ✓ |
+| Preference | | ✓ | |

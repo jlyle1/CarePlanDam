@@ -2,17 +2,17 @@
 "PlannedActivity","PlannedActivity","","","",0,*,"","","","null {[]} {[]}
 ","Planned Activity","An activity planned as part of the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "PlannedActivity.refersTo","PlannedActivity.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "PlannedActivity.hasAuthor","PlannedActivity.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "PlannedActivity.contains","PlannedActivity.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "PlannedActivity.composable","PlannedActivity.composable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Composable {[]} {[]}
 ","Composable pattern properties","Composable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.composable",1,1,"",""
 "PlannedActivity.acknowledgeable","PlannedActivity.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.acknowledgeable",1,1,"",""
-"PlannedActivity.prioritizable","PlannedActivity.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
-","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.prioritizable",1,1,"",""
+"PlannedActivity.Priority","PlannedActivity.Priority","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Priority {[]} {[]}
+","Priority pattern properties","Priority pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.Priority",1,1,"",""
 "PlannedActivity.revisable","PlannedActivity.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
 ","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.revisable",1,1,"",""
 "PlannedActivity.targetPeriod","PlannedActivity.targetPeriod","","","",1,1,"","","","Period {[]} {[]}

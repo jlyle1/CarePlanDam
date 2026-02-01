@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.org/dam/CodeSystem/plan-definition-cs | *Version*:0.1.0 |
-| Active as of 2026-01-29 | *Computable Name*:PlanDefinitionCS |
+| Active as of 2026-01-29 | *Computable Name*:CarePlanDefinitionCS |
 
  
 Codes for types of plan definitions 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [PlanDefinitionVS](ValueSet-plan-definition-vs.md)
+* [CarePlanDefinitionVS](ValueSet-plan-definition-vs.md)
 
 
 
@@ -28,7 +28,7 @@ Codes for types of plan definitions
   "id" : "plan-definition-cs",
   "url" : "http://hl7.org/dam/CodeSystem/plan-definition-cs",
   "version" : "0.1.0",
-  "name" : "PlanDefinitionCS",
+  "name" : "CarePlanDefinitionCS",
   "title" : "Plan Definition Code System",
   "status" : "active",
   "date" : "2026-01-29T10:40:38-05:00",

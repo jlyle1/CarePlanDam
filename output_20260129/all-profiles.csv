@@ -2,11 +2,11 @@
 "AcceptanceReview","AcceptanceReview","AcceptanceReview","","","",0,*,"","","","null {[]} {[]}
 ","Acceptance Review","A review where acknowledgment decisions are made about plan elements","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "AcceptanceReview","AcceptanceReview.refersTo","AcceptanceReview.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "AcceptanceReview","AcceptanceReview.hasAuthor","AcceptanceReview.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "AcceptanceReview","AcceptanceReview.contains","AcceptanceReview.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "AcceptanceReview","AcceptanceReview.review","AcceptanceReview.review","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Review {[]} {[]}
 ","Review pattern properties","Review pattern properties","","","","","","","","","",,,,,"",,,,"AcceptanceReview.review",1,1,"",""
 "AcceptanceReview","AcceptanceReview.decision","AcceptanceReview.decision","","","",1,1,"","","","code {[]} {[]}
@@ -21,11 +21,11 @@
 "ActivityExecution","ActivityExecution","ActivityExecution","","","",0,*,"","","","null {[]} {[]}
 ","Activity Execution","An execution of a planned activity","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ActivityExecution","ActivityExecution.refersTo","ActivityExecution.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ActivityExecution","ActivityExecution.hasAuthor","ActivityExecution.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ActivityExecution","ActivityExecution.contains","ActivityExecution.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ActivityExecution","ActivityExecution.performable","ActivityExecution.performable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Performable {[]} {[]}
 ","Performable pattern properties","Performable pattern properties","","","","","","","","","",,,,,"",,,,"ActivityExecution.performable",1,1,"",""
 "ActivityExecution","ActivityExecution.kind","ActivityExecution.kind","","","",1,1,"","","","CodeableConcept {[]} {[]}
@@ -35,11 +35,11 @@
 "ActivityOutcomeObservation","ActivityOutcomeObservation","ActivityOutcomeObservation","","","",0,*,"","","","null {[]} {[]}
 ","Activity Outcome Observation","An observation characterizing the outcome of an activity execution","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ActivityOutcomeObservation","ActivityOutcomeObservation.refersTo","ActivityOutcomeObservation.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ActivityOutcomeObservation","ActivityOutcomeObservation.hasAuthor","ActivityOutcomeObservation.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ActivityOutcomeObservation","ActivityOutcomeObservation.contains","ActivityOutcomeObservation.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ActivityOutcomeObservation","ActivityOutcomeObservation.performable","ActivityOutcomeObservation.performable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Performable {[]} {[]}
 ","Performable pattern properties","Performable pattern properties","","","","","","","","","",,,,,"",,,,"ActivityOutcomeObservation.performable",1,1,"",""
 "ActivityOutcomeObservation","ActivityOutcomeObservation.propertyAssessed","ActivityOutcomeObservation.propertyAssessed","","","",1,1,"","","","CodeableConcept {[]} {[]}
@@ -53,11 +53,11 @@
 "Barrier","Barrier","Barrier","","","",0,*,"","","","null {[]} {[]}
 ","Barrier","A barrier that impedes progress toward goals or planned activities","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Barrier","Barrier.refersTo","Barrier.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Barrier","Barrier.hasAuthor","Barrier.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Barrier","Barrier.contains","Barrier.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Barrier","Barrier.barrier","Barrier.barrier","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","The type of barrier","The type of barrier","","","","","","","","","",,,,,"",,,,"Barrier.barrier",1,1,"",""
 "Barrier","Barrier.comment","Barrier.comment","","","",1,1,"","","","string {[]} {[]}
@@ -69,11 +69,11 @@
 "CareDeliveryResource","CareDeliveryResource","CareDeliveryResource","","","",0,*,"","","","null {[]} {[]}
 ","Care Delivery Resource","A resource used in care delivery","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CareDeliveryResource","CareDeliveryResource.refersTo","CareDeliveryResource.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CareDeliveryResource","CareDeliveryResource.hasAuthor","CareDeliveryResource.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CareDeliveryResource","CareDeliveryResource.contains","CareDeliveryResource.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CareDeliveryResource","CareDeliveryResource.kind","CareDeliveryResource.kind","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Type of resource","Type of resource","","","","","","","","","",,,,,"",,,,"CareDeliveryResource.kind",1,1,"",""
 "CareDeliveryResource","CareDeliveryResource.identifier","CareDeliveryResource.identifier","","","",1,1,"","","","Identifier {[]} {[]}
@@ -85,11 +85,11 @@
 "CarePlanManifestation","CarePlanManifestation","CarePlanManifestation","","","",0,*,"","","","null {[]} {[]}
 ","Care Plan Manifestation","A manifestation of a care plan - a specific instance of a care plan at a point in time","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CarePlanManifestation","CarePlanManifestation.refersTo","CarePlanManifestation.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CarePlanManifestation","CarePlanManifestation.hasAuthor","CarePlanManifestation.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CarePlanManifestation","CarePlanManifestation.contains","CarePlanManifestation.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CarePlanManifestation","CarePlanManifestation.acknowledgeable","CarePlanManifestation.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.acknowledgeable",1,1,"",""
 "CarePlanManifestation","CarePlanManifestation.performable","CarePlanManifestation.performable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Performable {[]} {[]}
@@ -114,24 +114,24 @@
 ","Display name for the plan","Display name for the plan","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.displayName",1,1,"",""
 "CarePlanManifestation","CarePlanManifestation.description","CarePlanManifestation.description","","","",1,1,"","","","string {[]} {[]}
 ","Description of the plan","Description of the plan","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.description",1,1,"",""
-"CarePlanManifestation","CarePlanManifestation.uses","CarePlanManifestation.uses","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/PlanDefinition]]}
+"CarePlanManifestation","CarePlanManifestation.uses","CarePlanManifestation.uses","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanDefinition]]}
 ","Plan definitions used","Plan definitions used","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.uses",0,*,"",""
 "CarePlanPatient","CarePlanPatient","CarePlanPatient","","","",0,*,"","","","null {[]} {[]}
 ","Care Plan Patient","The patient who is the subject of the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CarePlanPatient","CarePlanPatient.refersTo","CarePlanPatient.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CarePlanPatient","CarePlanPatient.hasAuthor","CarePlanPatient.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CarePlanPatient","CarePlanPatient.contains","CarePlanPatient.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CareTeam","CareTeam","CareTeam","","","",0,*,"","","","null {[]} {[]}
 ","Care Team","A team of individuals involved in the patient's care. For more details, consult the Care Team Domain Analysis Model.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CareTeam","CareTeam.refersTo","CareTeam.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CareTeam","CareTeam.hasAuthor","CareTeam.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CareTeam","CareTeam.contains","CareTeam.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CareTeam","CareTeam.acknowledgeable","CareTeam.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"CareTeam.acknowledgeable",1,1,"",""
 "CareTeam","CareTeam.name","CareTeam.name","","","",1,1,"","","","string {[]} {[]}
@@ -139,11 +139,11 @@
 "CareTeamMember","CareTeamMember","CareTeamMember","","","",0,*,"","","","null {[]} {[]}
 ","Care Team Member","A member of the care team participating in the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CareTeamMember","CareTeamMember.refersTo","CareTeamMember.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CareTeamMember","CareTeamMember.hasAuthor","CareTeamMember.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CareTeamMember","CareTeamMember.contains","CareTeamMember.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CareTeamMember","CareTeamMember.name","CareTeamMember.name","","","",1,1,"","","","string {[]} {[]}
 ","Name of the care team member","Name of the care team member","","","","","","","","","",,,,,"",,,,"CareTeamMember.name",1,1,"",""
 "CareTeamMember","CareTeamMember.role","CareTeamMember.role","","","",1,1,"","","","CodeableConcept {[]} {[]}
@@ -158,23 +158,23 @@
 ","Reviews performed by this member","Reviews performed by this member","","","","","","","","","",,,,,"",,,,"CareTeamMember.performsReview",0,*,"",""
 "CareTeamMember","CareTeamMember.performsReconciliation","CareTeamMember.performsReconciliation","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/ReconciliationAct]]}
 ","Reconciliation acts performed","Reconciliation acts performed","","","","","","","","","",,,,,"",,,,"CareTeamMember.performsReconciliation",0,*,"",""
-"CareTeamMember","CareTeamMember.assigns","CareTeamMember.assigns","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Prioritizable]]}
+"CareTeamMember","CareTeamMember.assigns","CareTeamMember.assigns","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Priority]]}
 ","Priority assignments made by this member","Priority assignments made by this member","","","","","","","","","",,,,,"",,,,"CareTeamMember.assigns",0,*,"",""
 "Communication","Communication","Communication","","","",0,*,"","","","null {[]} {[]}
 ","Communication","A communication event related to the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Communication","Communication.refersTo","Communication.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Communication","Communication.hasAuthor","Communication.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Communication","Communication.contains","Communication.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Communication","Communication.time","Communication.time","","","",1,1,"","","","dateTime {[]} {[]}
 ","When the communication occurred","When the communication occurred","","","","","","","","","",,,,,"",,,,"Communication.time",1,1,"",""
 "Communication","Communication.content","Communication.content","","","",1,1,"","","","base64Binary {[]} {[]}
 ","Content of the communication","Content of the communication","","","","","","","","","",,,,,"",,,,"Communication.content",1,1,"",""
 "Communication","Communication.topic","Communication.topic","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Topic of the communication","Topic of the communication","","","","","","","","","",,,,,"",,,,"Communication.topic",1,1,"",""
-"Communication","Communication.refersToElements","Communication.refersToElements","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/PlanElement]]}
+"Communication","Communication.refersToElements","Communication.refersToElements","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanElement]]}
 ","Plan elements referenced in this communication","Plan elements referenced in this communication","","","","","","","","","",,,,,"",,,,"Communication.refersToElements",0,*,"",""
 "Communication","Communication.communicationAuthor","Communication.communicationAuthor","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
 ","Who authored the communication","Who authored the communication","","","","","","","","","",,,,,"",,,,"Communication.communicationAuthor",1,1,"",""
@@ -185,11 +185,11 @@
 "CommunicationThread","CommunicationThread","CommunicationThread","","","",0,*,"","","","null {[]} {[]}
 ","Communication Thread","A thread of related communications","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "CommunicationThread","CommunicationThread.refersTo","CommunicationThread.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "CommunicationThread","CommunicationThread.hasAuthor","CommunicationThread.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "CommunicationThread","CommunicationThread.contains","CommunicationThread.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CommunicationThread","CommunicationThread.topic","CommunicationThread.topic","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Topic of the thread","Topic of the thread","","","","","","","","","",,,,,"",,,,"CommunicationThread.topic",1,1,"",""
 "Composable","Composable","Composable","","","",0,*,"","","","null {[]} {[]}
@@ -203,17 +203,17 @@
 "Concern","Concern","Concern","","","",0,*,"","","","null {[]} {[]}
 ","Concern","A health concern or condition addressed by the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Concern","Concern.refersTo","Concern.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Concern","Concern.hasAuthor","Concern.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Concern","Concern.contains","Concern.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Concern","Concern.expressible","Concern.expressible","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Expressible {[]} {[]}
 ","Expressible pattern properties","Expressible pattern properties","","","","","","","","","",,,,,"",,,,"Concern.expressible",1,1,"",""
 "Concern","Concern.revisable","Concern.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
 ","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"Concern.revisable",1,1,"",""
-"Concern","Concern.prioritizable","Concern.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
-","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"Concern.prioritizable",1,1,"",""
+"Concern","Concern.Priority","Concern.Priority","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Priority {[]} {[]}
+","Priority pattern properties","Priority pattern properties","","","","","","","","","",,,,,"",,,,"Concern.Priority",1,1,"",""
 "Concern","Concern.acknowledgeable","Concern.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"Concern.acknowledgeable",1,1,"",""
 "Concern","Concern.concern","Concern.concern","","","",1,1,"","","","CodeableConcept {[]} {[]}
@@ -224,11 +224,11 @@
 "Goal","Goal","Goal","","","",0,*,"","","","null {[]} {[]}
 ","Goal","A goal in the care plan. Possible relationship to concern, planned activity, performed activity, observation.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Goal","Goal.refersTo","Goal.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Goal","Goal.hasAuthor","Goal.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Goal","Goal.contains","Goal.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Goal","Goal.composable","Goal.composable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Composable {[]} {[]}
 ","Composable pattern properties","Composable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.composable",1,1,"",""
 "Goal","Goal.expressible","Goal.expressible","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Expressible {[]} {[]}
@@ -237,8 +237,8 @@
 ","Performable pattern properties","Performable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.performable",1,1,"",""
 "Goal","Goal.acknowledgeable","Goal.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.acknowledgeable",1,1,"",""
-"Goal","Goal.prioritizable","Goal.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
-","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.prioritizable",1,1,"",""
+"Goal","Goal.Priority","Goal.Priority","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Priority {[]} {[]}
+","Priority pattern properties","Priority pattern properties","","","","","","","","","",,,,,"",,,,"Goal.Priority",1,1,"",""
 "Goal","Goal.revisable","Goal.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
 ","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.revisable",1,1,"",""
 "Goal","Goal.desiredStateFinding","Goal.desiredStateFinding","","","",1,1,"","","","CodeableConcept {[]} {[]}
@@ -258,11 +258,11 @@
 "Guideline","Guideline","Guideline","","","",0,*,"","","","null {[]} {[]}
 ","Guideline","A clinical guideline that informs the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Guideline","Guideline.refersTo","Guideline.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Guideline","Guideline.hasAuthor","Guideline.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Guideline","Guideline.contains","Guideline.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Guideline","Guideline.name","Guideline.name","","","",1,1,"","","","string {[]} {[]}
 ","Name of the guideline","Name of the guideline","","","","","","","","","",,,,,"",,,,"Guideline.name",1,1,"",""
 "Guideline","Guideline.date","Guideline.date","","","",1,1,"","","","date {[]} {[]}
@@ -274,11 +274,11 @@
 "HealthRisk","HealthRisk","HealthRisk","","","",0,*,"","","","null {[]} {[]}
 ","Health Risk","A health risk identified for the patient","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "HealthRisk","HealthRisk.refersTo","HealthRisk.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "HealthRisk","HealthRisk.hasAuthor","HealthRisk.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "HealthRisk","HealthRisk.contains","HealthRisk.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "HealthRisk","HealthRisk.risk","HealthRisk.risk","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","The type of risk","The type of risk","","","","","","","","","",,,,,"",,,,"HealthRisk.risk",1,1,"",""
 "HealthRisk","HealthRisk.comment","HealthRisk.comment","","","",1,1,"","","","string {[]} {[]}
@@ -288,11 +288,11 @@
 "Modification","Modification","Modification","","","",0,*,"","","","null {[]} {[]}
 ","Modification","A modification made to a plan element","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Modification","Modification.refersTo","Modification.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Modification","Modification.hasAuthor","Modification.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Modification","Modification.contains","Modification.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Modification","Modification.item","Modification.item","","","",1,1,"","","","string {[]} {[]}
 ","Item being modified","Item being modified","","","","","","","","","",,,,,"",,,,"Modification.item",1,1,"",""
 "Modification","Modification.rationale","Modification.rationale","","","",1,1,"","","","CodeableConcept {[]} {[]}
@@ -314,11 +314,11 @@
 "OutcomeReview","OutcomeReview","OutcomeReview","","","",0,*,"","","","null {[]} {[]}
 ","Outcome Review","A review assessing outcomes of performable elements","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "OutcomeReview","OutcomeReview.refersTo","OutcomeReview.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "OutcomeReview","OutcomeReview.hasAuthor","OutcomeReview.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "OutcomeReview","OutcomeReview.contains","OutcomeReview.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "OutcomeReview","OutcomeReview.review","OutcomeReview.review","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Review {[]} {[]}
 ","Review pattern properties","Review pattern properties","","","","","","","","","",,,,,"",,,,"OutcomeReview.review",1,1,"",""
 "OutcomeReview","OutcomeReview.outcome","OutcomeReview.outcome","","","",1,1,"","","","code {[]} {[]}
@@ -339,36 +339,36 @@
 ","Time period during which the element is performed","Time period during which the element is performed","","","","","","","","","",,,,,"",,,,"Performable.performancePeriod",1,1,"",""
 "Performable","Performable.status","Performable.status","","","",1,1,"","","","code {[]} {[]}
 ","Current performance status","Current performance status","","","","","","","","","",,"required","","http://hl7.org/dam/ValueSet/performance-status-vs","",,,,"Performable.status",1,1,"",""
-"PlanDefinition","PlanDefinition","PlanDefinition","","","",0,*,"","","","null {[]} {[]}
+"CarePlanDefinition","CarePlanDefinition","CarePlanDefinition","","","",0,*,"","","","null {[]} {[]}
 ","Plan Definition","A definition or template for care plans","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"PlanDefinition","PlanDefinition.name","PlanDefinition.name","","","",1,1,"","","","code {[]} {[]}
-","Name of the plan definition","Name of the plan definition","","","","","","","","","",,"required","","http://hl7.org/dam/ValueSet/plan-definition-vs","",,,,"PlanDefinition.name",1,1,"",""
-"PlanDefinition","PlanDefinition.version","PlanDefinition.version","","","",1,1,"","","","string {[]} {[]}
-","Version of the definition","Version of the definition","","","","","","","","","",,,,,"",,,,"PlanDefinition.version",1,1,"",""
-"PlanDefinition","PlanDefinition.url","PlanDefinition.url","","","",1,1,"","","","url {[]} {[]}
-","URL for the definition","URL for the definition","","","","","","","","","",,,,,"",,,,"PlanDefinition.url",1,1,"",""
-"PlanElement","PlanElement","PlanElement","","","",0,*,"","","","null {[]} {[]}
+"CarePlanDefinition","CarePlanDefinition.name","CarePlanDefinition.name","","","",1,1,"","","","code {[]} {[]}
+","Name of the plan definition","Name of the plan definition","","","","","","","","","",,"required","","http://hl7.org/dam/ValueSet/plan-definition-vs","",,,,"CarePlanDefinition.name",1,1,"",""
+"CarePlanDefinition","CarePlanDefinition.version","CarePlanDefinition.version","","","",1,1,"","","","string {[]} {[]}
+","Version of the definition","Version of the definition","","","","","","","","","",,,,,"",,,,"CarePlanDefinition.version",1,1,"",""
+"CarePlanDefinition","CarePlanDefinition.url","CarePlanDefinition.url","","","",1,1,"","","","url {[]} {[]}
+","URL for the definition","URL for the definition","","","","","","","","","",,,,,"",,,,"CarePlanDefinition.url",1,1,"",""
+"CarePlanElement","CarePlanElement","CarePlanElement","","","",0,*,"","","","null {[]} {[]}
 ","Plan Element","Abstract base for all care plan content elements. All plan elements are specific to a Patient.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"PlanElement","PlanElement.refersTo","PlanElement.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
-"PlanElement","PlanElement.hasAuthor","PlanElement.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
-"PlanElement","PlanElement.contains","PlanElement.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+"CarePlanElement","CarePlanElement.refersTo","CarePlanElement.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
+"CarePlanElement","CarePlanElement.hasAuthor","CarePlanElement.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
+"CarePlanElement","CarePlanElement.contains","CarePlanElement.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "PlannedActivity","PlannedActivity","PlannedActivity","","","",0,*,"","","","null {[]} {[]}
 ","Planned Activity","An activity planned as part of the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "PlannedActivity","PlannedActivity.refersTo","PlannedActivity.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "PlannedActivity","PlannedActivity.hasAuthor","PlannedActivity.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "PlannedActivity","PlannedActivity.contains","PlannedActivity.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "PlannedActivity","PlannedActivity.composable","PlannedActivity.composable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Composable {[]} {[]}
 ","Composable pattern properties","Composable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.composable",1,1,"",""
 "PlannedActivity","PlannedActivity.acknowledgeable","PlannedActivity.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.acknowledgeable",1,1,"",""
-"PlannedActivity","PlannedActivity.prioritizable","PlannedActivity.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
-","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.prioritizable",1,1,"",""
+"PlannedActivity","PlannedActivity.Priority","PlannedActivity.Priority","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Priority {[]} {[]}
+","Priority pattern properties","Priority pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.Priority",1,1,"",""
 "PlannedActivity","PlannedActivity.revisable","PlannedActivity.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
 ","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"PlannedActivity.revisable",1,1,"",""
 "PlannedActivity","PlannedActivity.targetPeriod","PlannedActivity.targetPeriod","","","",1,1,"","","","Period {[]} {[]}
@@ -398,15 +398,15 @@
 "Preference","Preference","Preference","","","",0,*,"","","","null {[]} {[]}
 ","Preference","A patient or care team preference that informs care planning","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Preference","Preference.refersTo","Preference.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Preference","Preference.hasAuthor","Preference.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Preference","Preference.contains","Preference.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Preference","Preference.acknowledgeable","Preference.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"Preference.acknowledgeable",1,1,"",""
-"Preference","Preference.prioritizable","Preference.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
-","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"Preference.prioritizable",1,1,"",""
+"Preference","Preference.Priority","Preference.Priority","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Priority {[]} {[]}
+","Priority pattern properties","Priority pattern properties","","","","","","","","","",,,,,"",,,,"Preference.Priority",1,1,"",""
 "Preference","Preference.expressible","Preference.expressible","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Expressible {[]} {[]}
 ","Expressible pattern properties","Expressible pattern properties","","","","","","","","","",,,,,"",,,,"Preference.expressible",1,1,"",""
 "Preference","Preference.context","Preference.context","","","",1,1,"","","","code {[]} {[]}
@@ -427,22 +427,22 @@
 ","Activities informed by this preference","Activities informed by this preference","","","","","","","","","",,,,,"",,,,"Preference.informsActivity",0,*,"",""
 "Preference","Preference.informsGoal","Preference.informsGoal","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Goal]]}
 ","Goals informed by this preference","Goals informed by this preference","","","","","","","","","",,,,,"",,,,"Preference.informsGoal",0,*,"",""
-"Prioritizable","Prioritizable","Prioritizable","","","",0,*,"","","","null {[]} {[]}
-","Prioritizable","Abstract pattern for elements that can be prioritized","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"Prioritizable","Prioritizable.priority","Prioritizable.priority","","","",1,1,"","","","integer {[]} {[]}
-","Priority ranking","Priority ranking","","","","","","","","","",,,,,"",,,,"Prioritizable.priority",1,1,"",""
-"Prioritizable","Prioritizable.dateAssigned","Prioritizable.dateAssigned","","","",1,1,"","","","dateTime {[]} {[]}
-","Date the priority was assigned","Date the priority was assigned","","","","","","","","","",,,,,"",,,,"Prioritizable.dateAssigned",1,1,"",""
-"Prioritizable","Prioritizable.withRespectTo","Prioritizable.withRespectTo","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Prioritizable]]}
-","Context for relative priority","Context for relative priority","","","","","","","","","",,,,,"",,,,"Prioritizable.withRespectTo",0,1,"",""
+"Priority","Priority","Priority","","","",0,*,"","","","null {[]} {[]}
+","Priority","Abstract pattern for elements that can be prioritized","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Priority","Priority.priority","Priority.priority","","","",1,1,"","","","integer {[]} {[]}
+","Priority ranking","Priority ranking","","","","","","","","","",,,,,"",,,,"Priority.priority",1,1,"",""
+"Priority","Priority.dateAssigned","Priority.dateAssigned","","","",1,1,"","","","dateTime {[]} {[]}
+","Date the priority was assigned","Date the priority was assigned","","","","","","","","","",,,,,"",,,,"Priority.dateAssigned",1,1,"",""
+"Priority","Priority.withRespectTo","Priority.withRespectTo","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/Priority]]}
+","Context for relative priority","Context for relative priority","","","","","","","","","",,,,,"",,,,"Priority.withRespectTo",0,1,"",""
 "ProtectiveFactor","ProtectiveFactor","ProtectiveFactor","","","",0,*,"","","","null {[]} {[]}
 ","Protective Factor","A factor that protects against health risks or barriers","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ProtectiveFactor","ProtectiveFactor.refersTo","ProtectiveFactor.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ProtectiveFactor","ProtectiveFactor.hasAuthor","ProtectiveFactor.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ProtectiveFactor","ProtectiveFactor.contains","ProtectiveFactor.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ProtectiveFactor","ProtectiveFactor.factor","ProtectiveFactor.factor","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","The protective factor","The protective factor","","","","","","","","","",,,,,"",,,,"ProtectiveFactor.factor",1,1,"",""
 "ProtectiveFactor","ProtectiveFactor.comment","ProtectiveFactor.comment","","","",1,1,"","","","string {[]} {[]}
@@ -456,11 +456,11 @@
 "ReconciliationAct","ReconciliationAct","ReconciliationAct","","","",0,*,"","","","null {[]} {[]}
 ","Reconciliation Act","An act of reconciling plan elements","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ReconciliationAct","ReconciliationAct.refersTo","ReconciliationAct.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ReconciliationAct","ReconciliationAct.hasAuthor","ReconciliationAct.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ReconciliationAct","ReconciliationAct.contains","ReconciliationAct.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ReconciliationAct","ReconciliationAct.role","ReconciliationAct.role","","","",1,1,"","","","string {[]} {[]}
 ","Role in the reconciliation","Role in the reconciliation","","","","","","","","","",,,,,"",,,,"ReconciliationAct.role",1,1,"",""
 "ReconciliationAct","ReconciliationAct.note","ReconciliationAct.note","","","",1,1,"","","","string {[]} {[]}
@@ -468,11 +468,11 @@
 "ReconciliationLog","ReconciliationLog","ReconciliationLog","","","",0,*,"","","","null {[]} {[]}
 ","Reconciliation Log","A log of reconciliation activities. Reconciliation merges versions of a plan maintained in different places or merges diverse specific plans into overarching plans.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ReconciliationLog","ReconciliationLog.refersTo","ReconciliationLog.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ReconciliationLog","ReconciliationLog.hasAuthor","ReconciliationLog.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ReconciliationLog","ReconciliationLog.contains","ReconciliationLog.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ReconciliationLog","ReconciliationLog.date","ReconciliationLog.date","","","",1,1,"","","","dateTime {[]} {[]}
 ","Date of the reconciliation","Date of the reconciliation","","","","","","","","","",,,,,"",,,,"ReconciliationLog.date",1,1,"",""
 "ReconciliationLog","ReconciliationLog.notes","ReconciliationLog.notes","","","",1,1,"","","","string {[]} {[]}
@@ -486,11 +486,11 @@
 "ResourceRequirement","ResourceRequirement","ResourceRequirement","","","",0,*,"","","","null {[]} {[]}
 ","Resource Requirement","A requirement for resources to perform an activity","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ResourceRequirement","ResourceRequirement.refersTo","ResourceRequirement.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ResourceRequirement","ResourceRequirement.hasAuthor","ResourceRequirement.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ResourceRequirement","ResourceRequirement.contains","ResourceRequirement.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ResourceRequirement","ResourceRequirement.kind","ResourceRequirement.kind","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Type of resource required","Type of resource required","","","","","","","","","",,,,,"",,,,"ResourceRequirement.kind",1,1,"",""
 "ResourceRequirement","ResourceRequirement.quantity","ResourceRequirement.quantity","","","",1,1,"","","","Quantity {[]} {[]}

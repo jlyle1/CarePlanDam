@@ -2,15 +2,15 @@
 "Preference","Preference","","","",0,*,"","","","null {[]} {[]}
 ","Preference","A patient or care team preference that informs care planning","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Preference.refersTo","Preference.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Preference.hasAuthor","Preference.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Preference.contains","Preference.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Preference.acknowledgeable","Preference.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"Preference.acknowledgeable",1,1,"",""
-"Preference.prioritizable","Preference.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
-","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"Preference.prioritizable",1,1,"",""
+"Preference.Priority","Preference.Priority","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Priority {[]} {[]}
+","Priority pattern properties","Priority pattern properties","","","","","","","","","",,,,,"",,,,"Preference.Priority",1,1,"",""
 "Preference.expressible","Preference.expressible","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Expressible {[]} {[]}
 ","Expressible pattern properties","Expressible pattern properties","","","","","","","","","",,,,,"",,,,"Preference.expressible",1,1,"",""
 "Preference.context","Preference.context","","","",1,1,"","","","code {[]} {[]}

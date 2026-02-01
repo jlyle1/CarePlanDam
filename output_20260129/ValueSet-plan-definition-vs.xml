@@ -7,7 +7,7 @@
   </text>
   <url value="http://hl7.org/dam/ValueSet/plan-definition-vs"/>
   <version value="0.1.0"/>
-  <name value="PlanDefinitionVS"/>
+  <name value="CarePlanDefinitionVS"/>
   <title value="Plan Definition Value Set"/>
   <status value="active"/>
   <date value="2026-01-29T10:40:38-05:00"/>

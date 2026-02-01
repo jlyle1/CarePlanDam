@@ -842,7 +842,7 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/PlanDefinition"/>
+        <reference value="StructureDefinition/CarePlanDefinition"/>
       </reference>
       <name value="Plan Definition"/>
       <description value="A definition or template for care plans"/>
@@ -875,7 +875,7 @@
         <valueString value="StructureDefinition:logical:abstract"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/PlanElement"/>
+        <reference value="StructureDefinition/CarePlanElement"/>
       </reference>
       <name value="Plan Element"/>
       <description value="Abstract base for all care plan content elements. All plan elements are specific to a Patient."/>
@@ -952,9 +952,9 @@
         <valueString value="StructureDefinition:logical:abstract"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Prioritizable"/>
+        <reference value="StructureDefinition/Priority"/>
       </reference>
-      <name value="Prioritizable"/>
+      <name value="Priority"/>
       <description value="Abstract pattern for elements that can be prioritized"/>
       <exampleBoolean value="false"/>
     </resource>

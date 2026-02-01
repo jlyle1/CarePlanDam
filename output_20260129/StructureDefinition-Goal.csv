@@ -2,11 +2,11 @@
 "Goal","Goal","","","",0,*,"","","","null {[]} {[]}
 ","Goal","A goal in the care plan. Possible relationship to concern, planned activity, performed activity, observation.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Goal.refersTo","Goal.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Goal.hasAuthor","Goal.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Goal.contains","Goal.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Goal.composable","Goal.composable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Composable {[]} {[]}
 ","Composable pattern properties","Composable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.composable",1,1,"",""
 "Goal.expressible","Goal.expressible","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Expressible {[]} {[]}
@@ -15,8 +15,8 @@
 ","Performable pattern properties","Performable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.performable",1,1,"",""
 "Goal.acknowledgeable","Goal.acknowledgeable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Acknowledgeable {[]} {[]}
 ","Acknowledgeable pattern properties","Acknowledgeable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.acknowledgeable",1,1,"",""
-"Goal.prioritizable","Goal.prioritizable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Prioritizable {[]} {[]}
-","Prioritizable pattern properties","Prioritizable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.prioritizable",1,1,"",""
+"Goal.Priority","Goal.Priority","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Priority {[]} {[]}
+","Priority pattern properties","Priority pattern properties","","","","","","","","","",,,,,"",,,,"Goal.Priority",1,1,"",""
 "Goal.revisable","Goal.revisable","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Revisable {[]} {[]}
 ","Revisable pattern properties","Revisable pattern properties","","","","","","","","","",,,,,"",,,,"Goal.revisable",1,1,"",""
 "Goal.desiredStateFinding","Goal.desiredStateFinding","","","",1,1,"","","","CodeableConcept {[]} {[]}

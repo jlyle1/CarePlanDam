@@ -35,11 +35,11 @@ These define data models that represent the domain covered by this implementatio
 | [Organization](StructureDefinition-Organization.md) | An organization involved in care delivery |
 | [Outcome Review](StructureDefinition-OutcomeReview.md) | A review assessing outcomes of performable elements |
 | [Performable](StructureDefinition-Performable.md) | Abstract pattern for elements that have a performance lifecycle |
-| [Plan Definition](StructureDefinition-PlanDefinition.md) | A definition or template for care plans |
-| [Plan Element](StructureDefinition-PlanElement.md) | Abstract base for all care plan content elements. All plan elements are specific to a Patient. |
+| [Plan Definition](StructureDefinition-CarePlanDefinition.md) | A definition or template for care plans |
+| [Plan Element](StructureDefinition-CarePlanElement.md) | Abstract base for all care plan content elements. All plan elements are specific to a Patient. |
 | [Planned Activity](StructureDefinition-PlannedActivity.md) | An activity planned as part of the care plan |
 | [Preference](StructureDefinition-Preference.md) | A patient or care team preference that informs care planning |
-| [Prioritizable](StructureDefinition-Prioritizable.md) | Abstract pattern for elements that can be prioritized |
+| [Priority](StructureDefinition-Priority.md) | Abstract pattern for elements that can be prioritized |
 | [Protective Factor](StructureDefinition-ProtectiveFactor.md) | A factor that protects against health risks or barriers |
 | [Reconciliation Act](StructureDefinition-ReconciliationAct.md) | An act of reconciling plan elements |
 | [Reconciliation Log](StructureDefinition-ReconciliationLog.md) | A log of reconciliation activities. Reconciliation merges versions of a plan maintained in different places or merges diverse specific plans into overarching plans. |

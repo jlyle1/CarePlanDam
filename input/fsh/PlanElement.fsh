@@ -1,31 +1,34 @@
-// PlanElement - Base logical model for all plan content elements
-// All classes in this model are specializations of PlanElement
+// CarePlanElement - Base logical model for all plan content elements
+// All classes in this model are specializations of CarePlanElement
 // All plan elements are specific to the Patient
 
-Logical: PlanElement
-Id: PlanElement
+Logical: CarePlanElement
+Id: CarePlanElement
 Title: "Plan Element"
+Characteristics: #can-be-target
 Description: "Abstract base for all care plan content elements. All plan elements are specific to a Patient."
 * ^abstract = true
 * ^status = #active
-* refersTo 1..1 Reference(Patient) "The patient this plan element pertains to"
-* hasAuthor 1..* Reference(CareTeamMember) "Who authored this plan element"
-* contains 0..1 Reference(CarePlanManifestation) "The care plan manifestation containing this element"
+* refersTo 1..1 Reference(Resource) "The patient this plan element pertains to"
+* hasAuthor 1..* Reference(Resource) "Who authored this plan element"
+* contains 0..1 Reference(Resource) "The care plan manifestation containing this element"
 
-// Simple descendants of PlanElement (single inheritance)
+// Simple descendants of CarePlanElement (single inheritance)
 
 Logical: CarePlanPatient
 Id: CarePlanPatient
 Title: "Care Plan Patient"
+Characteristics: #can-be-target
 Description: "The patient who is the subject of the care plan"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 
 Logical: Barrier
 Id: Barrier
 Title: "Barrier"
+Characteristics: #can-be-target
 Description: "A barrier that impedes progress toward goals or planned activities"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * barrier 1..1 CodeableConcept "The type of barrier"
 * comment 1..1 string "Additional comments about the barrier"
@@ -35,28 +38,29 @@ Parent: PlanElement
 Logical: CareTeamMember
 Id: CareTeamMember
 Title: "Care Team Member"
+Characteristics: #can-be-target
 Description: "A member of the care team participating in the care plan"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * name 1..1 string "Name of the care team member"
 * role 1..1 CodeableConcept "Role on the care team"
-* performs 0..* Reference(Performable) "Performable elements this member performs"
-* expresses 0..1 Reference(Expressible) "Expressible elements this member expresses"
+* performs 0..* Reference(ActivityExecution) "Activity executions this member performs"
 * belongsTo 0..1 Reference(CareTeam) "Care team membership"
-* performsReview 0..* Reference(Review) "Reviews performed by this member"
+* performsReview 0..* Reference(AcceptanceReview or OutcomeReview) "Reviews performed by this member"
 * performsReconciliation 0..* Reference(ReconciliationAct) "Reconciliation acts performed"
-* assigns 0..* Reference(Prioritizable) "Priority assignments made by this member"
+* assigns 0..* Reference(Priority) "Priority assignments made by this member"
 
 Logical: Communication
 Id: Communication
 Title: "Communication"
+Characteristics: #can-be-target
 Description: "A communication event related to the care plan"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * time 1..1 dateTime "When the communication occurred"
 * content 1..1 base64Binary "Content of the communication"
 * topic 1..1 CodeableConcept "Topic of the communication"
-* refersToElements 0..* Reference(PlanElement) "Plan elements referenced in this communication"
+* refersToElements 0..* Reference(CarePlanElement) "Plan elements referenced in this communication"
 * communicationAuthor 1..1 Reference(CareTeamMember) "Who authored the communication"
 * recipient 1..* Reference(CareTeamMember) "Recipients of the communication"
 * thread 0..1 Reference(CommunicationThread) "Thread this communication belongs to"
@@ -64,16 +68,18 @@ Parent: PlanElement
 Logical: CommunicationThread
 Id: CommunicationThread
 Title: "Communication Thread"
+Characteristics: #can-be-target
 Description: "A thread of related communications"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * topic 1..1 CodeableConcept "Topic of the thread"
 
 Logical: Guideline
 Id: Guideline
 Title: "Guideline"
+Characteristics: #can-be-target
 Description: "A clinical guideline that informs the care plan"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * name 1..1 string "Name of the guideline"
 * date 1..1 date "Publication date of the guideline"
@@ -83,8 +89,9 @@ Parent: PlanElement
 Logical: HealthRisk
 Id: HealthRisk
 Title: "Health Risk"
+Characteristics: #can-be-target
 Description: "A health risk identified for the patient"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * risk 1..1 CodeableConcept "The type of risk"
 * comment 1..1 string "Additional comments about the risk"
@@ -93,8 +100,9 @@ Parent: PlanElement
 Logical: Modification
 Id: Modification
 Title: "Modification"
+Characteristics: #can-be-target
 Description: "A modification made to a plan element"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * item 1..1 string "Item being modified"
 * rationale 1..1 CodeableConcept "Rationale for the modification"
@@ -105,8 +113,9 @@ Parent: PlanElement
 Logical: ProtectiveFactor
 Id: ProtectiveFactor
 Title: "Protective Factor"
+Characteristics: #can-be-target
 Description: "A factor that protects against health risks or barriers"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * factor 1..1 CodeableConcept "The protective factor"
 * comment 1..1 string "Additional comments"
@@ -117,8 +126,9 @@ Parent: PlanElement
 Logical: ReconciliationAct
 Id: ReconciliationAct
 Title: "Reconciliation Act"
+Characteristics: #can-be-target
 Description: "An act of reconciling plan elements"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * role 1..1 string "Role in the reconciliation"
 * note 1..1 string "Notes about the reconciliation act"
@@ -126,8 +136,9 @@ Parent: PlanElement
 Logical: ReconciliationLog
 Id: ReconciliationLog
 Title: "Reconciliation Log"
+Characteristics: #can-be-target
 Description: "A log of reconciliation activities. Reconciliation merges versions of a plan maintained in different places or merges diverse specific plans into overarching plans."
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * date 1..1 dateTime "Date of the reconciliation"
 * notes 1..1 string "Notes about the reconciliation"
@@ -138,8 +149,9 @@ Parent: PlanElement
 Logical: CareDeliveryResource
 Id: CareDeliveryResource
 Title: "Care Delivery Resource"
+Characteristics: #can-be-target
 Description: "A resource used in care delivery"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * kind 1..1 CodeableConcept "Type of resource"
 * identifier 1..1 Identifier "Identifier for the resource"
@@ -149,8 +161,9 @@ Parent: PlanElement
 Logical: ResourceRequirement
 Id: ResourceRequirement
 Title: "Resource Requirement"
+Characteristics: #can-be-target
 Description: "A requirement for resources to perform an activity"
-Parent: PlanElement
+Parent: CarePlanElement
 * ^status = #active
 * kind 1..1 CodeableConcept "Type of resource required"
 * quantity 1..1 Quantity "Quantity required"

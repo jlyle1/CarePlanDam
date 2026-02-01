@@ -6,7 +6,7 @@ http://hl7.org/dam/CodeSystem/decision-mode-cs,0.1.0,active,,DecisionModeCS,Deci
 http://hl7.org/dam/CodeSystem/modification-type-cs,0.1.0,active,,ModificationTypeCS,Modification Type Code System,"Codes for types of modifications","ValueSet/modification-type-vs"
 http://hl7.org/dam/CodeSystem/outcome-cs,0.1.0,active,,OutcomeCS,Outcome Code System,"Codes for outcome assessment","ValueSet/outcome-vs"
 http://hl7.org/dam/CodeSystem/performance-status-cs,0.1.0,active,,PerformanceStatusCS,Performance Status Code System,"Codes for performance status of activities","ValueSet/performance-status-vs"
-http://hl7.org/dam/CodeSystem/plan-definition-cs,0.1.0,active,,PlanDefinitionCS,Plan Definition Code System,"Codes for types of plan definitions","ValueSet/plan-definition-vs"
+http://hl7.org/dam/CodeSystem/plan-definition-cs,0.1.0,active,,CarePlanDefinitionCS,Plan Definition Code System,"Codes for types of plan definitions","ValueSet/plan-definition-vs"
 http://hl7.org/dam/CodeSystem/plan-purpose-cs,0.1.0,active,,PlanPurposeCS,Plan Purpose Code System,"Codes for care plan purposes","ValueSet/plan-purpose-vs"
 http://hl7.org/dam/CodeSystem/preference-context-cs,0.1.0,active,,PreferenceContextCS,Preference Context Code System,"Codes for preference contexts","ValueSet/preference-context-vs"
 http://hl7.org/dam/CodeSystem/review-event-cs,0.1.0,active,,ReviewEventCS,Review Event Code System,"Codes for events that trigger reviews","ValueSet/review-event-vs"

@@ -2,11 +2,11 @@
 "ResourceRequirement","ResourceRequirement","","","",0,*,"","","","null {[]} {[]}
 ","Resource Requirement","A requirement for resources to perform an activity","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "ResourceRequirement.refersTo","ResourceRequirement.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "ResourceRequirement.hasAuthor","ResourceRequirement.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "ResourceRequirement.contains","ResourceRequirement.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "ResourceRequirement.kind","ResourceRequirement.kind","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Type of resource required","Type of resource required","","","","","","","","","",,,,,"",,,,"ResourceRequirement.kind",1,1,"",""
 "ResourceRequirement.quantity","ResourceRequirement.quantity","","","",1,1,"","","","Quantity {[]} {[]}

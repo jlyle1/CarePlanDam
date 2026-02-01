@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.org/dam/ValueSet/plan-definition-vs | *Version*:0.1.0 |
-| Active as of 2026-01-29 | *Computable Name*:PlanDefinitionVS |
+| Active as of 2026-01-29 | *Computable Name*:CarePlanDefinitionVS |
 
  
 Value set for plan definitions 
 
  **References** 
 
-* [Plan Definition](StructureDefinition-PlanDefinition.md)
+* [Plan Definition](StructureDefinition-CarePlanDefinition.md)
 
 ### Logical Definition (CLD)
 
@@ -47,7 +47,7 @@ Value set for plan definitions
   "id" : "plan-definition-vs",
   "url" : "http://hl7.org/dam/ValueSet/plan-definition-vs",
   "version" : "0.1.0",
-  "name" : "PlanDefinitionVS",
+  "name" : "CarePlanDefinitionVS",
   "title" : "Plan Definition Value Set",
   "status" : "active",
   "date" : "2026-01-29T10:40:38-05:00",

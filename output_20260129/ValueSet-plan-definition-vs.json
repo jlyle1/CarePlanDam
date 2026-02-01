@@ -7,7 +7,7 @@
   },
   "url" : "http://hl7.org/dam/ValueSet/plan-definition-vs",
   "version" : "0.1.0",
-  "name" : "PlanDefinitionVS",
+  "name" : "CarePlanDefinitionVS",
   "title" : "Plan Definition Value Set",
   "status" : "active",
   "date" : "2026-01-29T10:40:38-05:00",

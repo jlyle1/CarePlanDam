@@ -2,11 +2,11 @@
 "Barrier","Barrier","","","",0,*,"","","","null {[]} {[]}
 ","Barrier","A barrier that impedes progress toward goals or planned activities","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "Barrier.refersTo","Barrier.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "Barrier.hasAuthor","Barrier.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "Barrier.contains","Barrier.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "Barrier.barrier","Barrier.barrier","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","The type of barrier","The type of barrier","","","","","","","","","",,,,,"",,,,"Barrier.barrier",1,1,"",""
 "Barrier.comment","Barrier.comment","","","",1,1,"","","","string {[]} {[]}

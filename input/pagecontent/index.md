@@ -1,3 +1,13 @@
-# CarePlanDAM
+# Care Plan Domain Analysis Model
 
-Feel free to modify this index page with your own awesome content!
+This Implementation Guide presents a Domain Analysis Model (DAM) for Care Plans, expressed as FHIR Logical Models.
+
+## Navigation
+
+## Acknowledgements, Authors
+
+
+
+
+
+

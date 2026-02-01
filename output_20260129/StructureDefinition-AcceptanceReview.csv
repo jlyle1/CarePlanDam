@@ -2,11 +2,11 @@
 "AcceptanceReview","AcceptanceReview","","","",0,*,"","","","null {[]} {[]}
 ","Acceptance Review","A review where acknowledgment decisions are made about plan elements","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "AcceptanceReview.refersTo","AcceptanceReview.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
-","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"PlanElement.refersTo",1,1,"",""
+","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
 "AcceptanceReview.hasAuthor","AcceptanceReview.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
-","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"PlanElement.hasAuthor",1,*,"",""
+","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
 "AcceptanceReview.contains","AcceptanceReview.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
-","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"PlanElement.contains",0,1,"",""
+","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "AcceptanceReview.review","AcceptanceReview.review","","","",1,1,"","","","http://hl7.org/dam/StructureDefinition/Review {[]} {[]}
 ","Review pattern properties","Review pattern properties","","","","","","","","","",,,,,"",,,,"AcceptanceReview.review",1,1,"",""
 "AcceptanceReview.decision","AcceptanceReview.decision","","","",1,1,"","","","code {[]} {[]}
