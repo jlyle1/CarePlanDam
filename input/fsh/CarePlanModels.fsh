@@ -77,7 +77,7 @@ Parent: CarePlanElement
 // Contained mixins for multiple inheritance
 * expressedBy 0..* Reference(CareTeamMember) "Who expressed this concern"
 * revision 1..1 Revision "Revision pattern properties"
-* Priority 1..1 Priority "Priority pattern properties"
+* priority 1..1 Priority "Priority pattern properties"
 * acceptance 0..* Reference(AcceptanceReview) "Acceptance reviews for this element"
 * concern 1..1 CodeableConcept "The concern or condition"
 * comment 1..1 string "Additional comments"
@@ -94,7 +94,7 @@ Parent: CarePlanElement
 * expressedBy 0..* Reference(CareTeamMember) "Who expressed this goal"
 * acceptance 0..* Reference(AcceptanceReview) "Acceptance reviews for this element"
 * assessedBy 0..* Reference(OutcomeReview) "Outcome reviews that assess this goal"
-* Priority 1..1 Priority "Priority pattern properties"
+* priority 1..1 Priority "Priority pattern properties"
 * revision 1..1 Revision "Revision pattern properties"
 // Goal-specific attributes
 * desiredStateFinding 1..1 CodeableConcept "Finding representing the desired state"
@@ -139,7 +139,7 @@ Parent: CarePlanElement
 // Contained mixins for multiple inheritance
 * partOf 1..1 PartOf "PartOf pattern properties"
 * acceptance 0..* Reference(AcceptanceReview) "Acceptance reviews for this element"
-* Priority 1..1 Priority "Priority pattern properties"
+* priority 1..1 Priority "Priority pattern properties"
 * revision 1..1 Revision "Revision pattern properties"
 // PlannedActivity-specific attributes
 * targetPeriod 1..1 Period "Target time period for the activity"
@@ -164,7 +164,7 @@ Parent: CarePlanElement
 * ^status = #active
 // Contained mixins for multiple inheritance
 * acceptance 0..* Reference(AcceptanceReview) "Acceptance reviews for this element"
-* Priority 1..1 Priority "Priority pattern properties"
+* priority 1..1 Priority "Priority pattern properties"
 * expressedBy 0..* Reference(CareTeamMember) "Who expressed this preference"
 // Preference-specific attributes
 * context 1..1 code "Context for the preference"

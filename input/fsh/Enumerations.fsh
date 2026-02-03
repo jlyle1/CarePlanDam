@@ -5,6 +5,7 @@ Id: acknowledgement-cs
 Title: "Acknowledgement Code System"
 Description: "Codes for acknowledgment decisions"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #acknowledge "Acknowledge" "Acknowledges the element without agreement or disagreement"
 * #assert "Assert" "Asserts the element as true or valid"
@@ -23,6 +24,7 @@ Id: activity-completion-status-cs
 Title: "Activity Completion Status Code System"
 Description: "Codes for activity completion status"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #not-started "Not Started" "Activity has not started"
 * #cancelled "Cancelled" "Activity was cancelled"
@@ -42,6 +44,7 @@ Id: activity-order-status-cs
 Title: "Activity Order Status Code System"
 Description: "Codes for activity order status"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #not-orderable "Not Orderable" "Activity cannot be ordered"
 * #not-ordered "Not Ordered" "Activity has not been ordered"
@@ -59,6 +62,7 @@ Id: decision-mode-cs
 Title: "Decision Mode Code System"
 Description: "Codes for how decisions are made"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #explicit "Explicit" "Decision was made explicitly"
 * #inherited "Inherited" "Decision was inherited from another element"
@@ -76,6 +80,7 @@ Id: modification-type-cs
 Title: "Modification Type Code System"
 Description: "Codes for types of modifications"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #omit "Omit" "Element is omitted"
 * #modify "Modify" "Element is modified"
@@ -93,6 +98,7 @@ Id: outcome-cs
 Title: "Outcome Code System"
 Description: "Codes for outcome assessment"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #resolved "Resolved" "The condition or issue has been resolved"
 * #improved "Improved" "The condition or issue has improved"
@@ -113,6 +119,7 @@ Id: performance-status-cs
 Title: "Performance Status Code System"
 Description: "Codes for performance status of activities"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #planned "Planned" "Activity is planned but not started"
 * #in-process "In Process" "Activity is in process"
@@ -132,6 +139,7 @@ Id: care-plan-definition-cs
 Title: "Care Plan Definition Code System"
 Description: "Codes for types of care plan definitions"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #c-cda-4-care-plan "C-CDA 4.0 Care Plan" "C-CDA 4.0 Care Plan specification"
 * #pharmacist "Pharmacist" "Pharmacist care plan"
@@ -149,6 +157,7 @@ Id: plan-purpose-cs
 Title: "Plan Purpose Code System"
 Description: "Codes for care plan purposes"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #diabetes-mellitus "Diabetes Mellitus" "Care plan for diabetes mellitus management"
 * #cardiac "Cardiac" "Care plan for cardiac conditions"
@@ -166,6 +175,7 @@ Id: preference-context-cs
 Title: "Preference Context Code System"
 Description: "Codes for preference contexts"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #visitation "Visitation" "Preferences about visitation"
 * #diet "Diet" "Dietary preferences"
@@ -186,6 +196,7 @@ Id: review-event-cs
 Title: "Review Event Code System"
 Description: "Codes for events that trigger reviews"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #creation "Creation" "Review triggered by creation of an element"
 * #periodic "Periodic" "Review triggered by periodic schedule"
@@ -203,6 +214,7 @@ Id: specification-type-cs
 Title: "Specification Type Code System"
 Description: "Codes for care plan specification types"
 * ^status = #active
+* ^experimental = true
 * ^caseSensitive = true
 * #rule-based-structured-document "Rule-based Structured Document" "Care plan as a rule-based structured document"
 * #rule-based-ui-dataset "Rule-based UI Dataset" "Care plan as a rule-based UI dataset"

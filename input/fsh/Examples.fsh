@@ -24,7 +24,7 @@ Usage: #example
 * name.family = "Johnson"
 * qualification.code.coding.system = "http://snomed.info/sct"
 * qualification.code.coding.code = #224535009
-* qualification.code.coding.display = "Neonatal nurse"
+* qualification.code.coding.display = "Registered nurse"
 
 Instance: PractitionerPhysician
 InstanceOf: Practitioner
@@ -51,7 +51,7 @@ Usage: #example
 * name = "Sarah Johnson, RN"
 * role.coding.system = "http://snomed.info/sct"
 * role.coding.code = #224535009
-* role.coding.display = "Neonatal nurse"
+* role.coding.display = "Registered nurse"
 
 Instance: CareTeamMemberPhysician
 InstanceOf: CareTeamMember
@@ -79,8 +79,8 @@ Usage: #example
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T10:00:00Z"
 * revision.version = 1
-* Priority.priority = 1
-* Priority.dateAssigned = "2025-01-15T10:00:00Z"
+* priority.priority = 1
+* priority.dateAssigned = "2025-01-15T10:00:00Z"
 * concern.coding.system = "http://snomed.info/sct"
 * concern.coding.code = #395507008
 * concern.coding.display = "Premature infant"
@@ -99,8 +99,8 @@ Usage: #example
 * hasAuthor = Reference(PractitionerPhysician)
 * partOf.order = 1
 * partOf.constitutive = #true
-* Priority.priority = 1
-* Priority.dateAssigned = "2025-01-15T10:00:00Z"
+* priority.priority = 1
+* priority.dateAssigned = "2025-01-15T10:00:00Z"
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T10:00:00Z"
 * revision.version = 1
@@ -124,8 +124,8 @@ Usage: #example
 * hasAuthor = Reference(PractitionerNurse)
 * partOf.order = 1
 * partOf.constitutive = #false
-* Priority.priority = 2
-* Priority.dateAssigned = "2025-01-15T11:00:00Z"
+* priority.priority = 2
+* priority.dateAssigned = "2025-01-15T11:00:00Z"
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T11:00:00Z"
 * revision.version = 1
@@ -151,8 +151,8 @@ Usage: #example
 * hasAuthor = Reference(PractitionerPhysician)
 * partOf.order = 2
 * partOf.constitutive = #false
-* Priority.priority = 2
-* Priority.dateAssigned = "2025-01-15T11:00:00Z"
+* priority.priority = 2
+* priority.dateAssigned = "2025-01-15T11:00:00Z"
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T11:00:00Z"
 * revision.version = 1
@@ -178,8 +178,8 @@ Usage: #example
 * hasAuthor = Reference(PractitionerNurse)
 * partOf.order = 3
 * partOf.constitutive = #false
-* Priority.priority = 2
-* Priority.dateAssigned = "2025-01-15T11:00:00Z"
+* priority.priority = 2
+* priority.dateAssigned = "2025-01-15T11:00:00Z"
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T11:00:00Z"
 * revision.version = 1
@@ -205,8 +205,8 @@ Usage: #example
 * hasAuthor = Reference(PractitionerNurse)
 * partOf.order = 4
 * partOf.constitutive = #false
-* Priority.priority = 3
-* Priority.dateAssigned = "2025-01-15T11:00:00Z"
+* priority.priority = 3
+* priority.dateAssigned = "2025-01-15T11:00:00Z"
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T11:00:00Z"
 * revision.version = 1
@@ -236,8 +236,8 @@ Usage: #example
 * hasAuthor = Reference(PractitionerNurse)
 * partOf.order = 1
 * partOf.constitutive = #true
-* Priority.priority = 1
-* Priority.dateAssigned = "2025-01-15T11:00:00Z"
+* priority.priority = 1
+* priority.dateAssigned = "2025-01-15T11:00:00Z"
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T11:00:00Z"
 * revision.version = 1
@@ -270,8 +270,8 @@ Usage: #example
 * hasAuthor = Reference(PractitionerNurse)
 * partOf.order = 2
 * partOf.constitutive = #true
-* Priority.priority = 1
-* Priority.dateAssigned = "2025-01-15T11:00:00Z"
+* priority.priority = 1
+* priority.dateAssigned = "2025-01-15T11:00:00Z"
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T11:00:00Z"
 * revision.version = 1
@@ -304,8 +304,8 @@ Usage: #example
 * hasAuthor = Reference(PractitionerNurse)
 * partOf.order = 3
 * partOf.constitutive = #true
-* Priority.priority = 1
-* Priority.dateAssigned = "2025-01-15T11:00:00Z"
+* priority.priority = 1
+* priority.dateAssigned = "2025-01-15T11:00:00Z"
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T11:00:00Z"
 * revision.version = 1

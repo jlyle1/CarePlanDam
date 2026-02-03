@@ -76,14 +76,15 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   IG Home: index.html
-  Introduction: introduction.html
+  Introduction:
+    Overview: introduction.html
     Background: background.html
     Modeling Conventions: conventions.html
   Use Cases:
     Planning: planning.html
-    Creation: creation.html
-    Exchange: exchange.html
+    Generation: generation.html
     Reconciliation: reconciliation.html
+    Review: review.html
   Examples: examples.html
   Artifacts: artifacts.html
 
