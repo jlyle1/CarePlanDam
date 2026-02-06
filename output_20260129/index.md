@@ -916,7 +916,7 @@ Feel free to modify this index page with your own awesome content!
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/CarePlanPatient"
+          "reference" : "StructureDefinition/Patient"
         },
         "name" : "Care Plan Patient",
         "description" : "The patient who is the subject of the care plan",

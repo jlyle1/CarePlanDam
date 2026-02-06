@@ -140,11 +140,11 @@
     "name" : "CarePlanManifestation"
   },
   {
-    "id" : "CarePlanPatient",
+    "id" : "Patient",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/dam/StructureDefinition/CarePlanPatient",
+    "url" : "http://hl7.org/dam/StructureDefinition/Patient",
     "version" : "0.1.0",
-    "name" : "CarePlanPatient"
+    "name" : "Patient"
   },
   {
     "id" : "CareTeam",

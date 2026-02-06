@@ -20,7 +20,7 @@ These define data models that represent the domain covered by this implementatio
 | [Barrier](StructureDefinition-Barrier.md) | A barrier that impedes progress toward goals or planned activities |
 | [Care Delivery Resource](StructureDefinition-CareDeliveryResource.md) | A resource used in care delivery |
 | [Care Plan Manifestation](StructureDefinition-CarePlanManifestation.md) | A manifestation of a care plan - a specific instance of a care plan at a point in time |
-| [Care Plan Patient](StructureDefinition-CarePlanPatient.md) | The patient who is the subject of the care plan |
+| [Care Plan Patient](StructureDefinition-Patient.md) | The patient who is the subject of the care plan |
 | [Care Team](StructureDefinition-CareTeam.md) | A team of individuals involved in the patient's care. For more details, consult the Care Team Domain Analysis Model. |
 | [Care Team Member](StructureDefinition-CareTeamMember.md) | A member of the care team participating in the care plan |
 | [Communication](StructureDefinition-Communication.md) | A communication event related to the care plan |

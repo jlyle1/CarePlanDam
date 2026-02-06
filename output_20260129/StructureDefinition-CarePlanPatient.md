@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/dam/StructureDefinition/CarePlanPatient | *Version*:0.1.0 |
-| Active as of 2026-01-29 | *Computable Name*:CarePlanPatient |
+| *Official URL*:http://hl7.org/dam/StructureDefinition/Patient | *Version*:0.1.0 |
+| Active as of 2026-01-29 | *Computable Name*:Patient |
 
  
 The patient who is the subject of the care plan 
@@ -18,7 +18,7 @@ The patient who is the subject of the care plan
 
 * This Logical Model is not used by any profiles in this Implementation Guide
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/careplandam|current/StructureDefinition/CarePlanPatient)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/careplandam|current/StructureDefinition/Patient)
 
 ### Formal Views of Profile Content
 
@@ -26,7 +26,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
  
 
-Other representations of profile: [CSV](StructureDefinition-CarePlanPatient.csv), [Excel](StructureDefinition-CarePlanPatient.xlsx) 
+Other representations of profile: [CSV](StructureDefinition-Patient.csv), [Excel](StructureDefinition-Patient.xlsx) 
 
 
 
@@ -35,10 +35,10 @@ Other representations of profile: [CSV](StructureDefinition-CarePlanPatient.csv)
 ```json
 {
   "resourceType" : "StructureDefinition",
-  "id" : "CarePlanPatient",
-  "url" : "http://hl7.org/dam/StructureDefinition/CarePlanPatient",
+  "id" : "Patient",
+  "url" : "http://hl7.org/dam/StructureDefinition/Patient",
   "version" : "0.1.0",
-  "name" : "CarePlanPatient",
+  "name" : "Patient",
   "title" : "Care Plan Patient",
   "status" : "active",
   "date" : "2026-01-29T10:40:38-05:00",
@@ -58,14 +58,14 @@ Other representations of profile: [CSV](StructureDefinition-CarePlanPatient.csv)
   "fhirVersion" : "4.0.1",
   "kind" : "logical",
   "abstract" : false,
-  "type" : "http://hl7.org/dam/StructureDefinition/CarePlanPatient",
+  "type" : "http://hl7.org/dam/StructureDefinition/Patient",
   "baseDefinition" : "http://hl7.org/dam/StructureDefinition/CarePlanElement",
   "derivation" : "specialization",
   "differential" : {
     "element" : [
       {
-        "id" : "CarePlanPatient",
-        "path" : "CarePlanPatient",
+        "id" : "Patient",
+        "path" : "Patient",
         "short" : "Care Plan Patient",
         "definition" : "The patient who is the subject of the care plan"
       }

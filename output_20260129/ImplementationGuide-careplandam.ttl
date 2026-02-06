@@ -1565,8 +1565,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://hl7.org/dam/StructureDefinition/CarePlanPatient> ;
-         fhir:reference [ fhir:v "StructureDefinition/CarePlanPatient" ]
+         fhir:l <http://hl7.org/dam/StructureDefinition/Patient> ;
+         fhir:reference [ fhir:v "StructureDefinition/Patient" ]
        ] ;
        fhir:name [ fhir:v "Care Plan Patient" ] ;
        fhir:description [ fhir:v "The patient who is the subject of the care plan" ] ;

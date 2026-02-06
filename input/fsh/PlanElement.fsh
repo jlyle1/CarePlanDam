@@ -6,20 +6,19 @@ Logical: CarePlanElement
 Id: CarePlanElement
 Title: "Plan Element"
 Characteristics: #can-be-target
-Description: "Abstract base for all care plan content elements. All plan elements are specific to a Patient."
+Description: "Abstract base class for all care plan content elements to support modeling general capabilities, such as the possibility of being the subject of communication. All plan elements are specific to a Patient."
 * ^abstract = true
 * ^status = #active
-* refersTo 1..1 Reference(Resource) "The patient this plan element pertains to"
-* hasAuthor 1..* Reference(Resource) "Who authored this plan element"
-* contains 0..1 Reference(Resource) "The care plan manifestation containing this element"
+* refersTo 1..1 Reference(Patient) "The patient this plan element pertains to"
+* hasAuthor 1..* Reference(CareTeamMember) "Who authored this plan element"
 
 // Simple descendants of CarePlanElement (single inheritance)
 
-Logical: CarePlanPatient
-Id: CarePlanPatient
-Title: "Care Plan Patient"
+Logical: Patient
+Id: Patient
+Title: "Patient"
 Characteristics: #can-be-target
-Description: "The patient who is the subject of the care plan"
+Description: "A person under the care of one or more healthcare service providers"
 Parent: CarePlanElement
 * ^status = #active
 
@@ -27,7 +26,7 @@ Logical: Barrier
 Id: Barrier
 Title: "Barrier"
 Characteristics: #can-be-target
-Description: "A barrier that impedes progress toward goals or planned activities"
+Description: "A factor that impedes progress toward goals or planned activities. Examples include a food desert that prevents a healthy eating, an injury that prevents exercise, lack of transportation to rehabilitation center."
 Parent: CarePlanElement
 * ^status = #active
 * barrier 1..1 CodeableConcept "The type of barrier"
@@ -39,7 +38,7 @@ Logical: CareTeamMember
 Id: CareTeamMember
 Title: "Care Team Member"
 Characteristics: #can-be-target
-Description: "A member of the care team participating in the care plan"
+Description: "A person, including the patient, responsible for clinical or ancillary healthcare services for a patient. A care team member may have various roles, such as authoring a plan element or performing an activity execution."
 Parent: CarePlanElement
 * ^status = #active
 * name 1..1 string "Name of the care team member"

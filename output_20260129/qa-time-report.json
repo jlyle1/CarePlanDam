@@ -1038,7 +1038,7 @@
       ]
     },
     {
-      "name" : "fsh-generated/resources/StructureDefinition-CarePlanPatient.json",
+      "name" : "fsh-generated/resources/StructureDefinition-Patient.json",
       "size" : 775,
       "processes" : [
         {

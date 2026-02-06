@@ -1,0 +1,19 @@
+@startuml
+title Plan Manifestation Overview
+
+class "Record Data" as RecordData {
+}
+note right of RecordData : EHR, CarePlan Application
+
+class "Plan Manifestation" as PlanManifestation {
+}
+note right of PlanManifestation : Paper Document,\nUser Interface,\nAPI Payload
+
+class "Data Specification" as DataSpecification {
+}
+note left of DataSpecification : Profile, Template,\nPathway, Protocol
+
+RecordData --> PlanManifestation : <<Conforms>>
+(RecordData, PlanManifestation) .. DataSpecification
+
+@enduml

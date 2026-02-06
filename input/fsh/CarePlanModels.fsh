@@ -128,6 +128,7 @@ Parent: CarePlanElement
 * displayName 1..1 string "Display name for the plan"
 * description 1..1 string "Description of the plan"
 * uses 0..* Reference(CarePlanDefinition) "Care plan definitions used"
+* contains 0..* Reference(CarePlanElement) "Plan elements contained in this manifestation"
 // MVC pattern references
 * derivedFrom 0..* Reference(RecordData) "Source record data (Model)"
 * controlledBy 0..1 Reference(Controller) "Specification controlling manifestation (Controller)"

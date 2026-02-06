@@ -116,13 +116,13 @@
 ","Description of the plan","Description of the plan","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.description",1,1,"",""
 "CarePlanManifestation","CarePlanManifestation.uses","CarePlanManifestation.uses","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanDefinition]]}
 ","Plan definitions used","Plan definitions used","","","","","","","","","",,,,,"",,,,"CarePlanManifestation.uses",0,*,"",""
-"CarePlanPatient","CarePlanPatient","CarePlanPatient","","","",0,*,"","","","null {[]} {[]}
+"Patient","Patient","Patient","","","",0,*,"","","","null {[]} {[]}
 ","Care Plan Patient","The patient who is the subject of the care plan","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"CarePlanPatient","CarePlanPatient.refersTo","CarePlanPatient.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
+"Patient","Patient.refersTo","Patient.refersTo","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient]]}
 ","The patient this plan element pertains to","The patient this plan element pertains to","","","","","","","","","",,,,,"",,,,"CarePlanElement.refersTo",1,1,"",""
-"CarePlanPatient","CarePlanPatient.hasAuthor","CarePlanPatient.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
+"Patient","Patient.hasAuthor","Patient.hasAuthor","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CareTeamMember]]}
 ","Who authored this plan element","Who authored this plan element","","","","","","","","","",,,,,"",,,,"CarePlanElement.hasAuthor",1,*,"",""
-"CarePlanPatient","CarePlanPatient.contains","CarePlanPatient.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
+"Patient","Patient.contains","Patient.contains","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/dam/StructureDefinition/CarePlanManifestation]]}
 ","The care plan manifestation containing this element","The care plan manifestation containing this element","","","","","","","","","",,,,,"",,,,"CarePlanElement.contains",0,1,"",""
 "CareTeam","CareTeam","CareTeam","","","",0,*,"","","","null {[]} {[]}
 ","Care Team","A team of individuals involved in the patient's care. For more details, consult the Care Team Domain Analysis Model.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""

@@ -589,7 +589,7 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/CarePlanPatient"/>
+        <reference value="StructureDefinition/Patient"/>
       </reference>
       <name value="Care Plan Patient"/>
       <description value="The patient who is the subject of the care plan"/>

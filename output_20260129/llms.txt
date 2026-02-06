@@ -46,7 +46,7 @@
 * [Barrier](StructureDefinition-Barrier.md)
 * [Care Delivery Resource](StructureDefinition-CareDeliveryResource.md)
 * [Care Plan Manifestation](StructureDefinition-CarePlanManifestation.md)
-* [Care Plan Patient](StructureDefinition-CarePlanPatient.md)
+* [Care Plan Patient](StructureDefinition-Patient.md)
 * [Care Team](StructureDefinition-CareTeam.md)
 * [Care Team Member](StructureDefinition-CareTeamMember.md)
 * [Communication](StructureDefinition-Communication.md)

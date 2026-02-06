@@ -93,7 +93,7 @@ groups:
     name: Care Planning
     description: Identifying a concern, creating goals, identifying interventions, etc. (no "Plan" artifact necessary)
     resources:
-      - StructureDefinition/CarePlanPatient
+      - StructureDefinition/Patient
       - StructureDefinition/Concern
       - StructureDefinition/Goal
       - StructureDefinition/Priority

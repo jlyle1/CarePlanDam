@@ -159,7 +159,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><a href="#C__repos_CarePlanDAM_fsh-generated_resources_StructureDefinition-CarePlanManifestation"><b>C:\repos\CarePlanDAM\fsh-generated\resources\StructureDefinition-CarePlanManifestation</b></a></td><td><b>4</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__repos_CarePlanDAM_fsh-generated_resources_StructureDefinition-CarePlanPatient"><b>C:\repos\CarePlanDAM\fsh-generated\resources\StructureDefinition-CarePlanPatient</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__repos_CarePlanDAM_fsh-generated_resources_StructureDefinition-Patient"><b>C:\repos\CarePlanDAM\fsh-generated\resources\StructureDefinition-Patient</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#C__repos_CarePlanDAM_fsh-generated_resources_StructureDefinition-CareTeam"><b>C:\repos\CarePlanDAM\fsh-generated\resources\StructureDefinition-CareTeam</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -681,8 +681,8 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
 </table>
 <hr/>
-<a name="C__repos_CarePlanDAM_fsh-generated_resources_StructureDefinition-CarePlanPatient"> </a>
-<h2><a href="StructureDefinition-CarePlanPatient.html">fsh-generated\resources\StructureDefinition-CarePlanPatient.json</a> <span id="svi23" class="toggle" onclick="toggle('vi23')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi23')">(1)</span></h2>
+<a name="C__repos_CarePlanDAM_fsh-generated_resources_StructureDefinition-Patient"> </a>
+<h2><a href="StructureDefinition-Patient.html">fsh-generated\resources\StructureDefinition-Patient.json</a> <span id="svi23" class="toggle" onclick="toggle('vi23')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi23')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi23"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -690,10 +690,10 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[2]&#8203;.type[0]&#8203;.targetProfile[0]</b></td><td><b>error</b></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CareTeamMember is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CareTeamMember|0.1.0], which is not a Resource (which is required because the CarePlanPatient.hasAuthor element has the type Reference)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_WRONG_TARGET</span></td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[2]&#8203;.type[0]&#8203;.targetProfile[0]</b></td><td><b>error</b></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CareTeamMember is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CareTeamMember|0.1.0], which is not a Resource (which is required because the Patient.hasAuthor element has the type Reference)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_WRONG_TARGET</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[3]&#8203;.type[0]&#8203;.targetProfile[0]</b></td><td><b>error</b></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CarePlanManifestation is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CarePlanManifestation|0.1.0], which is not a Resource (which is required because the CarePlanPatient.contains element has the type Reference)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_WRONG_TARGET</span></td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[3]&#8203;.type[0]&#8203;.targetProfile[0]</b></td><td><b>error</b></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CarePlanManifestation is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CarePlanManifestation|0.1.0], which is not a Resource (which is required because the Patient.contains element has the type Reference)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_WRONG_TARGET</span></td>
    </tr>
 </table>
 <hr/>
@@ -1684,10 +1684,10 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><a href="StructureDefinition-CarePlanManifestation.html">fsh-generated\resources\StructureDefinition-CarePlanManifestation.json</a></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CarePlanDefinition is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CarePlanDefinition|0.1.0], which is not a Resource (which is required because the CarePlanManifestation.uses element has the type Reference)</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-CarePlanPatient.html">fsh-generated\resources\StructureDefinition-CarePlanPatient.json</a></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CareTeamMember is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CareTeamMember|0.1.0], which is not a Resource (which is required because the CarePlanPatient.hasAuthor element has the type Reference)</b></td>
+     <td><a href="StructureDefinition-Patient.html">fsh-generated\resources\StructureDefinition-Patient.json</a></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CareTeamMember is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CareTeamMember|0.1.0], which is not a Resource (which is required because the Patient.hasAuthor element has the type Reference)</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-CarePlanPatient.html">fsh-generated\resources\StructureDefinition-CarePlanPatient.json</a></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CarePlanManifestation is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CarePlanManifestation|0.1.0], which is not a Resource (which is required because the CarePlanPatient.contains element has the type Reference)</b></td>
+     <td><a href="StructureDefinition-Patient.html">fsh-generated\resources\StructureDefinition-Patient.json</a></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CarePlanManifestation is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CarePlanManifestation|0.1.0], which is not a Resource (which is required because the Patient.contains element has the type Reference)</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-CareTeam.html">fsh-generated\resources\StructureDefinition-CareTeam.json</a></td><td><b>Profile http://hl7.org/dam/StructureDefinition/CareTeamMember is for type StructureDefinition[http://hl7.org/dam/StructureDefinition/CareTeamMember|0.1.0], which is not a Resource (which is required because the CareTeam.hasAuthor element has the type Reference)</b></td>
