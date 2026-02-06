@@ -109,7 +109,7 @@ Logical: CarePlanManifestation
 Id: CarePlanManifestation
 Title: "Care Plan Manifestation"
 Characteristics: #can-be-target
-Description: "A manifestation of a care plan - a specific instance of a care plan at a point in time"
+Description: "A manifestation of a care plan as a Paper Document, User Interface, or API Payload. May be curated (explicitly authored) or generated (rule-based). Follows the MVC pattern where data flows through controllers to produce views."
 Parent: CarePlanElement
 * ^status = #active
 // Contained mixins for multiple inheritance
@@ -128,6 +128,10 @@ Parent: CarePlanElement
 * displayName 1..1 string "Display name for the plan"
 * description 1..1 string "Description of the plan"
 * uses 0..* Reference(CarePlanDefinition) "Care plan definitions used"
+// MVC pattern references
+* derivedFrom 0..* Reference(RecordData) "Source record data (Model)"
+* controlledBy 0..1 Reference(Controller) "Specification controlling manifestation (Controller)"
+* manifestsAs 0..1 Reference(View) "The view type of this manifestation (View)"
 
 Logical: PlannedActivity
 Id: PlannedActivity

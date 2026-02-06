@@ -15,7 +15,7 @@ Dynamic Plans
 
 ## Use Cases
 Care Planning
-Plan Generation
+Plan Manifestation
 Plan Review
 Plan Reconciliation
 

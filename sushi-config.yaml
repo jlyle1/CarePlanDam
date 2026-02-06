@@ -82,7 +82,7 @@ menu:
     Modeling Conventions: conventions.html
   Use Cases:
     Planning: planning.html
-    Generation: generation.html
+    Manifestation: manifestation.html
     Reconciliation: reconciliation.html
     Review: review.html
   Examples: examples.html
@@ -107,14 +107,39 @@ groups:
       - StructureDefinition/CareTeam
       - StructureDefinition/CareTeamMember
       - StructureDefinition/PartOf
-  PlanGeneration:
-    name: Plan Generation
-    description: The process of instantiating a plan, whether by capturing elements in an explicitly authored plan, with or without automated support, or as an externally defined query, as in a C-CDA document 
+  PlanManifestation:
+    name: Plan Manifestation
+    description: The process of instantiating a plan using the MVC pattern - data (Model) flows through specifications (Controller) to produce manifestations (View) as Paper Documents, User Interfaces, or API Payloads
     resources:
       - StructureDefinition/CarePlanManifestation
       - StructureDefinition/CarePlanDefinition
       - StructureDefinition/CarePlanElement
       - StructureDefinition/Guideline
+      # MVC Model Layer (Data Sources)
+      - StructureDefinition/Model
+      - StructureDefinition/RecordData
+      - StructureDefinition/StructuredData
+      - StructureDefinition/UnstructuredData
+      - StructureDefinition/CuratedPlanData
+      # MVC View Layer (Manifestations)
+      - StructureDefinition/View
+      - StructureDefinition/APIPlanPayload
+      - StructureDefinition/PlanDocumentCurated
+      - StructureDefinition/PlanDocumentGenerated
+      - StructureDefinition/PlanningFormView
+      - StructureDefinition/UIPlanView
+      # MVC Controller Layer (Specifications)
+      - StructureDefinition/Controller
+      - StructureDefinition/DocumentSpecification
+      - StructureDefinition/PayloadSpecification
+      - StructureDefinition/PlanningFormController
+      - StructureDefinition/UISoftwareRules
+      # Supporting Classes
+      - StructureDefinition/DataSpecification
+      - StructureDefinition/HumanIntent
+      - StructureDefinition/SOAPNote
+      - StructureDefinition/ChangeAndReconciliationData
+      - StructureDefinition/ClinicianAssertionOfPlanInclusion
   PlanReconciliation:
     name: Plan Reconciliation
     description: Turning two plans into one plan, with attendant questions about provenance, authority, and audience roles
