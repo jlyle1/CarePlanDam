@@ -1,6 +1,6 @@
 # Conventions
 
-A Domain Analysis Model (DAM) is intended to be technology-agnostic, as far as possible, so that it can be inform any design format and be implemented in any technology. As it turns out, the format for documenting an analysis is itself a technology, and it may present its own challenges. 
+A Domain Analysis Model (DAM) is intended to be technology-agnostic, as far as possible, so that it can be inform any design format and be implemented in any technology. As it turns out, the format for documenting an analysis is itself a technology, and it may present its own challenges.  
 
 The prior version of this model was written in the Universal Modeling Language (UML). This formalism is not as clear to everyone as it is to analysts, so, notwithstanding the aspiration of having a universal language, DAMs that use UML tend to include a Conventions section to orient those unfamiliar with UML. 
 
