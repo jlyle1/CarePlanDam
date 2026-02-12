@@ -30,7 +30,7 @@ Parent: CarePlanElement
 * outcome 1..1 code "The assessed outcome"
 * outcome from OutcomeVS (required)
 * criterion 1..1 string "Criterion used for assessment"
-* supportsGoal 0..* Reference(Goal) "Goals supported by this outcome"
+* supportsGoal 0..* Reference(CarePlanGoal) "Goals supported by this outcome"
 * referencesExecution 0..* Reference(ActivityExecution) "Activity executions referenced"
 * referencesObservation 0..* Reference(ActivityOutcomeObservation) "Observations referenced"
 
@@ -82,9 +82,9 @@ Parent: CarePlanElement
 * concern 1..1 CodeableConcept "The concern or condition"
 * comment 1..1 string "Additional comments"
 
-Logical: Goal
-Id: Goal
-Title: "Goal"
+Logical: CarePlanGoal
+Id: CarePlanGoal
+Title: "Care Plan Goal"
 Characteristics: #can-be-target
 Description: "A goal in the care plan. Possible relationship to concern, planned activity, performed activity, observation."
 Parent: CarePlanElement
@@ -155,7 +155,7 @@ Parent: CarePlanElement
 * postCondition 1..1 CodeableConcept "Expected postconditions"
 * supportingContent 1..1 string "Supporting content or instructions"
 * needs 0..* Reference(ResourceRequirement) "Resources needed"
-* supports 0..* Reference(Goal) "Goals this activity supports"
+* supports 0..* Reference(CarePlanGoal) "Goals this activity supports"
 * mitigatesRisk 0..* Reference(HealthRisk) "Health risks mitigated"
 * presentsRisk 0..* Reference(HealthRisk) "Health risks presented by this activity"
 * basedOnGuideline 0..* Reference(Guideline) "Guidelines this activity is based on"
@@ -181,7 +181,7 @@ Parent: CarePlanElement
 * note 1..1 string "Additional notes"
 * preferenceStatus 1..1 CodeableConcept "Status of the preference"
 * informsActivity 0..* Reference(PlannedActivity) "Activities informed by this preference"
-* informsGoal 0..* Reference(Goal) "Goals informed by this preference"
+* informsGoal 0..* Reference(CarePlanGoal) "Goals informed by this preference"
 
 // Standalone models (no CarePlanElement parent)
 

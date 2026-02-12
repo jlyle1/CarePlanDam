@@ -1,41 +1,16 @@
 // Example instances from the UML model - NICU Care Plan scenario
-// Note: Logical model instances reference actual FHIR resources for Patient/Practitioner
 
 // =============================================================================
-// FHIR Resource Instances (for reference targets)
+// Logical Model Instances - Patient
 // =============================================================================
 
 Instance: PatientBabySmith
-InstanceOf: Patient
+InstanceOf: CarePlanPatient
 Title: "Baby Smith"
 Description: "NICU patient - premature infant"
 Usage: #example
-* name.given = "Baby"
-* name.family = "Smith"
-* birthDate = "2025-01-10"
-* gender = #male
-
-Instance: PractitionerNurse
-InstanceOf: Practitioner
-Title: "NICU Nurse"
-Description: "Primary NICU nurse"
-Usage: #example
-* name.given = "Sarah"
-* name.family = "Johnson"
-* qualification.code.coding.system = "http://snomed.info/sct"
-* qualification.code.coding.code = #224535009
-* qualification.code.coding.display = "Registered nurse"
-
-Instance: PractitionerPhysician
-InstanceOf: Practitioner
-Title: "NICU Physician"
-Description: "Attending neonatologist"
-Usage: #example
-* name.given = "Michael"
-* name.family = "Chen"
-* qualification.code.coding.system = "http://snomed.info/sct"
-* qualification.code.coding.code = #28411006
-* qualification.code.coding.display = "Neonatologist"
+* refersTo = Reference(PatientBabySmith)
+* hasAuthor = Reference(CareTeamMemberPhysician)
 
 // =============================================================================
 // Logical Model Instances - Care Team Members
@@ -47,7 +22,7 @@ Title: "NICU Nurse - Care Team Member"
 Description: "Primary NICU nurse caring for the infant"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberPhysician)
 * name = "Sarah Johnson, RN"
 * role.coding.system = "http://snomed.info/sct"
 * role.coding.code = #224535009
@@ -59,7 +34,7 @@ Title: "NICU Physician - Care Team Member"
 Description: "Attending neonatologist"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerPhysician)
+* hasAuthor = Reference(CareTeamMemberPhysician)
 * name = "Dr. Michael Chen, MD"
 * role.coding.system = "http://snomed.info/sct"
 * role.coding.code = #28411006
@@ -75,7 +50,7 @@ Title: "Prematurity"
 Description: "Health concern: infant born prematurely"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerPhysician)
+* hasAuthor = Reference(CareTeamMemberPhysician)
 * revision.substantive = #true
 * revision.revisionDate = "2025-01-15T10:00:00Z"
 * revision.version = 1
@@ -91,12 +66,12 @@ Usage: #example
 // =============================================================================
 
 Instance: GoalDischargeFromNICU
-InstanceOf: Goal
+InstanceOf: CarePlanGoal
 Title: "Discharge from NICU"
 Description: "Primary goal for NICU patient: discharge from the unit"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerPhysician)
+* hasAuthor = Reference(CareTeamMemberPhysician)
 * partOf.order = 1
 * partOf.constitutive = #true
 * priority.priority = 1
@@ -116,12 +91,12 @@ Usage: #example
 * description = "Discharge from NICU"
 
 Instance: GoalWeightGain
-InstanceOf: Goal
+InstanceOf: CarePlanGoal
 Title: "Weight gain"
 Description: "Supporting goal: infant achieves adequate weight gain"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * partOf.order = 1
 * partOf.constitutive = #false
 * priority.priority = 2
@@ -143,12 +118,12 @@ Usage: #example
 * description = "Weight gain"
 
 Instance: GoalOnRoomAir
-InstanceOf: Goal
+InstanceOf: CarePlanGoal
 Title: "On room air"
 Description: "Supporting goal: infant can breathe room air without supplemental oxygen"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerPhysician)
+* hasAuthor = Reference(CareTeamMemberPhysician)
 * partOf.order = 2
 * partOf.constitutive = #false
 * priority.priority = 2
@@ -170,12 +145,12 @@ Usage: #example
 * description = "On room air"
 
 Instance: GoalOnOralNutrition
-InstanceOf: Goal
+InstanceOf: CarePlanGoal
 Title: "On oral nutrition"
 Description: "Supporting goal: infant can take nutrition orally"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * partOf.order = 3
 * partOf.constitutive = #false
 * priority.priority = 2
@@ -197,12 +172,12 @@ Usage: #example
 * description = "On oral nutrition"
 
 Instance: GoalCaregiverEducation
-InstanceOf: Goal
+InstanceOf: CarePlanGoal
 Title: "Caregiver education"
 Description: "Supporting goal: caregivers are educated on infant care"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * partOf.order = 4
 * partOf.constitutive = #false
 * priority.priority = 3
@@ -233,7 +208,7 @@ Title: "Weigh infant daily"
 Description: "Daily weight measurement activity"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * partOf.order = 1
 * partOf.constitutive = #true
 * priority.priority = 1
@@ -267,7 +242,7 @@ Title: "Respiratory assessment"
 Description: "Regular respiratory status assessment"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * partOf.order = 2
 * partOf.constitutive = #true
 * priority.priority = 1
@@ -301,7 +276,7 @@ Title: "Oral feeding advancement"
 Description: "Gradual advancement of oral feeding"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * partOf.order = 3
 * partOf.constitutive = #true
 * priority.priority = 1
@@ -339,7 +314,7 @@ Title: "Weight measurement execution"
 Description: "Execution of daily weight measurement"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * kind.coding.system = "http://snomed.info/sct"
 * kind.coding.code = #39857003
 * kind.coding.display = "Weighing patient"
@@ -350,7 +325,7 @@ Title: "Respiratory assessment execution"
 Description: "Execution of respiratory status assessment"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * kind.coding.system = "http://snomed.info/sct"
 * kind.coding.code = #70082004
 * kind.coding.display = "Respiratory function assessment"
@@ -361,7 +336,7 @@ Title: "Feeding execution"
 Description: "Execution of oral feeding activity"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * kind.coding.system = "http://snomed.info/sct"
 * kind.coding.code = #230125005
 * kind.coding.display = "Oral feeding"
@@ -376,7 +351,7 @@ Title: "Body weight observation"
 Description: "Observation of infant body weight (LOINC 29463-7)"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * propertyAssessed.coding.system = "http://loinc.org"
 * propertyAssessed.coding.code = #29463-7
 * propertyAssessed.coding.display = "Body weight"
@@ -391,7 +366,7 @@ Title: "Respiratory status observation"
 Description: "Observation of respiratory status (LOINC 53756-3)"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * propertyAssessed.coding.system = "http://loinc.org"
 * propertyAssessed.coding.code = #53756-3
 * propertyAssessed.coding.display = "Respiratory status finding"
@@ -406,7 +381,7 @@ Title: "Infant formula intake observation"
 Description: "Observation of infant formula intake over 24 hours (LOINC 80469-0)"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * propertyAssessed.coding.system = "http://loinc.org"
 * propertyAssessed.coding.code = #80469-0
 * propertyAssessed.coding.display = "Infant formula intake 24 hour Measured"
@@ -425,7 +400,7 @@ Title: "Weight stabilized"
 Description: "Outcome review: weight has stabilized"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * partOf.order = 1
 * partOf.constitutive = #true
 * note = "Infant weight has stabilized with consistent daily gains of 20-30g"
@@ -438,7 +413,7 @@ Title: "Respiratory status resolved"
 Description: "Outcome review: respiratory issues resolved"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerPhysician)
+* hasAuthor = Reference(CareTeamMemberPhysician)
 * partOf.order = 2
 * partOf.constitutive = #true
 * note = "Respiratory status has resolved - infant maintaining SpO2 >95% on room air"
@@ -451,7 +426,7 @@ Title: "Nutrition improved"
 Description: "Outcome review: oral nutrition intake improved"
 Usage: #example
 * refersTo = Reference(PatientBabySmith)
-* hasAuthor = Reference(PractitionerNurse)
+* hasAuthor = Reference(CareTeamMemberNurse)
 * partOf.order = 3
 * partOf.constitutive = #true
 * note = "Oral nutrition has improved - infant tolerating full oral feeds"

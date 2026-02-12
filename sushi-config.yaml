@@ -93,9 +93,9 @@ groups:
     name: Care Planning
     description: Identifying a concern, creating goals, identifying interventions, etc. (no "Plan" artifact necessary)
     resources:
-      - StructureDefinition/Patient
+      - StructureDefinition/CarePlanPatient
       - StructureDefinition/Concern
-      - StructureDefinition/Goal
+      - StructureDefinition/CarePlanGoal
       - StructureDefinition/Priority
       - StructureDefinition/Preference
       - StructureDefinition/Barrier
@@ -163,9 +163,7 @@ groups:
     name: NICU Care Plan Example
     description: Example instances illustrating a NICU discharge care plan
     resources:
-      - Patient/PatientBabySmith
-      - Practitioner/PractitionerNurse
-      - Practitioner/PractitionerPhysician
+      - Binary/PatientBabySmith
       - Binary/CareTeamMemberNurse
       - Binary/CareTeamMemberPhysician
       - Binary/ConcernPrematurity

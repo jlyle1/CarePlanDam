@@ -9,14 +9,14 @@ Characteristics: #can-be-target
 Description: "Abstract base class for all care plan content elements to support modeling general capabilities, such as the possibility of being the subject of communication. All plan elements are specific to a Patient."
 * ^abstract = true
 * ^status = #active
-* refersTo 1..1 Reference(Patient) "The patient this plan element pertains to"
+* refersTo 1..1 Reference(CarePlanPatient) "The patient this plan element pertains to"
 * hasAuthor 1..* Reference(CareTeamMember) "Who authored this plan element"
 
 // Simple descendants of CarePlanElement (single inheritance)
 
-Logical: Patient
-Id: Patient
-Title: "Patient"
+Logical: CarePlanPatient
+Id: CarePlanPatient
+Title: "Care Plan Patient"
 Characteristics: #can-be-target
 Description: "A person under the care of one or more healthcare service providers"
 Parent: CarePlanElement
@@ -31,7 +31,7 @@ Parent: CarePlanElement
 * ^status = #active
 * barrier 1..1 CodeableConcept "The type of barrier"
 * comment 1..1 string "Additional comments about the barrier"
-* impedesGoal 1..* Reference(Goal) "Goals impeded by this barrier"
+* impedesGoal 1..* Reference(CarePlanGoal) "Goals impeded by this barrier"
 * impedesActivity 1..* Reference(PlannedActivity) "Activities impeded by this barrier"
 
 Logical: CareTeamMember

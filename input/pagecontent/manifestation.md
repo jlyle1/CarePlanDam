@@ -4,3 +4,9 @@ The Manifestation use case covers the process of instantiating a plan, whether b
 
 ## Overview
 
+### Simple MVC Pattern
+{% include mvcSimple.svg %}
+
+### Full MVC Pattern
+{% include mvcFull.svg %}
+

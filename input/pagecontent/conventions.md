@@ -34,6 +34,8 @@ The bulk of this specification describes a static information model that support
 
 Classes are logical models, using the "logical" kind rather than "Profile" on a Resource, with a baseDefinition of StructureDefinition/Base. 
 
+Since the FHIR publication machinery may dereference names preferentially to FHIR resources, rather than to logical models defined here, we have prefixed these with the DAM. E.g., CarePlanGoal rather than Goal, even though the model makes no presumption that the goal is necesarily part of a Care Plan.
+
 Since StructureDefinition only supports single inheritance, and the framework does not have a concept of an "interface class", we support common capabilities with containment. E.g., for the "capacity to be revised", rather than declare a parent or interface "Revisable" model, we define a "Revision" model that any revisable model can contain as an element of type "Revision". 
 
 The containment design does not support the sharing of Operations, which will be supported simply with the model-specific scoping of the Operation definitions.
