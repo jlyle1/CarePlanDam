@@ -1,0 +1,7 @@
+@startuml
+class RecordData
+left to right direction
+RecordData --> PlanManifestation
+(RecordData, PlanManifestation) .. DataSpecification: conforms
+@enduml
+

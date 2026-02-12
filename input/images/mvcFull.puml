@@ -1,0 +1,106 @@
+@startuml mvcFull
+title Model-View-Controller Pattern for Plan Manifestation
+
+left to right direction
+skinparam packageStyle rectangle
+
+' ============================================================================
+' Define packages in left-to-right order
+' ============================================================================
+
+package "Model" as ModelPkg {
+  top to bottom direction
+  class "Unstructured Data" as UnstructuredData
+  class "Record Data" as RecordData
+  class "Structured Data" as StructuredData
+  class "Curated Plan Data" as CuratedPlanData
+  class "Change and\nReconciliation Data" as ChangeData
+  class "Clinician Assertions\nof Plan Inclusion" as ClinicianAssertions
+  UnstructuredData -[hidden]-> RecordData
+  RecordData -[hidden]-> StructuredData
+  StructuredData -[hidden]-> CuratedPlanData
+  CuratedPlanData -[hidden]-> ChangeData
+  ChangeData -[hidden]-> ClinicianAssertions
+}
+package "Controller" as ControllerPkg {
+  top to bottom direction
+  class "Human Intent" as HumanIntent
+  class "Document Specification" as DocumentSpec
+  class "UI Software Rules" as UISoftwareRules
+  class "Payload Specification" as PayloadSpec
+  class "Planning Form\n(Controller)" as PlanningFormCtrl
+  class "Plan Definition" as PlanDefinition
+  HumanIntent -[hidden]-> DocumentSpec
+  DocumentSpec -[hidden]-> UISoftwareRules
+  UISoftwareRules -[hidden]-> PayloadSpec
+  PayloadSpec -[hidden]-> PlanningFormCtrl
+  PlanningFormCtrl -[hidden]-> PlanDefinition
+}
+package "View" as ViewPkg {
+  top to bottom direction
+  class "SOAP note" as SOAPNote
+  class "Plan Document\n(generated)" as PlanDocGenerated
+  class "UI Plan View" as UIPlanView
+  class "API Plan Payload" as APIPlanPayload
+  class "Planning Form\n(View)" as PlanningFormView
+  class "Plan Document\n(curated)" as PlanDocCurated
+  SOAPNote -[hidden]-> PlanDocGenerated 
+    PlanDocGenerated -[hidden]-> UIPlanView
+    UIPlanView -[hidden]-> APIPlanPayload
+    APIPlanPayload -[hidden]-> PlanningFormView
+    PlanningFormView -[hidden]-> PlanDocCurated
+}
+
+  StructuredData --|> RecordData
+  UnstructuredData --|> RecordData
+  CuratedPlanData --|> StructuredData
+  ChangeData --|> CuratedPlanData
+  ClinicianAssertions --|> CuratedPlanData
+
+HumanIntent --> SOAPNote
+SOAPNote --> UnstructuredData
+StructuredData --> DocumentSpec 
+StructuredData --> PayloadSpec
+StructuredData --> UISoftwareRules
+DocumentSpec --> PlanDocGenerated
+UISoftwareRules --> UIPlanView
+PayloadSpec --> APIPlanPayload
+CuratedPlanData --> PlanDocCurated
+PlanningFormCtrl --> PlanningFormView
+CuratedPlanData --> PlanDefinition
+
+'  PlanDefinition -[hidden]-> DocumentSpec
+'  DocumentSpec -[hidden]-> PayloadSpec
+'  PayloadSpec -[hidden]-> UISoftwareRules
+'  UISoftwareRules -[hidden]-> PlanningFormCtrl
+'  PlanningFormCtrl -[hidden]-> DataSpec
+'  PlanDocCurated -[hidden]-> PlanDocGenerated
+'  PlanDocGenerated -[hidden]-> APIPlanPayload
+'  APIPlanPayload -[hidden]-> UIPlanView
+'  UIPlanView -[hidden]-> PlanningFormView
+
+
+' ============================================================================
+' Force left-to-right package order
+' ============================================================================
+'HumanIntent -[hidden]-> PlanDefinition
+'PlanDefinition -[hidden]-> PlanDocCurated
+
+' ============================================================================
+' Information Flows
+' ============================================================================
+'CuratedPlanData --> PlanDefinition : <<instantiate>>
+'StructuredData --> DocumentSpec
+'StructuredData --> PayloadSpec
+'StructuredData --> UISoftwareRules
+
+'DocumentSpec --> PlanDocGenerated
+'PayloadSpec --> APIPlanPayload
+'UISoftwareRules --> UIPlanView
+'PlanningFormCtrl --> PlanningFormView
+'CuratedPlanData --> PlanDocCurated
+
+'PlanningFormView --> CuratedPlanData : feedback
+
+'ViewPkg --> DataSpec : <<conforms>>
+@enduml
