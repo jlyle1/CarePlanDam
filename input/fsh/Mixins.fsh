@@ -4,7 +4,7 @@
 Logical: PartOf
 Id: PartOf
 Title: "PartOf"
-Description: "Abstract pattern for elements that can be organized hierarchically"
+Description: "Abstract pattern for elements that can be organized in hierarchical compositions"
 * ^abstract = true
 * ^status = #active
 * order 1..1 integer "Order within the parent composition"

@@ -26,7 +26,7 @@ Logical: Barrier
 Id: Barrier
 Title: "Barrier"
 Characteristics: #can-be-target
-Description: "A factor that impedes progress toward goals or planned activities. Examples include a food desert that prevents a healthy eating, an injury that prevents exercise, lack of transportation to rehabilitation center."
+Description: "A factor that impedes progress toward goals or planned activities. Examples include a food desert that prevents a healthy eating, an injury that prevents exercise, and lack of transportation to rehabilitation center."
 Parent: CarePlanElement
 * ^status = #active
 * barrier 1..1 CodeableConcept "The type of barrier"
@@ -38,7 +38,7 @@ Logical: CareTeamMember
 Id: CareTeamMember
 Title: "Care Team Member"
 Characteristics: #can-be-target
-Description: "A person, including the patient, responsible for clinical or ancillary healthcare services for a patient. A care team member may have various roles, such as authoring a plan element or performing an activity execution."
+Description: "A person, including the patient, responsible for clinical or ancillary healthcare services for a patient. A care team member may have various roles in the Care Plan process, such as authoring a plan element or performing an activity execution."
 Parent: CarePlanElement
 * ^status = #active
 * name 1..1 string "Name of the care team member"
@@ -53,7 +53,7 @@ Logical: Communication
 Id: Communication
 Title: "Communication"
 Characteristics: #can-be-target
-Description: "A communication event related to the care plan"
+Description: "A communication event related to the care plan. A communication can refer to any care plan element, and may belong to a thread of related communications."
 Parent: CarePlanElement
 * ^status = #active
 * time 1..1 dateTime "When the communication occurred"
@@ -68,7 +68,7 @@ Logical: CommunicationThread
 Id: CommunicationThread
 Title: "Communication Thread"
 Characteristics: #can-be-target
-Description: "A thread of related communications"
+Description: "A collection of related communications in which later communications are aware of earlier ones, within security and privacy constraints"
 Parent: CarePlanElement
 * ^status = #active
 * topic 1..1 CodeableConcept "Topic of the thread"
@@ -77,7 +77,7 @@ Logical: Guideline
 Id: Guideline
 Title: "Guideline"
 Characteristics: #can-be-target
-Description: "A clinical guideline that informs the care plan"
+Description: "An external clinical protocol or pathway that informs the care plan"
 Parent: CarePlanElement
 * ^status = #active
 * name 1..1 string "Name of the guideline"
@@ -89,10 +89,10 @@ Logical: HealthRisk
 Id: HealthRisk
 Title: "Health Risk"
 Characteristics: #can-be-target
-Description: "A health risk identified for the patient"
+Description: "A risk identified to the patient's health, not to include risks to care team members, intervention efficacy, etc."
 Parent: CarePlanElement
 * ^status = #active
-* risk 1..1 CodeableConcept "The type of risk"
+* riskType 1..1 CodeableConcept "The type of risk"
 * comment 1..1 string "Additional comments about the risk"
 * criticality 1..1 CodeableConcept "Criticality level of the risk"
 
@@ -100,7 +100,7 @@ Logical: Modification
 Id: Modification
 Title: "Modification"
 Characteristics: #can-be-target
-Description: "A modification made to a plan element"
+Description: "A change made to a plan element adopted from a Guideline"
 Parent: CarePlanElement
 * ^status = #active
 * item 1..1 string "Item being modified"
@@ -113,7 +113,7 @@ Logical: ProtectiveFactor
 Id: ProtectiveFactor
 Title: "Protective Factor"
 Characteristics: #can-be-target
-Description: "A factor that protects against health risks or barriers"
+Description: "A characteristic of the patient or patient's community that reduces health risks or overcomes barriers"
 Parent: CarePlanElement
 * ^status = #active
 * factor 1..1 CodeableConcept "The protective factor"
@@ -126,7 +126,7 @@ Logical: ReconciliationAct
 Id: ReconciliationAct
 Title: "Reconciliation Act"
 Characteristics: #can-be-target
-Description: "An act of reconciling plan elements"
+Description: "An act of assessing multiple plans and determining when respective elements should be merged, superseded, or removed"
 Parent: CarePlanElement
 * ^status = #active
 * role 1..1 string "Role in the reconciliation"
@@ -136,7 +136,7 @@ Logical: ReconciliationLog
 Id: ReconciliationLog
 Title: "Reconciliation Log"
 Characteristics: #can-be-target
-Description: "A log of reconciliation activities. Reconciliation merges versions of a plan maintained in different places or merges diverse specific plans into overarching plans."
+Description: "A record of reconciliation activities"
 Parent: CarePlanElement
 * ^status = #active
 * date 1..1 dateTime "Date of the reconciliation"
@@ -149,7 +149,7 @@ Logical: CareDeliveryResource
 Id: CareDeliveryResource
 Title: "Care Delivery Resource"
 Characteristics: #can-be-target
-Description: "A resource used in care delivery"
+Description: "A resource used in care provision, such as a provider, a medication, or a third-party service"
 Parent: CarePlanElement
 * ^status = #active
 * kind 1..1 CodeableConcept "Type of resource"
@@ -161,7 +161,7 @@ Logical: ResourceRequirement
 Id: ResourceRequirement
 Title: "Resource Requirement"
 Characteristics: #can-be-target
-Description: "A requirement for resources to perform an activity"
+Description: "A resource needed to perform an activity"
 Parent: CarePlanElement
 * ^status = #active
 * kind 1..1 CodeableConcept "Type of resource required"

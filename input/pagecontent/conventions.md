@@ -36,6 +36,8 @@ Classes are logical models, using the "logical" kind rather than "Profile" on a 
 
 Since the FHIR publication machinery may dereference names preferentially to FHIR resources, rather than to logical models defined here, we have prefixed these with the DAM. E.g., CarePlanGoal rather than Goal, even though the model makes no presumption that the goal is necesarily part of a Care Plan.
 
+Descriptions are intended to inform usage. Best practice is to avoid using a term in its own definition, but in some cases this can only be avoided with excessively awkward constructions. If reviewers identify cases where this can be improved upon, specific language will be appreciated.
+
 Since StructureDefinition only supports single inheritance, and the framework does not have a concept of an "interface class", we support common capabilities with containment. E.g., for the "capacity to be revised", rather than declare a parent or interface "Revisable" model, we define a "Revision" model that any revisable model can contain as an element of type "Revision". 
 
 The containment design does not support the sharing of Operations, which will be supported simply with the model-specific scoping of the Operation definitions.
@@ -69,3 +71,6 @@ Each use case includes a set of Example models.
 | Use Case text | Text use case |
 | Use Case model element | Operation |
 | Diagram | tbd |
+
+# UML diagrams
+Since FHIR has no native diagramming capability, we use plantUML to create basic UML diagrams. The diagrams have version-controlled text representations, which is useful. On the down side, they require manual maintenance in addition to the logical model maintenance, and it's difficult to get the renderer to settle on a clear layout.  

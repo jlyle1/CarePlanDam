@@ -9,7 +9,7 @@ Logical: Model
 Id: Model
 Title: "Model"
 Characteristics: #can-be-target
-Description: "Base class for the Model layer in MVC pattern - represents data sources"
+Description: "Base class for the Model layer in MVC pattern representing data persistence"
 * ^status = #active
 * name 0..1 string "Name of the model"
 
@@ -17,7 +17,7 @@ Logical: RecordData
 Id: RecordData
 Title: "Record Data"
 Characteristics: #can-be-target
-Description: "Data from clinical records (EHR, CarePlan Application). Various record items (problems, medications, procedures) may be selected out of the EHR by a rule set, e.g., a CCD generator."
+Description: "Data from clinical records (EHR, CarePlan Application), including record items such as problems, goals, medications, procedures"
 Parent: Model
 * ^status = #active
 * source 0..1 string "Source system for the data"
@@ -26,7 +26,7 @@ Logical: StructuredData
 Id: StructuredData
 Title: "Structured Data"
 Characteristics: #can-be-target
-Description: "Structured clinical data that can be processed programmatically"
+Description: "Clinical data conforming to a data model that can be processed programmatically"
 Parent: RecordData
 * ^status = #active
 * format 0..1 CodeableConcept "Format of the structured data"
@@ -35,7 +35,7 @@ Logical: UnstructuredData
 Id: UnstructuredData
 Title: "Unstructured Data"
 Characteristics: #can-be-target
-Description: "Unstructured clinical data such as free text notes"
+Description: "Clinical data not conforming to a structured data model, such as free text notes"
 Parent: RecordData
 * ^status = #active
 * contentType 0..1 code "MIME type of the content"
@@ -44,7 +44,7 @@ Logical: CuratedPlanData
 Id: CuratedPlanData
 Title: "Curated Plan Data"
 Characteristics: #can-be-target
-Description: "Explicit plan record, usually with signature and date, possibly based on a definition, possibly resulting from merging & reconciliation of multiple plans."
+Description: "Data explicitly incuded in a plan, typically with signature and date representing acceptance"
 Parent: StructuredData
 * ^status = #active
 * curatedDate 0..1 dateTime "Date the data was curated"
@@ -60,7 +60,7 @@ Logical: View
 Id: View
 Title: "View"
 Characteristics: #can-be-target
-Description: "Base class for the View layer in MVC pattern - represents plan manifestations (Paper Document, User Interface, API Payload)"
+Description: "Base class for the View layer in MVC pattern representing plan manifestations such as paper documents, user interfaces,or API payloads"
 * ^status = #active
 * viewType 0..1 CodeableConcept "Type of view"
 
@@ -68,7 +68,7 @@ Logical: APIPlanPayload
 Id: APIPlanPayload
 Title: "API Plan Payload"
 Characteristics: #can-be-target
-Description: "A care plan manifested as an API payload for system-to-system exchange"
+Description: "A care plan manifested as a digital payload for system exchange"
 Parent: View
 * ^status = #active
 * payloadFormat 0..1 code "Format of the API payload (e.g., FHIR, HL7v2)"
@@ -78,7 +78,7 @@ Logical: PlanDocumentCurated
 Id: PlanDocumentCurated
 Title: "Plan Document (curated)"
 Characteristics: #can-be-target
-Description: "A care plan document that has been explicitly curated and authored"
+Description: "A document representing a care plan that has been explicitly curated by a provider"
 Parent: View
 * ^status = #active
 * documentType 0..1 CodeableConcept "Type of document"
@@ -89,7 +89,7 @@ Logical: PlanDocumentGenerated
 Id: PlanDocumentGenerated
 Title: "Plan Document (generated)"
 Characteristics: #can-be-target
-Description: "A care plan document generated automatically by rules or queries"
+Description: "A document generated automatically by rules or queries to represent a care plan"
 Parent: View
 * ^status = #active
 * generationDate 0..1 dateTime "Date generated"
@@ -121,7 +121,7 @@ Logical: Controller
 Id: Controller
 Title: "Controller"
 Characteristics: #can-be-target
-Description: "Base class for the Controller layer in MVC pattern - represents specifications that control how data becomes manifestations"
+Description: "Base class for the Controller layer in MVC pattern, representing specifications that control how persisted data shows up in manifestations"
 * ^status = #active
 * controllerType 0..1 CodeableConcept "Type of controller"
 
