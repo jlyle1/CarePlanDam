@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   Run-IG-Builder:
-    name: Run IG builder on master and publish on GitHub Pages
+    name: Run IG builder on main and publish on GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - name: Setup JDK version
