@@ -1,0 +1,15 @@
+@startuml
+package "Data" as ModelPkg {
+class "Care Provision Information Item" as CareProvisionInformationItem
+class "Plan Contents" as PlanContents  
+}
+package "Meta" as MetaPkg {
+class "Care Coordination Service" as CareCoordinationService 
+class "Plan Manifestation " as PlanManifestation 
+}
+PlanContents --|> CareProvisionInformationItem
+CareProvisionInformationItem --o PlanContents 
+CareCoordinationService --> CareProvisionInformationItem: synchronizes
+PlanManifestation --|> CareProvisionInformationItem
+PlanManifestation --> PlanContents: manifests 
+@enduml
