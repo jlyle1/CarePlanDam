@@ -1,0 +1,60 @@
+@startuml
+title "Goal composition example"
+top to bottom direction
+
+package "Goals" as GoalsPkg {
+  object "Goal: Discharge from NICU" as mainGoal
+  object "Goal: On room air" as subGoal1
+  object "Goal: On oral nutrition" as subGoal2
+  object "Goal: Weight gain" as subGoal3
+  object "Goal: Caregiver education" as subGoal4
+}
+
+package "Outcome Reviews" as ReviewsPkg {
+  object "Outcome Review: resolved" as review1
+  object "Outcome Review: improved" as review2
+  object "Outcome Review: stabilized" as review3
+  object "Main Outcome Review: improved" as review4
+}
+
+package "Observations" as ObsPkg {
+  object "Observation: On room air" as obs1
+  object "Observation: On oral nutrition" as obs2
+  object "Observation: Weight gain" as obs3
+}
+
+' Hidden links to enforce horizontal alignment within layers
+subGoal1 -[hidden]right-> subGoal2
+subGoal2 -[hidden]right-> subGoal3
+subGoal3 -[hidden]right-> subGoal4
+
+review1 -[hidden]right-> review2
+review2 -[hidden]right-> review3
+review4 -[hidden]down-> review2
+
+obs1 -[hidden]right-> obs2
+obs2 -[hidden]right-> obs3
+
+' Hidden links to enforce vertical layer ordering
+mainGoal -[hidden]down-> subGoal2
+subGoal2 -[hidden]down-> review2
+review2 -[hidden]down-> obs2
+
+' Actual relationships
+subGoal1 -[norank]-> mainGoal: partOf
+subGoal2 -[norank]-> mainGoal: partOf
+subGoal3 -[norank]-> mainGoal: partOf
+subGoal4 -[norank]-> mainGoal: partOf
+
+review1 -[norank]-> review4: partOf
+review2 -[norank]-> review4: partOf
+review3 -[norank]-> review4: partOf
+
+review1 -[norank]-> obs1: assesses
+review1 -[norank]-> subGoal1: assesses
+review2 -[norank]-> obs2: assesses
+review2 -[norank]-> subGoal2: assesses
+review3 -[norank]-> obs3: assesses
+review3 -[norank]-> subGoal3: assesses
+review4 -[norank]-> mainGoal: assesses
+@enduml
