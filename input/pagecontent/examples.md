@@ -8,6 +8,6 @@ This example shows a care plan for an infant in the NICU with the primary goal o
 
 ### Instance Diagram
 
-{% include goalExample.plantuml %}
+{% include goalExample.svg %}
 
 

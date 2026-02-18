@@ -17,6 +17,7 @@ Id: acknowledgement-vs
 Title: "Acknowledgement Value Set"
 Description: "Value set for acknowledgment decisions"
 * ^status = #active
+* ^experimental = true
 * include codes from system AcknowledgementCS
 
 CodeSystem: ActivityCompletionStatusCS
@@ -37,6 +38,7 @@ Id: activity-completion-status-vs
 Title: "Activity Completion Status Value Set"
 Description: "Value set for activity completion status"
 * ^status = #active
+* ^experimental = true
 * include codes from system ActivityCompletionStatusCS
 
 CodeSystem: ActivityOrderStatusCS
@@ -55,6 +57,7 @@ Id: activity-order-status-vs
 Title: "Activity Order Status Value Set"
 Description: "Value set for activity order status"
 * ^status = #active
+* ^experimental = true
 * include codes from system ActivityOrderStatusCS
 
 CodeSystem: DecisionModeCS
@@ -73,6 +76,7 @@ Id: decision-mode-vs
 Title: "Decision Mode Value Set"
 Description: "Value set for decision modes"
 * ^status = #active
+* ^experimental = true
 * include codes from system DecisionModeCS
 
 CodeSystem: ModificationTypeCS
@@ -91,6 +95,7 @@ Id: modification-type-vs
 Title: "Modification Type Value Set"
 Description: "Value set for modification types"
 * ^status = #active
+* ^experimental = true
 * include codes from system ModificationTypeCS
 
 CodeSystem: OutcomeCS
@@ -112,6 +117,7 @@ Id: outcome-vs
 Title: "Outcome Value Set"
 Description: "Value set for outcome assessment"
 * ^status = #active
+* ^experimental = true
 * include codes from system OutcomeCS
 
 CodeSystem: PerformanceStatusCS
@@ -132,6 +138,7 @@ Id: performance-status-vs
 Title: "Performance Status Value Set"
 Description: "Value set for performance status"
 * ^status = #active
+* ^experimental = true
 * include codes from system PerformanceStatusCS
 
 CodeSystem: CarePlanDefinitionCS
@@ -150,6 +157,7 @@ Id: care-plan-definition-vs
 Title: "Care Plan Definition Value Set"
 Description: "Value set for care plan definitions"
 * ^status = #active
+* ^experimental = true
 * include codes from system CarePlanDefinitionCS
 
 CodeSystem: PlanPurposeCS
@@ -168,6 +176,7 @@ Id: plan-purpose-vs
 Title: "Plan Purpose Value Set"
 Description: "Value set for plan purposes"
 * ^status = #active
+* ^experimental = true
 * include codes from system PlanPurposeCS
 
 CodeSystem: PreferenceContextCS
@@ -189,6 +198,7 @@ Id: preference-context-vs
 Title: "Preference Context Value Set"
 Description: "Value set for preference contexts"
 * ^status = #active
+* ^experimental = true
 * include codes from system PreferenceContextCS
 
 CodeSystem: ReviewEventCS
@@ -207,6 +217,7 @@ Id: review-event-vs
 Title: "Review Event Value Set"
 Description: "Value set for review events"
 * ^status = #active
+* ^experimental = true
 * include codes from system ReviewEventCS
 
 CodeSystem: SpecificationTypeCS
@@ -228,4 +239,5 @@ Id: specification-type-vs
 Title: "Specification Type Value Set"
 Description: "Value set for specification types"
 * ^status = #active
+* ^experimental = true
 * include codes from system SpecificationTypeCS
