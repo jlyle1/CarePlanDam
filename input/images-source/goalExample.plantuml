@@ -41,14 +41,14 @@ subGoal2 -[hidden]down-> review2
 review2 -[hidden]down-> obs2
 
 ' Actual relationships
-subGoal1 -[norank]-> mainGoal: partOf
-subGoal2 -[norank]-> mainGoal: partOf
-subGoal3 -[norank]-> mainGoal: partOf
-subGoal4 -[norank]-> mainGoal: partOf
+subGoal1 -[norank]-o mainGoal: partOf
+subGoal2 -[norank]-o mainGoal: partOf
+subGoal3 -[norank]-o mainGoal: partOf
+subGoal4 -[norank]-o mainGoal: partOf
 
-review1 -[norank]-> review4: partOf
-review2 -[norank]-> review4: partOf
-review3 -[norank]-> review4: partOf
+review1 -[norank]-o review4: partOf
+review2 -[norank]-o review4: partOf
+review3 -[norank]-o review4: partOf
 
 review1 -[norank]-> obs1: assesses
 review1 -[norank]-> subGoal1: assesses
